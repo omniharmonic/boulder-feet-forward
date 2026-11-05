@@ -73,5 +73,17 @@
     },
     "originalName": "adam-walker.jpg",
     "createdAt": "2026-11-05T20:51:20.504Z"
+  },
+  "media/2026/11/bff-mark-bsep.png": {
+    "id": "med_bseps58etg",
+    "path": "media/2026/11/bff-mark-bsep.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 25868,
+    "width": 240,
+    "height": 141,
+    "alt": "Boulder Feet Forward",
+    "originalName": "bff-mark.png",
+    "createdAt": "2026-11-05T21:12:51.572Z"
   }
 }
