@@ -1,0 +1,4016 @@
+{
+  "score": 33,
+  "exact": 33.2,
+  "raw": 80.01,
+  "strict": {
+    "score": 33,
+    "exact": 33.2
+  },
+  "scorer": "v4-calibrated",
+  "pages": [
+    {
+      "path": "/",
+      "original": "https://boulderfeetforward.org/",
+      "imported": "/ (local preview)",
+      "viewport": 1440,
+      "score": 68,
+      "structure": 88,
+      "checkScore": 88.26732673267328,
+      "present": 1,
+      "exact": 67.98159747389224,
+      "raw": 87.0262707384813,
+      "checks": [
+        {
+          "area": "type",
+          "what": "Heading 1: present",
+          "original": "Newsreader Variable 88px",
+          "imported": "not found",
+          "ok": false,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.heading = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "59.2px",
+          "imported": "59.2px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 3 size",
+          "original": "32px",
+          "imported": "32px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "18px",
+          "imported": "18px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Lead text size",
+          "original": "41.6px",
+          "imported": "41.6px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Content width",
+          "original": "992px",
+          "imported": "992px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "91px",
+          "imported": "91px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "999px",
+          "imported": "9999px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Meeting people where they are.",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 88px",
+              "imported": "Playfair Display 88px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 22.4px",
+              "imported": "Atkinson Hyperlegible 22.4px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 100% wide",
+              "imported": "none",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "828px",
+              "imported": "630px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 88
+        },
+        {
+          "index": 1,
+          "heading": "When systems fail, people fall through the gaps.",
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "1",
+              "ok": false,
+              "fix": "Lay the text out in columns (a stack layout with more columns, or the text block's Columns style).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "790px",
+              "imported": "792px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 77
+        },
+        {
+          "index": 2,
+          "heading": "We meet people where they are. Then we keep showing up.",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "686px",
+              "imported": "593px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 97
+        },
+        {
+          "index": 3,
+          "heading": "There is no single pathway out of homelessness.",
+          "importedIndex": 3,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "left, 37% wide",
+              "imported": "none",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1145px",
+              "imported": "703px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 79
+        },
+        {
+          "index": 4,
+          "heading": "Small steps add up.",
+          "importedIndex": 4,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Newsreader Variable 41.6px",
+              "imported": "Playfair Display 41.6px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "3",
+              "imported": "3",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1427px",
+              "imported": "1492px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 94
+        },
+        {
+          "index": 5,
+          "importedIndex": 5,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "182px",
+              "imported": "246px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 80
+        },
+        {
+          "index": 6,
+          "heading": "Help us keep showing up.",
+          "importedIndex": 6,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Newsreader Variable 36.8px",
+              "imported": "Playfair Display 41.6px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#1a2200",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "507px",
+              "imported": "547px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 77
+        },
+        {
+          "index": 7,
+          "heading": "Hear from the park.",
+          "importedIndex": 7,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "563px",
+              "imported": "436px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 97
+        }
+      ],
+      "strict": {
+        "score": 68,
+        "exact": 67.98159747389224,
+        "structure": 88,
+        "checks": 88.26732673267328,
+        "present": 1,
+        "raw": 87.0262707384813
+      },
+      "visual": 0.833
+    },
+    {
+      "path": "/",
+      "original": "https://boulderfeetforward.org/",
+      "imported": "/ (local preview)",
+      "viewport": 390,
+      "score": 49,
+      "structure": 86,
+      "checkScore": 86.34020618556703,
+      "present": 1,
+      "exact": 49.48889245187809,
+      "raw": 84.43135016749576,
+      "checks": [
+        {
+          "area": "type",
+          "what": "Heading 1: present",
+          "original": "Newsreader Variable 46.4px",
+          "imported": "not found",
+          "ok": false,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.heading = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "33.6px",
+          "imported": "34.3px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 3 size",
+          "original": "23.2px",
+          "imported": "23.4px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "18px",
+          "imported": "18px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Lead text size",
+          "original": "24.8px",
+          "imported": "22px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "53px",
+          "imported": "54px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "999px",
+          "imported": "9999px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Meeting people where they are.",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 46.4px",
+              "imported": "Playfair Display 70px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18.4px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 100% wide",
+              "imported": "none",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "693px",
+              "imported": "694px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 73
+        },
+        {
+          "index": 1,
+          "heading": "When systems fail, people fall through the gaps.",
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 34.3px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "818px",
+              "imported": "791px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 97
+        },
+        {
+          "index": 2,
+          "heading": "We meet people where they are. Then we keep showing up.",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 34.3px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "665px",
+              "imported": "562px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 97
+        },
+        {
+          "index": 3,
+          "heading": "There is no single pathway out of homelessness.",
+          "importedIndex": 3,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 34.3px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 81% wide",
+              "imported": "none",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1539px",
+              "imported": "856px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 79
+        },
+        {
+          "index": 4,
+          "heading": "Small steps add up.",
+          "importedIndex": 4,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 47px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Newsreader Variable 24.8px",
+              "imported": "Playfair Display 33px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1414px",
+              "imported": "1432px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 60
+        },
+        {
+          "index": 5,
+          "importedIndex": 5,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "105px",
+              "imported": "182px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 80
+        },
+        {
+          "index": 6,
+          "heading": "Help us keep showing up.",
+          "importedIndex": 6,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 34.3px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Newsreader Variable 24px",
+              "imported": "Playfair Display 22px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#1a2200",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "525px",
+              "imported": "467px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 94
+        },
+        {
+          "index": 7,
+          "heading": "Hear from the park.",
+          "importedIndex": 7,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 34.3px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "507px",
+              "imported": "390px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 97
+        }
+      ],
+      "strict": {
+        "score": 49,
+        "exact": 49.48889245187809,
+        "structure": 86,
+        "checks": 86.34020618556703,
+        "present": 1,
+        "raw": 84.43135016749576
+      },
+      "visual": 0.787
+    },
+    {
+      "path": "/about",
+      "original": "https://boulderfeetforward.org/about/",
+      "imported": "/about (local preview)",
+      "viewport": 1440,
+      "score": 73,
+      "structure": 87,
+      "checkScore": 87.16981132075472,
+      "present": 1,
+      "exact": 72.76549937168338,
+      "raw": 86.97951493270668,
+      "checks": [
+        {
+          "area": "type",
+          "what": "Heading 1: present",
+          "original": "Newsreader Variable 83.2px",
+          "imported": "not found",
+          "ok": false,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.heading = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "59.2px",
+          "imported": "59.2px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 3 size",
+          "original": "32px",
+          "imported": "32px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.body = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "29.6px",
+          "imported": "29.6px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "15.2px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Content width",
+          "original": "992px",
+          "imported": "992px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "75.5px",
+          "imported": "122px",
+          "ok": false,
+          "fix": "choices.layout.sectionPadding = 76",
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "999px",
+          "imported": "9999px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Newsreader Variable 29.6px",
+              "imported": "Playfair Display 29.6px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "2238px",
+              "imported": "2333px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 96
+        },
+        {
+          "index": 1,
+          "heading": "The team.",
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#3f4f3b",
+              "imported": "#242018",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "left, 24% wide",
+              "imported": "right, 23% wide",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "0.55:1",
+              "imported": "0.98:1",
+              "ok": false,
+              "fix": "Use the original's image proportions (the block's aspect ratio).",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "971px",
+              "imported": "998px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 72
+        },
+        {
+          "index": 2,
+          "heading": "We work with.",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "496px",
+              "imported": "478px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 97
+        }
+      ],
+      "strict": {
+        "score": 73,
+        "exact": 72.76549937168338,
+        "structure": 87,
+        "checks": 87.16981132075472,
+        "present": 1,
+        "raw": 86.97951493270668
+      },
+      "visual": 0.864
+    },
+    {
+      "path": "/about",
+      "original": "https://boulderfeetforward.org/about/",
+      "imported": "/about (local preview)",
+      "viewport": 390,
+      "score": 45,
+      "structure": 69,
+      "checkScore": 68.97959183673468,
+      "present": 1,
+      "exact": 45.21504360823958,
+      "raw": 71.63563263864835,
+      "checks": [
+        {
+          "area": "type",
+          "what": "Heading 1: present",
+          "original": "Newsreader Variable 41.6px",
+          "imported": "not found",
+          "ok": false,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.heading = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "33.6px",
+          "imported": "47px",
+          "ok": false,
+          "fix": "choices.typography.scale.h2.sizeMobile = 34",
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 3 size",
+          "original": "23.2px",
+          "imported": "26px",
+          "ok": false,
+          "fix": "choices.typography.scale.h3.sizeMobile = 23",
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.body = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "21.6px",
+          "imported": "24px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "15.2px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "44.5px",
+          "imported": "54.5px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "999px",
+          "imported": "9999px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Newsreader Variable 21.6px",
+              "imported": "Playfair Display 24px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1877px",
+              "imported": "2197px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 96
+        },
+        {
+          "index": 1,
+          "heading": "The team.",
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 47px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 14px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#3f4f3b",
+              "imported": "#242018",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 81% wide",
+              "imported": "center, 87% wide",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "0.49:1",
+              "imported": "0.98:1",
+              "ok": false,
+              "fix": "Use the original's image proportions (the block's aspect ratio).",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1632px",
+              "imported": "1601px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 50
+        },
+        {
+          "index": 2,
+          "heading": "We work with.",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 47px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 14px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "621px",
+              "imported": "628px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 60
+        }
+      ],
+      "strict": {
+        "score": 45,
+        "exact": 45.21504360823958,
+        "structure": 69,
+        "checks": 68.97959183673468,
+        "present": 1,
+        "raw": 71.63563263864835
+      },
+      "visual": 0.796
+    },
+    {
+      "path": "/approach",
+      "original": "https://boulderfeetforward.org/approach/",
+      "imported": "/approach (local preview)",
+      "viewport": 1440,
+      "score": 63,
+      "structure": 83,
+      "checkScore": 82.96052631578948,
+      "present": 1,
+      "exact": 62.651425545420295,
+      "raw": 82.53093751602357,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.heading = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "83.2px",
+          "imported": "88px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "59.2px",
+          "imported": "59.2px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 3 size",
+          "original": "32px",
+          "imported": "25.7px",
+          "ok": false,
+          "fix": "choices.typography.scale.h3.size = 32",
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "18px",
+          "imported": "18px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Lead text size",
+          "original": "21.6px",
+          "imported": "25.7px",
+          "ok": false,
+          "fix": "choices.typography.scale.lead.size = 22",
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Content width",
+          "original": "992px",
+          "imported": "992px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "91px",
+          "imported": "91px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "999px",
+          "imported": "9999px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Person first",
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 32px",
+              "imported": "Playfair Display 32px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#3f4f3b",
+              "imported": "#242018",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "3",
+              "imported": "3",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "307px",
+              "imported": "456px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 77
+        },
+        {
+          "index": 1,
+          "heading": "Eight dimensions of wellness.",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "left, 37% wide",
+              "imported": "none",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "993px",
+              "imported": "546px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 79
+        },
+        {
+          "index": 2,
+          "heading": "Small steps build stability.",
+          "importedIndex": 3,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Playfair Display 41.6px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "3",
+              "imported": "3",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "532px",
+              "imported": "476px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 77
+        },
+        {
+          "index": 3,
+          "heading": "What meeting people where they are looks like.",
+          "importedIndex": 4,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#3f4f3b",
+              "imported": "#242018",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1026px",
+              "imported": "1082px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 87
+        },
+        {
+          "index": 4,
+          "heading": "We stick around for the long haul.",
+          "importedIndex": 5,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Playfair Display 41.6px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "687px",
+              "imported": "733px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 77
+        }
+      ],
+      "strict": {
+        "score": 63,
+        "exact": 62.651425545420295,
+        "structure": 83,
+        "checks": 82.96052631578948,
+        "present": 1,
+        "raw": 82.53093751602357
+      },
+      "visual": 0.812
+    },
+    {
+      "path": "/approach",
+      "original": "https://boulderfeetforward.org/approach/",
+      "imported": "/approach (local preview)",
+      "viewport": 390,
+      "score": 49,
+      "structure": 86,
+      "checkScore": 86.18055555555557,
+      "present": 1,
+      "exact": 49.354776916143685,
+      "raw": 84.30261749206863,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.heading = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "41.6px",
+          "imported": "40.9px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "33.6px",
+          "imported": "34.3px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 3 size",
+          "original": "23.2px",
+          "imported": "21px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "18px",
+          "imported": "18px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Lead text size",
+          "original": "21.6px",
+          "imported": "22px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "53px",
+          "imported": "54px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "999px",
+          "imported": "9999px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Person first",
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 23.2px",
+              "imported": "Playfair Display 23.4px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#3f4f3b",
+              "imported": "#242018",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "658px",
+              "imported": "685px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 87
+        },
+        {
+          "index": 1,
+          "heading": "Eight dimensions of wellness.",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 34.3px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 81% wide",
+              "imported": "none",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1385px",
+              "imported": "730px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 79
+        },
+        {
+          "index": 2,
+          "heading": "Small steps build stability.",
+          "importedIndex": 3,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 34.3px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Playfair Display 22px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "753px",
+              "imported": "583px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 77
+        },
+        {
+          "index": 3,
+          "heading": "What meeting people where they are looks like.",
+          "importedIndex": 4,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 34.3px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#3f4f3b",
+              "imported": "#242018",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1819px",
+              "imported": "1701px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 87
+        },
+        {
+          "index": 4,
+          "heading": "We stick around for the long haul.",
+          "importedIndex": 5,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 34.3px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Playfair Display 22px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "674px",
+              "imported": "567px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 77
+        }
+      ],
+      "strict": {
+        "score": 49,
+        "exact": 49.354776916143685,
+        "structure": 86,
+        "checks": 86.18055555555557,
+        "present": 1,
+        "raw": 84.30261749206863
+      },
+      "visual": 0.787
+    },
+    {
+      "path": "/contact",
+      "original": "https://boulderfeetforward.org/contact/",
+      "imported": "/contact (local preview)",
+      "viewport": 1440,
+      "score": 17,
+      "structure": 77,
+      "checkScore": 77.20588235294117,
+      "present": 1,
+      "exact": 16.85924369747899,
+      "raw": 69.9115800187428,
+      "checks": [
+        {
+          "area": "type",
+          "what": "Heading 1: present",
+          "original": "Newsreader Variable 83.2px",
+          "imported": "not found",
+          "ok": false,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.heading = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "25.6px",
+          "imported": "83.2px",
+          "ok": false,
+          "fix": "choices.typography.scale.h2.size = 26",
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "15.2px",
+          "imported": "15.2px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Lead text size",
+          "original": "36.8px",
+          "imported": "18px",
+          "ok": false,
+          "fix": "choices.typography.scale.lead.size = 37",
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "15.2px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Content width",
+          "original": "992px",
+          "imported": "970px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "217px",
+          "imported": "307px",
+          "ok": false,
+          "fix": "choices.layout.sectionPadding = 217",
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "999px",
+          "imported": "9999px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Find us, or reach us.",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#15261a",
+              "imported": "#15261a",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 83.2px",
+              "imported": "Playfair Display 83.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 15.2px",
+              "imported": "Atkinson Hyperlegible 15.2px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#3f4f3b",
+              "imported": "#37342b",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "left, 6% wide",
+              "imported": "none",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "892px",
+              "imported": "1004px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 79
+        }
+      ],
+      "strict": {
+        "score": 17,
+        "exact": 16.85924369747899,
+        "structure": 77,
+        "checks": 77.20588235294117,
+        "present": 1,
+        "raw": 69.9115800187428
+      },
+      "visual": 0.48
+    },
+    {
+      "path": "/contact",
+      "original": "https://boulderfeetforward.org/contact/",
+      "imported": "/contact (local preview)",
+      "viewport": 390,
+      "score": 25,
+      "structure": 71,
+      "checkScore": 70.86206896551724,
+      "present": 1,
+      "exact": 25.37919056181662,
+      "raw": 70.65487108278666,
+      "checks": [
+        {
+          "area": "type",
+          "what": "Heading 1: present",
+          "original": "Newsreader Variable 41.6px",
+          "imported": "not found",
+          "ok": false,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.heading = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "25.6px",
+          "imported": "67px",
+          "ok": false,
+          "fix": "choices.typography.scale.h2.sizeMobile = 26",
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "15.2px",
+          "imported": "14px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "15.2px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "169px",
+          "imported": "93px",
+          "ok": false,
+          "fix": "choices.layout.sectionPaddingMobile = 169",
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "999px",
+          "imported": "9999px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Find us, or reach us.",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#15261a",
+              "imported": "#15261a",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 41.6px",
+              "imported": "Playfair Display 67px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 15.2px",
+              "imported": "Atkinson Hyperlegible 14px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#3f4f3b",
+              "imported": "#242018",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "left, 10% wide",
+              "imported": "none",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1022px",
+              "imported": "974px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 64
+        }
+      ],
+      "strict": {
+        "score": 25,
+        "exact": 25.37919056181662,
+        "structure": 71,
+        "checks": 70.86206896551724,
+        "present": 1,
+        "raw": 70.65487108278666
+      },
+      "visual": 0.7
+    },
+    {
+      "path": "/give",
+      "original": "https://boulderfeetforward.org/give/",
+      "imported": "/give (local preview)",
+      "viewport": 1440,
+      "score": 51,
+      "structure": 72,
+      "checkScore": 72.14285714285714,
+      "present": 1,
+      "exact": 51.354197071266036,
+      "raw": 73.30261935660828,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.heading = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "83.2px",
+          "imported": "88px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "35.2px",
+          "imported": "59.2px",
+          "ok": false,
+          "fix": "choices.typography.scale.h2.size = 35",
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 3 size",
+          "original": "20px",
+          "imported": "25.7px",
+          "ok": false,
+          "fix": "choices.typography.scale.h3.size = 20",
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "18px",
+          "imported": "18px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Content width",
+          "original": "992px",
+          "imported": "992px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "217px",
+          "imported": "91px",
+          "ok": false,
+          "fix": "choices.layout.sectionPadding = 217",
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "999px",
+          "imported": "9999px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Help us keep showing up.",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#15261a",
+              "imported": "#15261a",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 83.2px",
+              "imported": "Playfair Display 88px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#3f4f3b",
+              "imported": "#f5f2ec",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "1",
+              "ok": false,
+              "fix": "Lay the text out in columns (a stack layout with more columns, or the text block's Columns style).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "left, 6% wide",
+              "imported": "none",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "2529px",
+              "imported": "341px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 52
+        }
+      ],
+      "strict": {
+        "score": 51,
+        "exact": 51.354197071266036,
+        "structure": 72,
+        "checks": 72.14285714285714,
+        "present": 1,
+        "raw": 73.30261935660828
+      },
+      "visual": 0.768
+    },
+    {
+      "path": "/give",
+      "original": "https://boulderfeetforward.org/give/",
+      "imported": "/give (local preview)",
+      "viewport": 390,
+      "score": 53,
+      "structure": 79,
+      "checkScore": 78.90625,
+      "present": 1,
+      "exact": 53.46403183905063,
+      "raw": 79.62939746455591,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.heading = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "41.6px",
+          "imported": "40.9px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "25.6px",
+          "imported": "34.3px",
+          "ok": false,
+          "fix": "choices.typography.scale.h2.sizeMobile = 26",
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 3 size",
+          "original": "20px",
+          "imported": "21px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "18px",
+          "imported": "18px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Lead text size",
+          "original": "24px",
+          "imported": "22px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "169px",
+          "imported": "54px",
+          "ok": false,
+          "fix": "choices.layout.sectionPaddingMobile = 169",
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "999px",
+          "imported": "9999px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Help us keep showing up.",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#15261a",
+              "imported": "#15261a",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 41.6px",
+              "imported": "Playfair Display 40.9px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 18px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#3f4f3b",
+              "imported": "#f5f2ec",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "left, 10% wide",
+              "imported": "none",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "3418px",
+              "imported": "291px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 70
+        }
+      ],
+      "strict": {
+        "score": 53,
+        "exact": 53.46403183905063,
+        "structure": 79,
+        "checks": 78.90625,
+        "present": 1,
+        "raw": 79.62939746455591
+      },
+      "visual": 0.818
+    },
+    {
+      "path": "/impact",
+      "original": "https://boulderfeetforward.org/impact/",
+      "imported": "/impact (local preview)",
+      "viewport": 1440,
+      "score": 60,
+      "structure": 82,
+      "checkScore": 81.9,
+      "present": 1,
+      "exact": 60.070475788047816,
+      "raw": 81.40521422535004,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.heading = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "83.2px",
+          "imported": "88px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "59.2px",
+          "imported": "59.2px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 3 size",
+          "original": "32px",
+          "imported": "32px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "16.3px",
+          "imported": "18px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Lead text size",
+          "original": "41.6px",
+          "imported": "41.6px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Content width",
+          "original": "992px",
+          "imported": "992px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "106px",
+          "imported": "91px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "999px",
+          "imported": "9999px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Newsreader Variable 41.6px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "3",
+              "imported": "1",
+              "ok": false,
+              "fix": "Lay the text out in columns (a stack layout with more columns, or the text block's Columns style).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1681px",
+              "imported": "832px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 38
+        },
+        {
+          "index": 1,
+          "heading": "In their words.",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "276px",
+              "imported": "246px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 96
+        },
+        {
+          "index": 2,
+          "heading": "How your donation helps us keep showing up.",
+          "importedIndex": 3,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 59.2px",
+              "imported": "Playfair Display 59.2px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 16.3px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#3f4f3b",
+              "imported": "#242018",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "3",
+              "imported": "1",
+              "ok": false,
+              "fix": "Lay the text out in columns (a stack layout with more columns, or the text block's Columns style).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "2027px",
+              "imported": "1791px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 67
+        }
+      ],
+      "strict": {
+        "score": 60,
+        "exact": 60.070475788047816,
+        "structure": 82,
+        "checks": 81.9,
+        "present": 1,
+        "raw": 81.40521422535004
+      },
+      "visual": 0.799
+    },
+    {
+      "path": "/impact",
+      "original": "https://boulderfeetforward.org/impact/",
+      "imported": "/impact (local preview)",
+      "viewport": 390,
+      "score": 53,
+      "structure": 91,
+      "checkScore": 91.19565217391305,
+      "present": 1,
+      "exact": 52.883109658007555,
+      "raw": 88.26661641662261,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Newsreader Variable",
+          "imported": "Playfair Display (close stand-in)",
+          "ok": false,
+          "credit": 0.85,
+          "fix": "Site Styles → choices.typography.heading = { family: \"Newsreader Variable\" } (Google Fonts), or upload it in Site Styles → Your fonts.",
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "41.6px",
+          "imported": "40.9px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "33.6px",
+          "imported": "34.3px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 3 size",
+          "original": "23.2px",
+          "imported": "23.4px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "16.3px",
+          "imported": "18px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Lead text size",
+          "original": "24.8px",
+          "imported": "22px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Atkinson Hyperlegible",
+          "imported": "Atkinson Hyperlegible",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "16.3px",
+          "imported": "16.3px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "0em, none",
+          "imported": "0em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "61.5px",
+          "imported": "54px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "999px",
+          "imported": "9999px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Newsreader Variable 24.8px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#15261a",
+              "imported": "#242018",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1651px",
+              "imported": "1170px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 75
+        },
+        {
+          "index": 1,
+          "heading": "In their words.",
+          "importedIndex": 2,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 34.3px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "158px",
+              "imported": "145px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 96
+        },
+        {
+          "index": 2,
+          "heading": "How your donation helps us keep showing up.",
+          "importedIndex": 3,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#e9e6d2",
+              "imported": "#e9e6d2",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Newsreader Variable 33.6px",
+              "imported": "Playfair Display 34.3px",
+              "ok": false,
+              "credit": 0.85,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Atkinson Hyperlegible 16.3px",
+              "imported": "Atkinson Hyperlegible 18px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#3f4f3b",
+              "imported": "#242018",
+              "ok": false,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "2991px",
+              "imported": "2499px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 87
+        }
+      ],
+      "strict": {
+        "score": 53,
+        "exact": 52.883109658007555,
+        "structure": 91,
+        "checks": 91.19565217391305,
+        "present": 1,
+        "raw": 88.26661641662261
+      },
+      "visual": 0.795
+    }
+  ]
+}

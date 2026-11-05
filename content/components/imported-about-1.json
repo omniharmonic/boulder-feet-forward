@@ -1,0 +1,167 @@
+{
+  "name": "imported-about-1",
+  "label": "Boulder Feet Forward exists to enable…",
+  "description": "Recreated from the original site's layout (measured in a browser): every word, picture and link is editable.",
+  "version": 1,
+  "category": "imported",
+  "fields": {
+    "text1": {
+      "kind": "text",
+      "label": "Paragraph “Boulder Feet Forward…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text2": {
+      "kind": "text",
+      "label": "Paragraph “We are peers. We are…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text3": {
+      "kind": "text",
+      "label": "Paragraph “We visit our neighbors…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text4": {
+      "kind": "text",
+      "label": "Paragraph “And we do what we can to…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text5": {
+      "kind": "text",
+      "label": "Paragraph “We offer meals to those…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text6": {
+      "kind": "text",
+      "label": "Paragraph “We offer supplies to…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text7": {
+      "kind": "text",
+      "label": "Paragraph “We offer our presence to…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text8": {
+      "kind": "text",
+      "label": "Paragraph “We find resources for…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text9": {
+      "kind": "text",
+      "label": "Paragraph “We offer our guidance as…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text10": {
+      "kind": "text",
+      "label": "Paragraph “We offer our advocacy as…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text11": {
+      "kind": "text",
+      "label": "Paragraph “We believe in a…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text12": {
+      "kind": "text",
+      "label": "Paragraph “Everything we do keeps…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text13": {
+      "kind": "text",
+      "label": "Paragraph “We’re here to support,…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text14": {
+      "kind": "text",
+      "label": "Paragraph “We’re here to help…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text15": {
+      "kind": "text",
+      "label": "Paragraph “We’re here each day,…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text16": {
+      "kind": "text",
+      "label": "Paragraph “We’re here each day to…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text17": {
+      "kind": "text",
+      "label": "Paragraph “We’re here each day so…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text18": {
+      "kind": "richText",
+      "label": "Paragraph “Every day. Step by step.”",
+      "marks": [
+        "bold",
+        "italic",
+        "link"
+      ],
+      "blocks": [
+        "paragraph"
+      ],
+      "maxLength": 3000
+    }
+  },
+  "defaults": {
+    "text1": "Boulder Feet Forward exists to enable and support stability.",
+    "text2": "We are peers. We are members of our community.",
+    "text3": "We visit our neighbors every day.",
+    "text4": "And we do what we can to meet our community’s needs.",
+    "text5": "We offer meals to those who are hungry.",
+    "text6": "We offer supplies to those who need them.",
+    "text7": "We offer our presence to those who just want to talk.",
+    "text8": "We find resources for those who ask.",
+    "text9": "We offer our guidance as peers to those who want it.",
+    "text10": "We offer our advocacy as case managers to those who are ready to progress.",
+    "text11": "We believe in a person-first approach: no single solution fits every individual, and we’re here to help each person find the one that works best for them.",
+    "text12": "Everything we do keeps in mind that each person is the main character in their own story.",
+    "text13": "We’re here to support, not to prescribe.",
+    "text14": "We’re here to help establish and build self-sufficiency.",
+    "text15": "We’re here each day, letting our neighbors and peers know they can come to us for help when they’re ready.",
+    "text16": "We’re here each day to provide what stabilization we can until then.",
+    "text17": "We’re here each day so that our neighbors and peers get to know us, and come to understand that when they’re ready, our focus will be on their personal journey and their own definition of success.",
+    "text18": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Every day. Step by step.",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "template": "<div class=\"gx\">\n  <p class=\"gx__i gx__i1\">{{text1}}</p>\n  <p class=\"gx__i gx__i2\">{{text2}}</p>\n  <p class=\"gx__i gx__i3\">{{text3}}</p>\n  <p class=\"gx__i gx__i4\">{{text4}}</p>\n  <p class=\"gx__i gx__i5\">{{text5}}</p>\n  <p class=\"gx__i gx__i6\">{{text6}}</p>\n  <p class=\"gx__i gx__i7\">{{text7}}</p>\n  <p class=\"gx__i gx__i8\">{{text8}}</p>\n  <p class=\"gx__i gx__i9\">{{text9}}</p>\n  <p class=\"gx__i gx__i10\">{{text10}}</p>\n  <p class=\"gx__i gx__i11\">{{text11}}</p>\n  <p class=\"gx__i gx__i12\">{{text12}}</p>\n  <p class=\"gx__i gx__i13\">{{text13}}</p>\n  <p class=\"gx__i gx__i14\">{{text14}}</p>\n  <p class=\"gx__i gx__i15\">{{text15}}</p>\n  <p class=\"gx__i gx__i16\">{{text16}}</p>\n  <p class=\"gx__i gx__i17\">{{text17}}</p>\n  <div class=\"gx__i gx__i18\">{{rich text18}}</div>\n</div>",
+  "css": ":scope { width: min(100%, 1024px); margin-inline: auto; }\n.gx { display: grid; grid-template-columns: repeat(24, minmax(0, 1fr)); grid-auto-rows: minmax(8px, auto); column-gap: 0; }\n.gx__i { position: relative; z-index: 1; margin: 0; min-width: 0; overflow-wrap: break-word; }\n.gx__i p { margin: 0; }\n.gx__p { z-index: 0; }\n.gx__img picture, .gx__img img { display: block; width: 100%; height: 100%; object-fit: cover; }\n.gx__i1 { grid-column: 1 / span 15; grid-row: 1 / span 25; font-family: var(--os-font-heading); font-size: 49.6px; font-weight: 380; line-height: 1.1; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i2 { grid-column: 1 / span 13; grid-row: 26 / span 13; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i3 { grid-column: 1 / span 13; grid-row: 39 / span 8; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i4 { grid-column: 1 / span 13; grid-row: 48 / span 13; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i5 { grid-column: 1 / span 13; grid-row: 61 / span 8; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i6 { grid-column: 1 / span 13; grid-row: 69 / span 8; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i7 { grid-column: 1 / span 13; grid-row: 78 / span 13; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i8 { grid-column: 1 / span 13; grid-row: 91 / span 8; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i9 { grid-column: 1 / span 13; grid-row: 99 / span 13; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i10 { grid-column: 1 / span 13; grid-row: 113 / span 13; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i11 { grid-column: 1 / span 13; grid-row: 126 / span 23; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i12 { grid-column: 1 / span 13; grid-row: 149 / span 18; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i13 { grid-column: 1 / span 13; grid-row: 167 / span 8; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i14 { grid-column: 1 / span 13; grid-row: 176 / span 13; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i15 { grid-column: 1 / span 13; grid-row: 189 / span 18; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i16 { grid-column: 1 / span 13; grid-row: 207 / span 13; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i17 { grid-column: 1 / span 13; grid-row: 221 / span 28; font-family: var(--os-font-heading); font-size: 29.6px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i18 { grid-column: 1 / span 24; grid-row: 249 / span 17; font-family: var(--os-font-heading); font-size: 54.4px; font-weight: 380; line-height: 1.35; letter-spacing: 0em; color: var(--os-color-text); }\n@media (max-width: 767px) {\n  .gx { display: flex; flex-direction: column; gap: var(--os-space-sm); }\n  .gx__i1 { font-family: var(--os-font-heading); font-size: 40px; }\n  .gx__i2 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i3 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i4 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i5 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i6 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i7 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i8 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i9 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i10 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i11 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i12 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i13 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i14 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i15 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i16 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i17 { font-family: var(--os-font-heading); font-size: 24px; }\n  .gx__i18 { font-family: var(--os-font-heading); font-size: 44px; }\n}",
+  "section": {
+    "width": "wide"
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "id": "pg_qz66x1wyak",
+  "title": "The long game, at your pace.",
+  "slug": "work/case-management",
+  "seo": {
+    "title": "Case management",
+    "description": "Sustained, individualized support toward goals people set for themselves."
+  },
+  "hidden": true,
+  "sections": [
+    {
+      "id": "sec_rak0dvj89m",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_b2vhvax3e5",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 1
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The long game, at your pace."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Sustained support toward goals people set for themselves."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "preset": "starter/stack-12@1"
+    },
+    {
+      "id": "sec_ss8ssxmhcx",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_7kb7z881bn",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "When someone is ready to go further than a meal and a conversation, our peers become their case managers. This is the long game: sustained, individualized support, advocacy, coordination and follow-through toward goals the person has set for themselves."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "There’s no waiting list and no program to fit into. We ask what this person needs to move forward, and then we help make it happen."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Case management can look like:"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_exmdq8r1fg",
+          "type": "columns",
+          "v": 1,
+          "fields": {
+            "items": [
+              {
+                "heading": "Housing assessments and Coordinated Entry",
+                "body": {
+                  "type": "doc",
+                  "content": []
+                }
+              },
+              {
+                "heading": "IDs and vital documents",
+                "body": {
+                  "type": "doc",
+                  "content": []
+                }
+              },
+              {
+                "heading": "Benefits enrollment and advocacy",
+                "body": {
+                  "type": "doc",
+                  "content": []
+                }
+              },
+              {
+                "heading": "Health and behavioral health care",
+                "body": {
+                  "type": "doc",
+                  "content": []
+                }
+              },
+              {
+                "heading": "Employment, education and legal resources.",
+                "body": {
+                  "type": "doc",
+                  "content": []
+                }
+              },
+              {
+                "heading": "Problem-solving when something falls through.",
+                "body": {
+                  "type": "doc",
+                  "content": []
+                }
+              }
+            ],
+            "columns": "4",
+            "aspect": "4:5"
+          }
+        },
+        {
+          "id": "blk_eg9qzy492n",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "We don’t duplicate the larger system of care. We extend its reach, working with existing providers and care teams so people can get services they might otherwise never reach."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "preset": "starter/stack-12@1"
+    },
+    {
+      "id": "sec_mdgj099500",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_k03jkkw5tc",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 2
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "What outcomes look like"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Housing matters, and we also know there is more than one way home. In a typical year, about 20 people who’ve worked with us reach stable housing. For about 5 of them, our part is limited to basic needs. We count the connection, but we don’t claim the housing as ours. Another 10 are people we support as part of a larger care team. For about 5, we’re the primary support helping them get there."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Of the housing outcomes where we’re the primary support, about four out of five are self-resolutions: individualized paths home that the person identified and pursued themselves."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "preset": "starter/stack-12@1"
+    },
+    {
+      "id": "sec_3d30ct9agj",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_97tazrqqa5",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 2
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "How to start"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Come to either weekly event and ask for a peer, or call or email us. Friday Breakfast Club is followed by drop-in hours for case management, troubleshooting, or just talking as peers."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_z5dnre5cnz",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Email us",
+            "link": {
+              "type": "email",
+              "email": "libby@feetforwardboulder.org"
+            },
+            "role": "primary"
+          }
+        },
+        {
+          "id": "blk_zspwzjsfrh",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Call 720-520-2097",
+            "link": {
+              "type": "phone",
+              "phone": "+17205202097"
+            },
+            "role": "secondary"
+          }
+        },
+        {
+          "id": "blk_af296c2er3",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Find us in the park",
+            "link": {
+              "type": "page",
+              "page": "pg_7cc4g5qmwx"
+            },
+            "role": "secondary"
+          }
+        }
+      ],
+      "preset": "starter/stack-12@1"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "score": 33,
+  "strict": 33,
+  "scorer": "v4-calibrated",
+  "before": 39,
+  "changes": [
+    "/contact: 2 sections joined into one, as on the original",
+    "background on light sections #e9e6d2, as on the original (12 of 14 sections)",
+    "/approach: \"What meeting people where they are looks like.\": 2 cards per row, as on the original",
+    "/contact: \"Find us, or reach us.\": its background #15261a, as on the original",
+    "/give: \"Help us keep showing up.\": its background #15261a, as on the original",
+    "/approach: \"Person first\" set at the h3 size, as on the original",
+    "/: section 1 \"Meeting people where they are.\" recreated as a custom component",
+    "/: section 5 \"Small steps add up.\" recreated as a custom component",
+    "/about: section 1 recreated as a custom component",
+    "/about: section 2 \"The team.\" recreated as a custom component",
+    "/about: section 3 \"We work with.\" recreated as a custom component",
+    "/contact: section 1 \"Find us, or reach us.\" recreated as a custom component",
+    "/about: 3 section(s) at the content width, as on the original"
+  ],
+  "strictBefore": 39,
+  "withoutComponents": 31,
+  "withComponents": 33,
+  "pages": [
+    {
+      "path": "/",
+      "device": "desktop",
+      "score": 68,
+      "strict": 68,
+      "before": 61,
+      "strictBefore": 61,
+      "image": "thumb-home-d.jpg",
+      "differs": [
+        "Columns",
+        "Text",
+        "Heading 1: present"
+      ]
+    },
+    {
+      "path": "/",
+      "device": "phone",
+      "score": 49,
+      "strict": 49,
+      "before": 46,
+      "strictBefore": 46,
+      "image": "thumb-home-m.jpg",
+      "differs": [
+        "Heading",
+        "Heading",
+        "Text"
+      ]
+    },
+    {
+      "path": "/about",
+      "device": "desktop",
+      "score": 73,
+      "strict": 73,
+      "before": 38,
+      "strictBefore": 38,
+      "image": "thumb-about-d.jpg",
+      "differs": [
+        "Heading 1: present",
+        "Section padding",
+        "Text color"
+      ]
+    },
+    {
+      "path": "/about",
+      "device": "phone",
+      "score": 45,
+      "strict": 45,
+      "before": 33,
+      "strictBefore": 33,
+      "image": "thumb-about-m.jpg",
+      "differs": [
+        "Heading 2 size",
+        "Heading",
+        "Text"
+      ]
+    },
+    {
+      "path": "/approach",
+      "device": "desktop",
+      "score": 63,
+      "strict": 63,
+      "before": 50,
+      "strictBefore": 50,
+      "image": "thumb-approach-d.jpg",
+      "differs": [
+        "Text",
+        "Text",
+        "Heading 3 size"
+      ]
+    },
+    {
+      "path": "/approach",
+      "device": "phone",
+      "score": 49,
+      "strict": 49,
+      "before": 40,
+      "strictBefore": 40,
+      "image": "thumb-approach-m.jpg",
+      "differs": [
+        "Text",
+        "Text",
+        "Text color"
+      ]
+    },
+    {
+      "path": "/contact",
+      "device": "desktop",
+      "score": 17,
+      "strict": 17,
+      "before": 40,
+      "strictBefore": 40,
+      "image": "thumb-contact-d.jpg",
+      "differs": [
+        "Heading 2 size",
+        "Heading 1: present",
+        "Lead text size"
+      ]
+    },
+    {
+      "path": "/contact",
+      "device": "phone",
+      "score": 25,
+      "strict": 25,
+      "before": 41,
+      "strictBefore": 41,
+      "image": "thumb-contact-m.jpg",
+      "differs": [
+        "Heading 2 size",
+        "Heading",
+        "Heading 1: present"
+      ]
+    },
+    {
+      "path": "/give",
+      "device": "desktop",
+      "score": 51,
+      "strict": 51,
+      "before": 50,
+      "strictBefore": 50,
+      "image": "thumb-give-d.jpg",
+      "differs": [
+        "Heading 2 size",
+        "Columns",
+        "Heading 3 size"
+      ]
+    },
+    {
+      "path": "/give",
+      "device": "phone",
+      "score": 53,
+      "strict": 53,
+      "before": 47,
+      "strictBefore": 47,
+      "image": "thumb-give-m.jpg",
+      "differs": [
+        "Heading 2 size",
+        "Section padding",
+        "Text color"
+      ]
+    },
+    {
+      "path": "/impact",
+      "device": "desktop",
+      "score": 60,
+      "strict": 60,
+      "before": 50,
+      "strictBefore": 50,
+      "image": "thumb-impact-d.jpg",
+      "differs": [
+        "Text",
+        "Columns",
+        "Columns"
+      ]
+    },
+    {
+      "path": "/impact",
+      "device": "phone",
+      "score": 53,
+      "strict": 53,
+      "before": 43,
+      "strictBefore": 43,
+      "image": "thumb-impact-m.jpg",
+      "differs": [
+        "Text",
+        "Text color"
+      ]
+    }
+  ]
+}

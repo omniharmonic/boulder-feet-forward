@@ -1,0 +1,193 @@
+{
+  "name": "imported-home-5",
+  "label": "Small steps add up.",
+  "description": "Recreated from the original site's layout (measured in a browser): every word, picture and link is editable.",
+  "version": 1,
+  "category": "imported",
+  "fields": {
+    "text1": {
+      "kind": "text",
+      "label": "Heading",
+      "maxLength": 300
+    },
+    "text2": {
+      "kind": "text",
+      "label": "Paragraph “In a typical week, we…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text3": {
+      "kind": "text",
+      "label": "Paragraph “We have served 13,705…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text4": {
+      "kind": "text",
+      "label": "Paragraph “Every day, our peers…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text5": {
+      "kind": "text",
+      "label": "Paragraph “Each year, about 20…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text6": {
+      "kind": "richText",
+      "label": "Paragraph “5 where we gave basic…”",
+      "marks": [
+        "bold",
+        "italic",
+        "link"
+      ],
+      "blocks": [
+        "paragraph"
+      ],
+      "maxLength": 3000
+    },
+    "text7": {
+      "kind": "richText",
+      "label": "Paragraph “10 where we are part of…”",
+      "marks": [
+        "bold",
+        "italic",
+        "link"
+      ],
+      "blocks": [
+        "paragraph"
+      ],
+      "maxLength": 3000
+    },
+    "text8": {
+      "kind": "richText",
+      "label": "Paragraph “5 where we are the…”",
+      "marks": [
+        "bold",
+        "italic",
+        "link"
+      ],
+      "blocks": [
+        "paragraph"
+      ],
+      "maxLength": 3000
+    },
+    "text9": {
+      "kind": "text",
+      "label": "Paragraph “Of the people who reach…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text10": {
+      "kind": "text",
+      "label": "Paragraph “Self-resolutions are…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "text11": {
+      "kind": "text",
+      "label": "Paragraph “Numbers as of October…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "label12": {
+      "kind": "text",
+      "label": "Button",
+      "maxLength": 60
+    },
+    "link12": {
+      "kind": "link",
+      "label": "Button goes to"
+    }
+  },
+  "defaults": {
+    "text1": "Small steps add up.",
+    "text2": "In a typical week, we meet about 120 different people.",
+    "text3": "We have served 13,705 meals since 2024.",
+    "text4": "Every day, our peers answer about 10 questions about where to find something, who to call, or what comes next.",
+    "text5": "Each year, about 20 people we have worked with reach stable housing.",
+    "text6": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "5",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " where we gave basic needs. We count the connection, but we do not claim the housing."
+            }
+          ]
+        }
+      ]
+    },
+    "text7": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "10",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " where we are part of a larger care team."
+            }
+          ]
+        }
+      ]
+    },
+    "text8": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "5",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " where we are the primary support."
+            }
+          ]
+        }
+      ]
+    },
+    "text9": "Of the people who reach housing with us as their primary support, 4 out of 5 found their own way there.",
+    "text10": "Self-resolutions are individual paths home that the person chose and pursued.",
+    "text11": "Numbers as of October 2026, from the Boulder Feet Forward information packet.",
+    "label12": "See our impact",
+    "link12": {
+      "type": "page",
+      "page": "pg_4wv4ptm674"
+    }
+  },
+  "template": "<div class=\"gx\">\n  <h2 class=\"gx__i gx__i1\">{{text1}}</h2>\n  <p class=\"gx__i gx__i2\">{{text2}}</p>\n  <p class=\"gx__i gx__i3\">{{text3}}</p>\n  <p class=\"gx__i gx__i4\">{{text4}}</p>\n  <p class=\"gx__i gx__i5\">{{text5}}</p>\n  <div class=\"gx__i gx__i6\">{{rich text6}}</div>\n  <div class=\"gx__i gx__i7\">{{rich text7}}</div>\n  <div class=\"gx__i gx__i8\">{{rich text8}}</div>\n  <p class=\"gx__i gx__i9\">{{text9}}</p>\n  <p class=\"gx__i gx__i10\">{{text10}}</p>\n  <p class=\"gx__i gx__i11\">{{text11}}</p>\n  <div class=\"gx__i gx__i12\">{{button link12 label=label12 variant=\"primary\"}}</div>\n</div>",
+  "css": ":scope { width: min(100%, 1086px); margin-inline: auto; }\n.gx { display: grid; grid-template-columns: repeat(24, minmax(0, 1fr)); grid-auto-rows: minmax(8px, auto); column-gap: 0; }\n.gx__i { position: relative; z-index: 1; margin: 0; min-width: 0; overflow-wrap: break-word; }\n.gx__i p { margin: 0; }\n.gx__p { z-index: 0; }\n.gx__img picture, .gx__img img { display: block; width: 100%; height: 100%; object-fit: cover; }\n.gx__i1 { grid-column: 1 / span 24; grid-row: 1 / span 8; font-family: var(--os-font-heading); font-size: 59.2px; font-weight: 380; line-height: 1.08; letter-spacing: -0.015em; color: var(--os-color-text); }\n.gx__i2 { grid-column: 1 / span 16; grid-row: 13 / span 13; font-family: var(--os-font-heading); font-size: 41.6px; font-weight: 380; line-height: 1.2; letter-spacing: -0.012em; color: var(--os-color-text); }\n.gx__i3 { grid-column: 1 / span 16; grid-row: 30 / span 6; font-family: var(--os-font-heading); font-size: 41.6px; font-weight: 380; line-height: 1.2; letter-spacing: -0.012em; color: var(--os-color-text); }\n.gx__i4 { grid-column: 1 / span 16; grid-row: 41 / span 19; font-family: var(--os-font-heading); font-size: 41.6px; font-weight: 380; line-height: 1.2; letter-spacing: -0.012em; color: var(--os-color-text); }\n.gx__i5 { grid-column: 1 / span 16; grid-row: 64 / span 13; font-family: var(--os-font-heading); font-size: 41.6px; font-weight: 380; line-height: 1.2; letter-spacing: -0.012em; color: var(--os-color-text); }\n.gx__i6 { grid-column: 1 / span 5; grid-row: 84 / span 8; font-family: var(--os-font-label); font-size: 15.2px; font-weight: 400; line-height: 1.4; letter-spacing: 0em; color: inherit; }\n.gx__i7 { grid-column: 7 / span 5; grid-row: 84 / span 5; font-family: var(--os-font-label); font-size: 15.2px; font-weight: 400; line-height: 1.4; letter-spacing: 0em; color: inherit; }\n.gx__i8 { grid-column: 13 / span 5; grid-row: 84 / span 3; font-family: var(--os-font-label); font-size: 15.2px; font-weight: 400; line-height: 1.4; letter-spacing: 0em; color: inherit; }\n.gx__i9 { grid-column: 1 / span 16; grid-row: 99 / span 19; font-family: var(--os-font-heading); font-size: 41.6px; font-weight: 380; line-height: 1.2; letter-spacing: -0.012em; color: var(--os-color-text); }\n.gx__i10 { grid-column: 1 / span 14; grid-row: 130 / span 3; font-family: var(--os-font-label); font-size: 15.2px; font-weight: 400; line-height: 1.65; letter-spacing: 0em; color: inherit; }\n.gx__i11 { grid-column: 1 / span 14; grid-row: 140 / span 3; font-family: var(--os-font-label); font-size: 15.2px; font-weight: 400; line-height: 1.65; letter-spacing: 0em; color: inherit; }\n.gx__i12 { grid-column: 1 / span 4; grid-row: 150 / span 6; font-family: var(--os-font-label); font-size: 16.3px; font-weight: 700; line-height: 1.1; letter-spacing: 0em; color: var(--os-color-text); }\n@media (max-width: 767px) {\n  .gx { display: flex; flex-direction: column; gap: var(--os-space-sm); }\n  .gx__i1 { font-family: var(--os-font-heading); font-size: 47px; }\n  .gx__i2 { font-family: var(--os-font-heading); font-size: 33px; }\n  .gx__i3 { font-family: var(--os-font-heading); font-size: 33px; }\n  .gx__i4 { font-family: var(--os-font-heading); font-size: 33px; }\n  .gx__i5 { font-family: var(--os-font-heading); font-size: 33px; }\n  .gx__i6 { font-family: var(--os-font-label); font-size: 14px; }\n  .gx__i7 { font-family: var(--os-font-label); font-size: 14px; }\n  .gx__i8 { font-family: var(--os-font-label); font-size: 14px; }\n  .gx__i9 { font-family: var(--os-font-heading); font-size: 33px; }\n  .gx__i10 { font-family: var(--os-font-label); font-size: 14px; }\n  .gx__i11 { font-family: var(--os-font-label); font-size: 14px; }\n  .gx__i12 { font-family: var(--os-font-label); font-size: 14px; }\n}",
+  "section": {
+    "width": "wide"
+  }
+}

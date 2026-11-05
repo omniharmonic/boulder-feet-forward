@@ -1,0 +1,296 @@
+{
+  "id": "pg_ggeh6r9pyk",
+  "title": "Support from someone who has been there.",
+  "slug": "work/peer-support",
+  "seo": {
+    "title": "Peer support",
+    "description": "Zero-barrier peer support, starting wherever a person is."
+  },
+  "hidden": true,
+  "sections": [
+    {
+      "id": "sec_hdtazc8se8",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_s9zbmt5xvp",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 1
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Support from someone who has been there."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Zero-barrier peer support, starting wherever a person is."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "preset": "starter/stack-12@1"
+    },
+    {
+      "id": "sec_6qsb4j6rmb",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_s3t4z6d1v3",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The Substance Abuse and Mental Health Services Administration (SAMHSA) defines recovery as a process of change through which individuals improve health and wellness, live self-directed lives, and strive to reach their full potential."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Boulder Feet Forward offers zero-barrier peer support, meeting people where they are. We start informal and flexible, answering needs as they come up during our daily street outreach. As people begin to think about change, and then get ready for it, we meet more and more by appointment."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "As peers, we play many roles, but all of them are co-equal. We always respect each person’s own journey, and we know that people in recovery need support in every dimension of wellness: physical, emotional, social, spiritual, intellectual, financial, environmental and occupational."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Peers are experienced resource navigators. We help people find what they need in each of those dimensions, and we give more than referrals: we make introductions and we advocate when it’s needed."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "We cheer for every success, no matter how small. We are trustworthy allies who listen without judgment. We help people see their strengths and weaknesses, make plans and goals, and solve problems. We can be mentors, motivators and friends, but most of all we are truth-tellers."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_fttgcx5bst",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "The eight dimensions",
+            "link": {
+              "type": "page",
+              "page": "pg_ym9be7p01r"
+            },
+            "role": "secondary"
+          }
+        },
+        {
+          "id": "blk_1q2d9gefgm",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Case management",
+            "link": {
+              "type": "page",
+              "page": "pg_qz66x1wyak"
+            },
+            "role": "secondary"
+          }
+        }
+      ],
+      "preset": "starter/stack-12@1"
+    },
+    {
+      "id": "sec_rz60hr2wk9",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_kdj9mfa80y",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 2
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Further reading"
+                    }
+                  ]
+                },
+                {
+                  "type": "bulletList",
+                  "content": [
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "SAMHSA: about recovery",
+                              "marks": [
+                                {
+                                  "type": "link",
+                                  "attrs": {
+                                    "href": "https://www.samhsa.gov/substance-use/recovery/about"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "SAMHSA: Peers Supporting Recovery from Substance Use Disorders (PDF)",
+                              "marks": [
+                                {
+                                  "type": "link",
+                                  "attrs": {
+                                    "href": "https://www.samhsa.gov/sites/default/files/programs_campaigns/brss_tacs/peers-supporting-recovery-substance-use-disorders-2017.pdf"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Recovery Answers: what is the evidence for peer recovery support services?",
+                              "marks": [
+                                {
+                                  "type": "link",
+                                  "attrs": {
+                                    "href": "https://www.recoveryanswers.org/research-post/what-is-the-evidence-for-peer-recovery-support-services/"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Hazelden Betty Ford: peer recovery support",
+                              "marks": [
+                                {
+                                  "type": "link",
+                                  "attrs": {
+                                    "href": "https://www.hazeldenbettyford.org/research-studies/addiction-research/peer-recovery-support"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "preset": "starter/stack-12@1"
+    }
+  ]
+}

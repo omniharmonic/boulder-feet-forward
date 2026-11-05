@@ -1,39 +1,85 @@
 {
-  "$schema": "https://schema.openspace.host/v1/site.json",
   "title": "Boulder Feet Forward",
+  "tagline": "Boulder Feet Forward is a peer-led, daily street outreach team in Boulder, Colorado. We bring meals, supplies, peer support, and case management to neighbors living outside, and we keep showing up.",
+  "favicon": "media/2026/11/favicon-synf.svg",
   "nav": [
     {
       "type": "page",
-      "page": "pg_tpnnw72hew",
-      "label": "Home"
+      "page": "pg_ym9be7p01r",
+      "label": "Approach"
+    },
+    {
+      "type": "page",
+      "page": "pg_4a5crrg8h0",
+      "label": "Work"
+    },
+    {
+      "type": "page",
+      "page": "pg_4wv4ptm674",
+      "label": "Impact"
+    },
+    {
+      "type": "page",
+      "page": "pg_88vdm24dxn",
+      "label": "Volunteer"
+    },
+    {
+      "type": "page",
+      "page": "pg_amc2peac7f",
+      "label": "About"
+    },
+    {
+      "type": "page",
+      "page": "pg_xcs5jey9pv",
+      "label": "Need help?",
+      "anchor": "find-us"
+    },
+    {
+      "type": "button",
+      "label": "Give",
+      "link": {
+        "type": "page",
+        "page": "pg_331y67b2k5"
+      },
+      "style": "primary"
     }
   ],
   "header": {
     "variant": "classic-left",
+    "logoHeight": {
+      "d": 35,
+      "m": 35
+    },
     "sticky": false,
     "transparentOnHero": false,
-    "mobileMenu": "slide"
+    "mobileMenu": "fullscreen"
   },
   "footer": {
-    "id": "sec_b5sg7d2ppf",
+    "id": "sec_gx0nn8jd5z",
     "layout": {
       "mode": "stack",
       "columns": {
         "d": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "m": [
           12
         ]
-      },
-      "align": "center"
+      }
     },
     "style": {
       "colorTheme": "light",
-      "padding": {
-        "d": "md"
+      "background": {
+        "type": "color",
+        "color": "#dad7be"
       }
     },
     "blocks": [
       {
-        "id": "blk_f0e6354zxz",
+        "id": "blk_nbyrmvsfb9",
         "type": "text",
         "v": 1,
         "fields": {
@@ -45,15 +91,449 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Boulder Feet Forward"
+                    "text": "Meeting people where they are. Every day. Step by step."
                   }
                 ]
               }
             ]
           }
-        }
+        },
+        "column": 0
+      },
+      {
+        "id": "blk_e376vcj9kx",
+        "type": "text",
+        "v": 1,
+        "fields": {
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "© 2026 Boulder Feet Forward. A peer-led street outreach team in Boulder, Colorado."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Website designed and built as a gift by Benjamin Life ("
+                  },
+                  {
+                    "type": "text",
+                    "text": "@omniharmonic",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://x.com/omniharmonic"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": ")."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "column": 0
+      },
+      {
+        "id": "blk_g7ngbb3we2",
+        "type": "social-links",
+        "v": 1,
+        "fields": {
+          "source": "site",
+          "profiles": [
+            {
+              "network": "instagram",
+              "url": "https://instagram.com/juniperyoga"
+            },
+            {
+              "network": "youtube",
+              "url": "https://youtube.com/@juniperyoga"
+            },
+            {
+              "network": "email",
+              "url": "mailto:hello@juniperyoga.com"
+            }
+          ]
+        },
+        "column": 0
+      },
+      {
+        "id": "blk_g2zdmfqef4",
+        "type": "text",
+        "v": 1,
+        "fields": {
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "heading",
+                "attrs": {
+                  "level": 2
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Explore"
+                  }
+                ]
+              },
+              {
+                "type": "bulletList",
+                "content": [
+                  {
+                    "type": "listItem",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Our approach",
+                            "marks": [
+                              {
+                                "type": "link",
+                                "attrs": {
+                                  "href": "/approach/"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Our work",
+                            "marks": [
+                              {
+                                "type": "link",
+                                "attrs": {
+                                  "href": "/work/"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Impact",
+                            "marks": [
+                              {
+                                "type": "link",
+                                "attrs": {
+                                  "href": "/impact/"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Give",
+                            "marks": [
+                              {
+                                "type": "link",
+                                "attrs": {
+                                  "href": "/give/"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Volunteer",
+                            "marks": [
+                              {
+                                "type": "link",
+                                "attrs": {
+                                  "href": "/volunteer/"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "About us",
+                            "marks": [
+                              {
+                                "type": "link",
+                                "attrs": {
+                                  "href": "/about/"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "column": 1
+      },
+      {
+        "id": "blk_aj1aj6ck3q",
+        "type": "text",
+        "v": 1,
+        "fields": {
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "heading",
+                "attrs": {
+                  "level": 2
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Find us"
+                  }
+                ]
+              },
+              {
+                "type": "bulletList",
+                "content": [
+                  {
+                    "type": "listItem",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Tuesdays, 2:30 PM"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Fridays, 11:00 AM"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Central Park, Boulder"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "720-520-2097",
+                            "marks": [
+                              {
+                                "type": "link",
+                                "attrs": {
+                                  "href": "tel:+17205202097"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "libby@feetforwardboulder.org",
+                            "marks": [
+                              {
+                                "type": "link",
+                                "attrs": {
+                                  "href": "mailto:libby@feetforwardboulder.org"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "PO Box 241, Boulder, CO 80306"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "column": 2
+      },
+      {
+        "id": "blk_7tcfcx1v46",
+        "type": "text",
+        "v": 1,
+        "fields": {
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "heading",
+                "attrs": {
+                  "level": 2
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Stay in touch"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "News from the park, a few times a year. No spam."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "column": 3
+      },
+      {
+        "id": "blk_5206wy2jby",
+        "type": "newsletter",
+        "v": 1,
+        "fields": {
+          "askName": false,
+          "placeholder": "you@example.com",
+          "buttonLabel": "Join the newsletter",
+          "successMessage": "Almost there — check your inbox to confirm your subscription."
+        },
+        "variant": "stacked",
+        "column": 3
       }
-    ]
+    ],
+    "label": "Footer"
   },
-  "locale": "en"
+  "social": [
+    {
+      "network": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=61558925265378"
+    },
+    {
+      "network": "instagram",
+      "url": "https://www.instagram.com/boulderfeetforward/"
+    },
+    {
+      "network": "x",
+      "url": "https://x.com/BoCoFeetForward"
+    }
+  ],
+  "seo": {
+    "titleTemplate": "%s — Boulder Feet Forward",
+    "description": "Boulder Feet Forward is a peer-led, daily street outreach team in Boulder, Colorado. We bring meals, supplies, peer support, and case management to neighbors living outside, and we keep showing up."
+  },
+  "locale": "en",
+  "integrations": {
+    "analytics": false,
+    "bookingUrl": null,
+    "stripeConnected": false
+  }
 }

@@ -1,17 +1,131 @@
 {
-  "$schema": "https://schema.openspace.host/v1/styles.json",
   "choices": {
     "palette": {
-      "brand": "oklch(0.45 0.05 250)",
+      "brand": "#a7c25a",
       "neutral": "warm",
       "contrast": "standard",
-      "source": "curated"
+      "source": "brand"
     },
     "pairing": "fraunces-hanken",
     "density": "comfortable",
-    "shape": "soft",
-    "buttons": "solid",
+    "shape": "round",
+    "buttons": "pill-solid",
     "motion": "subtle",
-    "imageTreatment": "none"
+    "imageTreatment": "none",
+    "typography": {
+      "heading": {
+        "family": "Playfair Display",
+        "category": "serif",
+        "weights": [
+          400
+        ]
+      },
+      "body": {
+        "family": "Atkinson Hyperlegible",
+        "category": "sans-serif",
+        "weights": [
+          400,
+          600,
+          700
+        ]
+      },
+      "scale": {
+        "h1": {
+          "size": 88,
+          "sizeMobile": 46.4,
+          "lineHeight": 1,
+          "letterSpacing": -0.025,
+          "case": "none",
+          "weight": 400
+        },
+        "h2": {
+          "size": 59.2,
+          "sizeMobile": 33.6,
+          "lineHeight": 1.08,
+          "letterSpacing": -0.015,
+          "case": "none",
+          "weight": 400
+        },
+        "h3": {
+          "size": 32,
+          "sizeMobile": 23.2,
+          "lineHeight": 1.15,
+          "letterSpacing": -0.015,
+          "case": "none",
+          "weight": 400,
+          "font": "heading"
+        },
+        "body": {
+          "size": 18,
+          "sizeMobile": 18,
+          "lineHeight": 1.65,
+          "letterSpacing": 0,
+          "case": "none"
+        },
+        "h4": {
+          "size": 25.7,
+          "lineHeight": 1.23,
+          "letterSpacing": 0,
+          "case": "none",
+          "font": "heading",
+          "weight": 400
+        },
+        "display": {
+          "size": 88,
+          "sizeMobile": 46.4,
+          "lineHeight": 1,
+          "letterSpacing": -0.025,
+          "case": "none",
+          "weight": 400
+        },
+        "lead": {
+          "size": 41.6,
+          "sizeMobile": 24.8,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.012,
+          "case": "none",
+          "font": "heading"
+        },
+        "small": {
+          "size": 15.2,
+          "sizeMobile": 15.2,
+          "lineHeight": 1.4,
+          "letterSpacing": 0,
+          "case": "none"
+        },
+        "button": {
+          "size": 16.3,
+          "sizeMobile": 16.3,
+          "lineHeight": 1.1,
+          "letterSpacing": 0,
+          "case": "none",
+          "weight": 700,
+          "font": "body"
+        },
+        "nav": {
+          "size": 16.3,
+          "lineHeight": 1.65,
+          "letterSpacing": 0,
+          "case": "none",
+          "weight": 400,
+          "font": "body"
+        }
+      }
+    },
+    "layout": {
+      "contentWidth": 992,
+      "sectionPadding": 91,
+      "sectionPaddingMobile": 53
+    }
+  },
+  "overrides": {
+    "color": {
+      "light": {
+        "background": {
+          "$type": "color",
+          "$value": "#e9e6d2"
+        }
+      }
+    }
   }
 }

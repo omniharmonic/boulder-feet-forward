@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "source": "import",
+  "from": "the original site",
+  "items": [
+    {
+      "id": "newsletter",
+      "kind": "newsletter",
+      "title": "Bring your newsletter subscribers",
+      "detail": "Sign-up forms came across, and new sign-ups are kept for you in OpenSpace. Your old site didn't keep a subscriber list itself: if its form sent sign-ups to an email service (like Mailchimp or Buttondown), download the list there and add it in Inbox → Subscribers → Import.",
+      "where": [
+        "/"
+      ],
+      "status": "todo"
+    },
+    {
+      "id": "domain",
+      "kind": "domain",
+      "title": "Use boulderfeetforward.org for your new site",
+      "detail": "Your new site is live on a free address. When you're happy with it, we'll help you point boulderfeetforward.org at it — your old site keeps working until then.",
+      "status": "todo"
+    },
+    {
+      "id": "font-licence",
+      "kind": "other",
+      "title": "Use your own font licence",
+      "detail": "Your old site used Newsreader Variable, which we're not allowed to copy, so the closest free font stands in (Playfair Display). If you have a web licence, download the font files (WOFF2) from the font service and upload them in Site Styles → Your fonts — they're stored in media/fonts/ — then choose them for your headings and text.",
+      "status": "todo"
+    }
+  ]
+}

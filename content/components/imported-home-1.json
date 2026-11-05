@@ -1,0 +1,106 @@
+{
+  "name": "imported-home-1",
+  "label": "Meeting people where they are.",
+  "description": "Recreated from the original site's layout (measured in a browser): every word, picture and link is editable.",
+  "version": 1,
+  "category": "imported",
+  "fields": {
+    "text1": {
+      "kind": "text",
+      "label": "Heading",
+      "maxLength": 300
+    },
+    "text2": {
+      "kind": "text",
+      "label": "Paragraph “Boulder Feet Forward is…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "label3": {
+      "kind": "text",
+      "label": "Main button",
+      "maxLength": 60
+    },
+    "link3": {
+      "kind": "link",
+      "label": "Main button goes to"
+    },
+    "label4": {
+      "kind": "text",
+      "label": "Button “Volunteer”",
+      "maxLength": 60
+    },
+    "link4": {
+      "kind": "link",
+      "label": "Button “Volunteer” goes to"
+    },
+    "text5": {
+      "kind": "richText",
+      "label": "Paragraph “Tuesdays 2:30 PM Fridays…”",
+      "marks": [
+        "bold",
+        "italic",
+        "link"
+      ],
+      "blocks": [
+        "paragraph"
+      ],
+      "maxLength": 3000
+    }
+  },
+  "defaults": {
+    "text1": "Meeting people where they are.",
+    "text2": "Boulder Feet Forward is a peer-led street outreach team. We visit our neighbors every day with meals, supplies and someone to talk to.",
+    "label3": "Give where it’s needed",
+    "link3": {
+      "type": "page",
+      "page": "pg_331y67b2k5"
+    },
+    "label4": "Volunteer",
+    "link4": {
+      "type": "page",
+      "page": "pg_88vdm24dxn"
+    },
+    "text5": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Tuesdays",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " 2:30 PM"
+            },
+            {
+              "type": "text",
+              "text": "Fridays",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " 11:00 AMCentral Park, Boulder. All are welcome."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "template": "<div class=\"gx\">\n  <h2 class=\"gx__i gx__i1\">{{text1}}</h2>\n  <p class=\"gx__i gx__i2\">{{text2}}</p>\n  <div class=\"gx__i gx__i3\">{{button link3 label=label3 variant=\"primary\"}}</div>\n  <div class=\"gx__i gx__i4\">{{button link4 label=label4 variant=\"primary\"}}</div>\n  <div class=\"gx__i gx__i5\">{{rich text5}}</div>\n</div>",
+  "css": ":scope { width: min(100%, 630px); margin-inline: auto; }\n.gx { display: grid; grid-template-columns: repeat(24, minmax(0, 1fr)); grid-auto-rows: minmax(8px, auto); column-gap: 0; }\n.gx__i { position: relative; z-index: 1; margin: 0; min-width: 0; overflow-wrap: break-word; }\n.gx__i p { margin: 0; }\n.gx__p { z-index: 0; }\n.gx__img picture, .gx__img img { display: block; width: 100%; height: 100%; object-fit: cover; }\n.gx__i1 { grid-column: 1 / span 24; grid-row: 1 / span 22; font-family: var(--os-font-heading); font-size: 88px; font-weight: 380; line-height: 1; letter-spacing: -0.025em; color: var(--os-color-text); }\n.gx__i2 { grid-column: 1 / span 19; grid-row: 26 / span 13; font-family: var(--os-font-label); font-size: 22.4px; font-weight: 400; line-height: 1.5; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i3 { grid-column: 1 / span 9; grid-row: 42 / span 6; font-family: var(--os-font-label); font-size: 16.3px; font-weight: 700; line-height: 1.1; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i4 { grid-column: 10 / span 5; grid-row: 42 / span 6; font-family: var(--os-font-label); font-size: 16.3px; font-weight: 700; line-height: 1.1; letter-spacing: 0em; color: var(--os-color-text); }\n.gx__i5 { grid-column: 1 / span 16; grid-row: 50 / span 7; font-family: var(--os-font-label); font-size: 16.3px; font-weight: 400; line-height: 1.65; letter-spacing: 0em; color: inherit; }\n@media (max-width: 767px) {\n  .gx { display: flex; flex-direction: column; gap: var(--os-space-sm); }\n  .gx__i1 { font-family: var(--os-font-heading); font-size: 70px; }\n  .gx__i2 { font-family: var(--os-font-label); font-size: 18px; }\n  .gx__i3 { font-family: var(--os-font-label); font-size: 14px; }\n  .gx__i4 { font-family: var(--os-font-label); font-size: 14px; }\n  .gx__i5 { font-family: var(--os-font-label); font-size: 14px; }\n}",
+  "section": {
+    "width": "wide"
+  }
+}

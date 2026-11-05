@@ -1,0 +1,319 @@
+{
+  "id": "pg_amc2peac7f",
+  "title": "About",
+  "slug": "about",
+  "seo": {
+    "title": "About us",
+    "description": "Boulder Feet Forward exists to enable and support stability."
+  },
+  "sections": [
+    {
+      "id": "sec_9m6th3tc7v",
+      "label": "Boulder Feet Forward exists to enable…",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_p234jxnwpj",
+          "type": "component/imported-about-1",
+          "v": 1,
+          "fields": {
+            "text1": "Boulder Feet Forward exists to enable and support stability.",
+            "text2": "We are peers. We are members of our community.",
+            "text3": "We visit our neighbors every day.",
+            "text4": "And we do what we can to meet our community’s needs.",
+            "text5": "We offer meals to those who are hungry.",
+            "text6": "We offer supplies to those who need them.",
+            "text7": "We offer our presence to those who just want to talk.",
+            "text8": "We find resources for those who ask.",
+            "text9": "We offer our guidance as peers to those who want it.",
+            "text10": "We offer our advocacy as case managers to those who are ready to progress.",
+            "text11": "We believe in a person-first approach: no single solution fits every individual, and we’re here to help each person find the one that works best for them.",
+            "text12": "Everything we do keeps in mind that each person is the main character in their own story.",
+            "text13": "We’re here to support, not to prescribe.",
+            "text14": "We’re here to help establish and build self-sufficiency.",
+            "text15": "We’re here each day, letting our neighbors and peers know they can come to us for help when they’re ready.",
+            "text16": "We’re here each day to provide what stabilization we can until then.",
+            "text17": "We’re here each day so that our neighbors and peers get to know us, and come to understand that when they’re ready, our focus will be on their personal journey and their own definition of success.",
+            "text18": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Every day. Step by step.",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_7mznq0x8gq",
+      "label": "The team.",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_0b2ttv2rf1",
+          "type": "component/imported-about-2",
+          "v": 1,
+          "fields": {
+            "text1": "The team.",
+            "image2": {
+              "src": "media/2026/11/libby-ogletree-a8hy.jpg",
+              "alt": "Libby Ogletree smiling at the camera.",
+              "width": 702,
+              "height": 720,
+              "mediaId": "med_a8hyp6ehmb"
+            },
+            "image3": {
+              "src": "media/2026/11/adam-walker-9ptj.jpg",
+              "alt": "A small figure sits on a rock ledge above a green mountain valley.",
+              "width": 702,
+              "height": 720,
+              "mediaId": "med_9ptj889y02"
+            },
+            "text4": "Libby Ogletree, CPFS",
+            "text5": "Adam Walker",
+            "text6": "Co-Director, Peer Specialist, Case Manager",
+            "text7": "Co-Director, Peer Specialist"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_e738z1v2pk",
+      "label": "We work with.",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_mwk9yc5vr4",
+          "type": "component/imported-about-3",
+          "v": 1,
+          "fields": {
+            "text1": "We work with.",
+            "text2": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Focus ReEntry",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://www.focusreentry.org/"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "text3": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "SPAN",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://www.safehousealliance.org/"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "text4": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Boulder Community Court",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://bouldercolorado.gov/services/community-court"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "text5": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Urban Peak",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://share.google/NZTaYXBycu0YfDgc7"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "text6": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Recovery Café Longmont",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://recoverycafelongmont.org/"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "text7": "Wash and Wave (laundry)",
+            "text8": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "TGTHR Youth Shelters",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://tgthr.org/"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "text9": "RTD nonprofit pass program",
+            "text10": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mental Health Partners",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://mhpcolorado.org/"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "text11": "Boulder Public Library",
+            "text12": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Boulder County Public Health, the Works",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://bouldercounty.gov/families/disease/the-works-program/"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "text13": "ACLU of Colorado"
+          }
+        }
+      ]
+    }
+  ]
+}
