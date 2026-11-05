@@ -483,73 +483,73 @@
   "redirects": [
     {
       "from": "/home",
-      "status": 301,
-      "to": "/"
+      "to": "/",
+      "status": 301
     },
     {
       "from": "/about-us",
-      "status": 301,
-      "to": "/about/"
+      "to": "/about/",
+      "status": 301
     },
     {
       "from": "/about-us/our-mission",
-      "status": 301,
-      "to": "/about/"
+      "to": "/about/",
+      "status": 301
     },
     {
       "from": "/about-us/our-approach",
-      "status": 301,
-      "to": "/approach/"
+      "to": "/approach/",
+      "status": 301
     },
     {
       "from": "/our-work",
-      "status": 301,
-      "to": "/work/"
+      "to": "/work/",
+      "status": 301
     },
     {
       "from": "/our-work/peer-support",
-      "status": 301,
-      "to": "/work/peer-support/"
+      "to": "/work/peer-support/",
+      "status": 301
     },
     {
       "from": "/our-work/weekly-outreach",
-      "status": 301,
-      "to": "/work/weekly-outreach/"
+      "to": "/work/weekly-outreach/",
+      "status": 301
     },
     {
       "from": "/our-work/tuesdays-in-the-park",
-      "status": 301,
-      "to": "/work/weekly-outreach/"
+      "to": "/work/weekly-outreach/",
+      "status": 301
     },
     {
       "from": "/our-work/friday-breakfast-club",
-      "status": 301,
-      "to": "/work/weekly-outreach/"
+      "to": "/work/weekly-outreach/",
+      "status": 301
     },
     {
       "from": "/get-involved",
-      "status": 301,
-      "to": "/give/"
+      "to": "/give/",
+      "status": 301
     },
     {
       "from": "/get-involved/donate",
-      "status": 301,
-      "to": "/give/"
+      "to": "/give/",
+      "status": 301
     },
     {
       "from": "/get-involved/sponsor",
-      "status": 301,
-      "to": "/give/"
+      "to": "/give/",
+      "status": 301
     },
     {
       "from": "/get-involved/volunteer",
-      "status": 301,
-      "to": "/volunteer/"
+      "to": "/volunteer/",
+      "status": 301
     },
     {
       "from": "/get-involved/contact",
-      "status": 301,
-      "to": "/contact/"
+      "to": "/contact/",
+      "status": 301
     }
   ]
 }
