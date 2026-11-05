@@ -8,6 +8,31 @@
   },
   "sections": [
     {
+      "id": "sec_kt7cv7mjar",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {},
+      "blocks": [
+        {
+          "id": "blk_7aht97ch8h",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_dwhc2x7ys9",
       "preset": "starter/stack-12@1",
       "layout": {
@@ -19,7 +44,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -44,6 +73,9 @@
                 },
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "preset": "lead"
+                  },
                   "content": [
                     {
                       "type": "text",
@@ -55,7 +87,8 @@
             }
           }
         }
-      ]
+      ],
+      "label": "Page head"
     },
     {
       "id": "sec_tstc2ps2n0",
@@ -146,6 +179,50 @@
             "aspect": "4:5"
           },
           "variant": "plain"
+        }
+      ]
+    },
+    {
+      "id": "sec_rw84gy7j0c",
+      "preset": "component/bff-items@1",
+      "label": "Items: columns, steps or rows",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_gtb7zgwhc6",
+          "type": "component/bff-items",
+          "v": 1,
+          "fields": {
+            "items": [
+              {
+                "kicker": "",
+                "text": "Our care is collaborative, trust-based, trauma-informed and built on choice. The individual determines the destination.",
+                "title": "Person first"
+              },
+              {
+                "kicker": "",
+                "text": "We don’t decide that everyone needs treatment first, housing first, employment first or sobriety first. We ask: what does success look like to you, and what would it take to make that happen?",
+                "title": "Wellness first"
+              },
+              {
+                "kicker": "",
+                "text": "We don’t duplicate the larger system of care. We extend its reach. We work alongside existing providers and care teams so people can get services they might otherwise never reach.",
+                "title": "The engagement bridge"
+              }
+            ],
+            "layout": "columns"
+          }
         }
       ]
     },
@@ -268,6 +345,118 @@
       ]
     },
     {
+      "id": "sec_w78cg7hp45",
+      "preset": "component/wellness-wheel@1",
+      "label": "Wellness wheel",
+      "anchor": "eight",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_40hj4xkp0t",
+          "type": "component/wellness-wheel",
+          "v": 1,
+          "fields": {
+            "dimensions": [
+              {
+                "name": "Emotional",
+                "step1": "Daily connection and a co-equal relationship with peers",
+                "step2": "Care referrals, and our continued daily presence",
+                "step3": "Continued support to each individual",
+                "summary": "Wellbeing starts with someone who shows up. Our peers are there every day, as equals.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Occupational",
+                "step1": "Reliable transportation (bus passes, bike locks) and professional clothing",
+                "step2": "Referrals for job placement programs, and résumé assistance",
+                "step3": "Ongoing individualized support",
+                "summary": "Work and purpose depend on being able to get there, and to show up as yourself.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Intellectual",
+                "step1": "Art, poetry and movie workshops, and supplies",
+                "step2": "Exploration: referrals and information for classes, groups and events",
+                "step3": "Program enrollments for education and more, with ongoing goal-setting and support",
+                "summary": "Curiosity doesn't wait for housing. Learning is part of how people rebuild.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Environmental",
+                "step1": "Park cleanup, sleeping bags or blankets, clothing",
+                "step2": "Laundry vouchers, plus referrals and information for shelters and free, friendly public spaces with bathrooms, showers and storage",
+                "step3": "Housing and furniture",
+                "summary": "The spaces people live in, and move through, shape everything else.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Financial",
+                "step1": "Essentials provided at no cost",
+                "step2": "Enrollment and advocacy for Aid to the Needy Disabled (AND), SSI and SSDI",
+                "step3": "Long-term goal setting and individualized planning",
+                "summary": "Money is a barrier at every step. We remove it first, then help people build a way forward.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Social",
+                "step1": "Conversation and companionship with peers",
+                "step2": "Continued daily interaction, deepening connection, and prosocial events",
+                "step3": "A broadened sense of community",
+                "summary": "Belonging is basic. It starts with conversation and grows into community.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Physical",
+                "step1": "Nutritious food and water, hygiene supplies, basic wound care, safe-use and harm reduction supplies, and safer-sex supplies",
+                "step2": "Food bank information, care referrals, and SNAP and Medicaid enrollment",
+                "step3": "Housing and advocacy",
+                "summary": "Food, water, first aid and harm reduction come first, wherever someone is.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Spiritual",
+                "step1": "Outreach by the faith groups that join our events",
+                "step2": "Conversation, and referrals to programs and groups that fit each person",
+                "step3": "Ongoing follow-up",
+                "summary": "Meaning looks different for everyone. We make room for whatever it is for you.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              }
+            ],
+            "hub1": "Whole",
+            "hub2": "person",
+            "hubNote": "Eight dimensions"
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_amsf4kf7rr",
       "preset": "services/image-cards@1",
       "layout": {
@@ -357,6 +546,50 @@
             "aspect": "4:5"
           },
           "variant": "plain"
+        }
+      ]
+    },
+    {
+      "id": "sec_5g07q06zfb",
+      "preset": "component/bff-items@1",
+      "label": "Items: columns, steps or rows",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_98aftmszez",
+          "type": "component/bff-items",
+          "v": 1,
+          "fields": {
+            "items": [
+              {
+                "kicker": "Step 1",
+                "text": "Solve the immediate problem.",
+                "title": "Basic needs"
+              },
+              {
+                "kicker": "Step 2",
+                "text": "Plan an accessible solution someone can use for themselves.",
+                "title": "Stabilizing resources"
+              },
+              {
+                "kicker": "Step 3",
+                "text": "Work toward a sustainable solution.",
+                "title": "Sustainable support"
+              }
+            ],
+            "layout": "steps"
+          }
         }
       ]
     },
@@ -483,6 +716,60 @@
             "aspect": "4:5"
           },
           "variant": "plain"
+        }
+      ]
+    },
+    {
+      "id": "sec_qvc58hgwce",
+      "preset": "component/bff-items@1",
+      "label": "Items: columns, steps or rows",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_h4z3g8hx7s",
+          "type": "component/bff-items",
+          "v": 1,
+          "fields": {
+            "items": [
+              {
+                "kicker": "",
+                "text": "Nutritious meals, hygiene supplies, clothing and weather gear, first aid, harm reduction supplies, pet care supplies and more. We provide the infrastructure, food and hygiene supplies. Partners, volunteers and donors expand what is on the table, and providers get a reliable place to meet people who may never walk through their doors.",
+                "title": "Twice a week, zero-barrier outreach events"
+              },
+              {
+                "kicker": "",
+                "text": "A bus pass, a bike lock, glasses, laundry, a shower, a haircut, a bike or car repair, a safe place to park, a phone call. If the resource exists, we help people reach it, and we spend our own dollars only where we find gaps. It is whatever small thing is standing between someone and their next step.",
+                "title": "We solve the problem in front of us"
+              },
+              {
+                "kicker": "",
+                "text": "Coordinated Entry from wherever you are. Housing assessments on site. IDs and documents, social benefits, health and behavioral health care, employment, education and volunteer opportunities, legal resources, treatment, sober living and many pathways to recovery. Trained peers help with applications, phone calls, paperwork, rides and the next step.",
+                "title": "We help people navigate services and systems"
+              },
+              {
+                "kicker": "",
+                "text": "We introduce people to providers, help them through intake, advocate when needed, get them to appointments, follow up afterward and coordinate with existing care teams. If something does not work, we troubleshoot, try something else and learn from it.",
+                "title": "We make warm handoffs, not just referrals"
+              },
+              {
+                "kicker": "",
+                "text": "Workshops and useful information, art and poetry, movies and games, trauma-informed movement and more. Belonging is part of stability.",
+                "title": "We create connection, community and belonging"
+              }
+            ],
+            "layout": "rows"
+          }
         }
       ]
     },
