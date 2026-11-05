@@ -1,0 +1,59 @@
+{
+  "$schema": "https://schema.openspace.host/v1/site.json",
+  "title": "Boulder Feet Forward",
+  "nav": [
+    {
+      "type": "page",
+      "page": "pg_tpnnw72hew",
+      "label": "Home"
+    }
+  ],
+  "header": {
+    "variant": "classic-left",
+    "sticky": false,
+    "transparentOnHero": false,
+    "mobileMenu": "slide"
+  },
+  "footer": {
+    "id": "sec_b5sg7d2ppf",
+    "layout": {
+      "mode": "stack",
+      "columns": {
+        "d": [
+          12
+        ]
+      },
+      "align": "center"
+    },
+    "style": {
+      "colorTheme": "light",
+      "padding": {
+        "d": "md"
+      }
+    },
+    "blocks": [
+      {
+        "id": "blk_f0e6354zxz",
+        "type": "text",
+        "v": 1,
+        "fields": {
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Boulder Feet Forward"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "locale": "en"
+}
