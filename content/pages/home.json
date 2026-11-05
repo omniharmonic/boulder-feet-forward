@@ -313,18 +313,6 @@
           }
         },
         {
-          "id": "blk_3crcc6rja7",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "We meet people where they are. Then we keep showing up.",
-            "level": "h2",
-            "size": "auto",
-            "subheading": "If someone isn’t ready today, we show up again tomorrow. When they are ready, we’re already there."
-          },
-          "variant": "plain"
-        },
-        {
           "id": "blk_kk93a75n57",
           "type": "text",
           "v": 1,
