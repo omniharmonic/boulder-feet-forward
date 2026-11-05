@@ -28,6 +28,15 @@
       },
       "blocks": [
         {
+          "id": "blk_v1zk54p1qy",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "It is not just a handout. Your gift pays for the meals, and for the people who help someone find a way home.",
+            "title": "Help us keep showing up."
+          }
+        },
+        {
           "id": "blk_7dm1yj2cmb",
           "type": "text",
           "v": 1,
