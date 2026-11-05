@@ -22,8 +22,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -79,13 +79,13 @@
         "width": "content"
       },
       "style": {
-        "background": {
-          "color": "#e9e6d2",
-          "type": "color"
-        },
         "padding": {
           "d": "none",
           "m": "none"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -103,6 +103,7 @@
       "id": "sec_v0a7fgd72b",
       "preset": "component/event-detail@1",
       "label": "Tuesdays in the Park",
+      "anchor": "tuesdays-in-the-park",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -115,8 +116,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -208,13 +209,13 @@
             "weekday": "tuesday"
           }
         }
-      ],
-      "anchor": "tuesdays-in-the-park"
+      ]
     },
     {
       "id": "sec_w8013fk8tq",
       "preset": "component/event-detail@1",
       "label": "Friday Breakfast Club",
+      "anchor": "friday-breakfast-club",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -227,8 +228,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -314,12 +315,13 @@
             "weekday": "friday"
           }
         }
-      ],
-      "anchor": "friday-breakfast-club"
+      ]
     },
     {
       "id": "sec_ztb3754dxm",
       "preset": "starter/stack-12@1",
+      "label": "Partners",
+      "anchor": "partners",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -331,8 +333,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -445,9 +447,7 @@
             "layout": "two"
           }
         }
-      ],
-      "anchor": "partners",
-      "label": "Partners"
+      ]
     }
   ]
 }

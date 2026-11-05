@@ -20,7 +20,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -45,6 +49,9 @@
                 },
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "preset": "lead"
+                  },
                   "content": [
                     {
                       "type": "text",
@@ -59,18 +66,51 @@
       ]
     },
     {
-      "id": "sec_6qsb4j6rmb",
-      "preset": "starter/stack-12@1",
+      "id": "sec_1c5rq2fdnn",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
       "layout": {
         "mode": "stack",
         "columns": {
           "d": [
             12
           ]
+        },
+        "width": "content"
+      },
+      "style": {},
+      "blocks": [
+        {
+          "id": "blk_912xpbn06g",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
         }
+      ]
+    },
+    {
+      "id": "sec_6qsb4j6rmb",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "columns": {
+          "d": [
+            8,
+            4
+          ],
+          "m": [
+            12
+          ]
+        },
+        "mode": "stack"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -174,6 +214,54 @@
       },
       "blocks": [
         {
+          "id": "blk_f06cdawgpg",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "Further reading",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
+          "id": "blk_5gza6e67v0",
+          "type": "component/plain-list",
+          "v": 1,
+          "fields": {
+            "items": [
+              {
+                "label": "SAMHSA: about recovery",
+                "link": {
+                  "type": "url",
+                  "url": "https://www.samhsa.gov/substance-use/recovery/about"
+                }
+              },
+              {
+                "label": "SAMHSA: Peers Supporting Recovery from Substance Use Disorders (PDF)",
+                "link": {
+                  "type": "url",
+                  "url": "https://www.samhsa.gov/sites/default/files/programs_campaigns/brss_tacs/peers-supporting-recovery-substance-use-disorders-2017.pdf"
+                }
+              },
+              {
+                "label": "Recovery Answers: what is the evidence for peer recovery support services?",
+                "link": {
+                  "type": "url",
+                  "url": "https://www.recoveryanswers.org/research-post/what-is-the-evidence-for-peer-recovery-support-services/"
+                }
+              },
+              {
+                "label": "Hazelden Betty Ford: peer recovery support",
+                "link": {
+                  "type": "url",
+                  "url": "https://www.hazeldenbettyford.org/research-studies/addiction-research/peer-recovery-support"
+                }
+              }
+            ],
+            "layout": "one"
+          }
+        },
+        {
           "id": "blk_kdj9mfa80y",
           "type": "text",
           "v": 1,
@@ -184,7 +272,7 @@
                 {
                   "type": "heading",
                   "attrs": {
-                    "level": 2
+                    "level": 3
                   },
                   "content": [
                     {

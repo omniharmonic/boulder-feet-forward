@@ -1,0 +1,187 @@
+{
+  "name": "bff-facts",
+  "label": "Facts with numbers",
+  "description": "Big serif facts with the key number underlined in gold, optional notes, the twenty-dot housing breakdown and the five-footprint graphic.",
+  "version": 1,
+  "category": "stats",
+  "fields": {
+    "dotsLabel": {
+      "kind": "text",
+      "label": "Dot breakdown description (for screen readers)",
+      "maxLength": 240
+    },
+    "facts": {
+      "kind": "list",
+      "label": "Facts",
+      "fields": {
+        "after": {
+          "kind": "text",
+          "label": "Words after the number",
+          "optional": true,
+          "maxLength": 200,
+          "multiline": true
+        },
+        "before": {
+          "kind": "text",
+          "label": "Words before the number",
+          "maxLength": 200,
+          "multiline": true
+        },
+        "dots": {
+          "kind": "boolean",
+          "label": "Show the dot breakdown under this fact"
+        },
+        "feet": {
+          "kind": "boolean",
+          "label": "Show the five footprints under this fact"
+        },
+        "note": {
+          "kind": "text",
+          "label": "Small note under it (optional)",
+          "optional": true,
+          "maxLength": 240,
+          "multiline": true
+        },
+        "num": {
+          "kind": "text",
+          "label": "Number (underlined)",
+          "optional": true,
+          "maxLength": 30
+        }
+      }
+    },
+    "feetLabel": {
+      "kind": "text",
+      "label": "Footprints description (for screen readers)",
+      "maxLength": 160
+    },
+    "filled": {
+      "kind": "number",
+      "label": "Footprints filled in (of 5)",
+      "min": 0,
+      "max": 5
+    },
+    "g1": {
+      "kind": "number",
+      "label": "Dots, group 1 (green)",
+      "min": 0,
+      "max": 30
+    },
+    "g1Num": {
+      "kind": "text",
+      "label": "Group 1 number",
+      "maxLength": 10
+    },
+    "g1Text": {
+      "kind": "text",
+      "label": "Group 1 words",
+      "maxLength": 160
+    },
+    "g2": {
+      "kind": "number",
+      "label": "Dots, group 2",
+      "min": 0,
+      "max": 30
+    },
+    "g2Num": {
+      "kind": "text",
+      "label": "Group 2 number",
+      "maxLength": 10
+    },
+    "g2Text": {
+      "kind": "text",
+      "label": "Group 2 words",
+      "maxLength": 160
+    },
+    "g3": {
+      "kind": "number",
+      "label": "Dots, group 3 (gold)",
+      "min": 0,
+      "max": 30
+    },
+    "g3Num": {
+      "kind": "text",
+      "label": "Group 3 number",
+      "maxLength": 10
+    },
+    "g3Text": {
+      "kind": "text",
+      "label": "Group 3 words",
+      "maxLength": 160
+    },
+    "source": {
+      "kind": "text",
+      "label": "Source line",
+      "optional": true,
+      "maxLength": 200
+    }
+  },
+  "defaults": {
+    "dotsLabel": "Twenty people: five where our part is basic needs, ten where we are part of a larger care team, five where we are the primary support.",
+    "facts": [
+      {
+        "after": "different people.",
+        "before": "In a typical week, we meet about",
+        "dots": false,
+        "feet": false,
+        "note": "",
+        "num": "120"
+      },
+      {
+        "after": "meals since 2024.",
+        "before": "We have served",
+        "dots": false,
+        "feet": false,
+        "note": "",
+        "num": "13,705"
+      },
+      {
+        "after": "questions about where to find something, who to call, or what comes next.",
+        "before": "Every day, our peers answer about",
+        "dots": false,
+        "feet": false,
+        "note": "",
+        "num": "10"
+      },
+      {
+        "after": "people we have worked with reach stable housing.",
+        "before": "Each year, about",
+        "dots": true,
+        "feet": false,
+        "note": "",
+        "num": "20"
+      },
+      {
+        "after": "found their own way there.",
+        "before": "Of the people who reach housing with us as their primary support,",
+        "dots": false,
+        "feet": true,
+        "note": "Self-resolutions are individual paths home that the person chose and pursued.",
+        "num": "4 out of 5"
+      }
+    ],
+    "feetLabel": "Five pairs of footprints, four filled in.",
+    "filled": 4,
+    "g1": 5,
+    "g1Num": "5",
+    "g1Text": "where we gave basic needs. We count the connection, but we do not claim the housing.",
+    "g2": 10,
+    "g2Num": "10",
+    "g2Text": "where we are part of a larger care team.",
+    "g3": 5,
+    "g3Num": "5",
+    "g3Text": "where we are the primary support.",
+    "source": "Numbers as of October 2026, from the Boulder Feet Forward information packet."
+  },
+  "template": "<div class=\"fx\" data-filled=\"{{filled}}\" data-dl=\"{{dotsLabel}}\" data-fl=\"{{feetLabel}}\"><svg class=\"fx__src\" width=\"0\" height=\"0\" aria-hidden=\"true\" focusable=\"false\"><defs><path class=\"fx__l\" d=\"M100 1C84 5 78 33 90 49C98 58 109 60 117 52C130 39 126 9 112 2C108 1 103 0 100 1ZM59 25C52 28 50 38 53 48C58 60 69 63 75 55C79 49 79 40 75 32C72 25 65 22 59 25ZM35 44C27 47 26 63 34 70C42 78 51 73 51 62C51 51 43 42 35 44ZM85 65C78 66 72 68 66 71C34 87 13 120 17 149C18 160 21 171 25 180C26 181 26 182 26 183C26 183 32 196 36 205C41 215 46 229 48 240C49 244 50 247 51 255C54 276 56 284 63 293C71 305 87 311 101 308C127 301 136 272 122 243C121 241 117 234 113 228C104 215 100 208 98 199C93 178 97 161 112 144C124 130 128 124 130 113C132 108 132 97 131 92C128 78 120 69 108 65C102 64 91 64 85 65ZM17 66C12 68 10 74 12 81C15 90 22 94 28 91C38 85 28 63 17 66ZM5 91C0 94 0 101 5 107C11 114 19 112 19 103C19 95 11 87 5 91Z\"/><path class=\"fx__r\" d=\"M58 1C51 3 44 11 41 22C39 28 39 39 41 44C46 60 62 64 73 52C78 46 80 41 82 32C84 20 79 6 70 2C67 1 61 0 58 1ZM98 30C88 35 83 54 90 62C93 66 99 67 104 65C112 60 117 46 114 37C111 30 104 27 98 30ZM124 54C116 56 109 70 112 77C117 89 132 84 136 70C138 62 136 56 130 54C127 53 126 53 124 54ZM53 67C39 69 29 79 24 95C23 101 22 111 24 117C25 127 28 133 38 149C47 164 50 172 50 187C50 200 47 210 39 222C36 226 36 227 26 239C17 250 16 252 12 258C0 279 2 302 16 316C23 322 31 325 42 325C58 325 71 316 80 298C82 295 83 293 83 292C83 292 83 291 83 291C84 290 85 285 87 279C88 276 89 273 89 272C89 271 90 270 90 269C91 264 96 250 98 246C102 236 108 226 115 213C132 186 138 170 139 154C140 118 109 78 72 68C68 67 56 66 53 67ZM141 79C132 81 126 95 131 102C137 110 151 101 152 89C152 82 147 77 141 79ZM149 106C148 106 146 107 145 109C135 118 141 131 152 125C160 120 162 109 156 106C153 105 152 105 149 106Z\"/></defs></svg>{{#each facts}}<div class=\"fx__item\"><p class=\"fx__fact\">{{before}} {{#if num}}<span class=\"fx__num\">{{num}}</span>{{/if}} {{after}}</p>{{#if dots}}<div class=\"fx__dots\" role=\"img\"></div>{{/if}}{{#if feet}}<div class=\"fx__five\" role=\"img\"></div>{{/if}}{{#if note}}<p class=\"fx__note\">{{note}}</p>{{/if}}</div>{{/each}}<div class=\"fx__groups\" hidden><div class=\"fx__g fx__g1\" data-n=\"{{g1}}\"><div class=\"fx__dd\"></div><p class=\"fx__cap\"><b>{{g1Num}}</b> {{g1Text}}</p></div><div class=\"fx__g fx__g2\" data-n=\"{{g2}}\"><div class=\"fx__dd\"></div><p class=\"fx__cap\"><b>{{g2Num}}</b> {{g2Text}}</p></div><div class=\"fx__g fx__g3\" data-n=\"{{g3}}\"><div class=\"fx__dd\"></div><p class=\"fx__cap\"><b>{{g3Num}}</b> {{g3Text}}</p></div></div>{{#if source}}<p class=\"fx__note fx__src-line\">{{source}}</p>{{/if}}</div>",
+  "css": ".fx{display:grid;gap:clamp(1.4rem,3vw,2.4rem);margin-top:1rem}\n.fx__src{position:absolute;width:0;height:0}\n.fx__fact{font-family:var(--os-font-heading);font-size:clamp(1.55rem,1rem + 2.2vw,2.6rem);line-height:1.2;letter-spacing:-.012em;max-width:30ch;margin:0;font-weight:400;text-wrap:balance;color:var(--os-color-heading)}\n.fx__num{white-space:nowrap;font-weight:500;background:linear-gradient(#eec02b,#eec02b) 0 92%/100% .14em no-repeat;padding-inline:.04em;font-variant-numeric:lining-nums}\n.fx__note{font-size:.95rem;color:var(--os-color-text-muted);margin:.6rem 0 0}\n.fx__src-line{margin-top:0}\n.fx__dots{display:flex;flex-wrap:wrap;gap:1.6rem 2.2rem;align-items:flex-start;margin-top:1.2rem}\n.fx__g{display:grid;gap:.6rem}\n.fx__dd{display:flex;gap:.35rem;flex-wrap:wrap;max-width:13rem}\n.fx__dd i{width:.9rem;height:.9rem;border-radius:999px;background:#6b8e36;display:block}\n.fx__g2 .fx__dd i{background:#a9a72f}\n.fx__g3 .fx__dd i{background:#eec02b}\n.fx__cap{font-size:.95rem;max-width:15rem;line-height:1.4;color:var(--os-color-text-muted);margin:0}\n.fx__cap b{color:var(--os-color-heading)}\n.fx__five{display:flex;gap:.5rem;align-items:flex-end;margin-top:1.2rem}\n.fx__five svg{width:2rem;height:auto;color:#6b8e36}\n.fx__five .out{color:transparent;stroke:#3f4f3b;stroke-width:9px;opacity:.8}\n@media (max-width:767px){.fx__dots{gap:1.2rem 1.6rem}}",
+  "js": "var NS='http://www.w3.org/2000/svg',L=root.querySelector('.fx__l'),R=root.querySelector('.fx__r'),fx=root.querySelector('.fx'),gs=root.querySelector('.fx__groups');if(!fx)return;[].forEach.call(root.querySelectorAll('.fx__g'),function(g){var dd=g.querySelector('.fx__dd'),n=+g.getAttribute('data-n')||0;for(var k=0;k<n;k++)dd.appendChild(document.createElement('i'))});var dz=root.querySelector('.fx__dots');if(dz&&gs){dz.setAttribute('aria-label',fx.getAttribute('data-dl')||'');while(gs.firstChild)dz.appendChild(gs.firstChild)}var f=+fx.getAttribute('data-filled')||0;[].forEach.call(root.querySelectorAll('.fx__five'),function(w){w.setAttribute('aria-label',fx.getAttribute('data-fl')||'');for(var k=0;k<5;k++){var left=k%2===0,s=document.createElementNS(NS,'svg');s.setAttribute('viewBox',left?'0 0 136 311':'0 0 162 325');s.setAttribute('aria-hidden','true');if(k>=f)s.setAttribute('class','out');s.appendChild((left?L:R).cloneNode(true));w.appendChild(s)}});",
+  "section": {
+    "width": "content"
+  },
+  "ai": {
+    "purpose": "Shows Boulder Feet Forward's key numbers as big sentences.",
+    "whenToUse": "Home (short list) and Impact (full list).",
+    "avoid": "Numbers that are not from BFF's own records."
+  }
+}

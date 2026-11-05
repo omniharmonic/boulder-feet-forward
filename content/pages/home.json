@@ -620,9 +620,9 @@
       ]
     },
     {
-      "id": "sec_79vqe1bdw7",
-      "preset": "component/quote-carousel@1",
-      "label": "Neighbor quotes (hidden until each person gives written OK)",
+      "id": "sec_mvw0kr56bs",
+      "preset": "component/bff-facts@1",
+      "label": "Small steps add up",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -639,6 +639,115 @@
           "type": "color"
         }
       },
+      "blocks": [
+        {
+          "id": "blk_23ctm4ppjh",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "Small steps add up.",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
+          "id": "blk_j1hn2j4eq9",
+          "type": "component/bff-facts",
+          "v": 1,
+          "fields": {
+            "dotsLabel": "Twenty people: five where our part is basic needs, ten where we are part of a larger care team, five where we are the primary support.",
+            "facts": [
+              {
+                "after": "different people.",
+                "before": "In a typical week, we meet about",
+                "dots": false,
+                "feet": false,
+                "note": "",
+                "num": "120"
+              },
+              {
+                "after": "meals since 2024.",
+                "before": "We have served",
+                "dots": false,
+                "feet": false,
+                "note": "",
+                "num": "13,705"
+              },
+              {
+                "after": "questions about where to find something, who to call, or what comes next.",
+                "before": "Every day, our peers answer about",
+                "dots": false,
+                "feet": false,
+                "note": "",
+                "num": "10"
+              },
+              {
+                "after": "people we have worked with reach stable housing.",
+                "before": "Each year, about",
+                "dots": true,
+                "feet": false,
+                "note": "",
+                "num": "20"
+              },
+              {
+                "after": "found their own way there.",
+                "before": "Of the people who reach housing with us as their primary support,",
+                "dots": false,
+                "feet": true,
+                "note": "Self-resolutions are individual paths home that the person chose and pursued.",
+                "num": "4 out of 5"
+              }
+            ],
+            "feetLabel": "Five pairs of footprints, four filled in.",
+            "filled": 4,
+            "g1": 5,
+            "g1Num": "5",
+            "g1Text": "where we gave basic needs. We count the connection, but we do not claim the housing.",
+            "g2": 10,
+            "g2Num": "10",
+            "g2Text": "where we are part of a larger care team.",
+            "g3": 5,
+            "g3Num": "5",
+            "g3Text": "where we are the primary support.",
+            "source": "Numbers as of October 2026, from the Boulder Feet Forward information packet."
+          }
+        },
+        {
+          "id": "blk_mnzbp0wybg",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "See our impact",
+            "link": {
+              "page": "pg_4wv4ptm674",
+              "type": "page"
+            },
+            "role": "secondary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_79vqe1bdw7",
+      "preset": "component/quote-carousel@1",
+      "label": "Neighbor quotes (hidden until each person gives written OK)",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "hidden": true,
       "blocks": [
         {
           "id": "blk_a9d1k86nxs",
@@ -680,8 +789,7 @@
             ]
           }
         }
-      ],
-      "hidden": true
+      ]
     },
     {
       "id": "sec_90qp4b08vn",
