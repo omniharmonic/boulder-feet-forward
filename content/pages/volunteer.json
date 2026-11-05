@@ -57,6 +57,40 @@
       ]
     },
     {
+      "id": "sec_p8t7t96zx4",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_5wz0fnfg77",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_ecdhj2wqbf",
       "preset": "starter/stack-12@1",
       "layout": {
