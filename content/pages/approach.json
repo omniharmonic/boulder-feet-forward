@@ -363,6 +363,37 @@
       },
       "blocks": [
         {
+          "id": "blk_hprb3jqfnk",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "Eight dimensions of wellness.",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
+          "id": "blk_hc40vzx2br",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Our framework is SAMHSA’s Eight Dimensions of Wellness. People need support in every one of them, not just one. Choose a dimension to see how our work touches it, from the first conversation to the long haul."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
           "id": "blk_40hj4xkp0t",
           "type": "component/wellness-wheel",
           "v": 1,
@@ -567,6 +598,37 @@
       },
       "blocks": [
         {
+          "id": "blk_n8ewhnmddm",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "Small steps build stability.",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
+          "id": "blk_8kvbstq0y3",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Every dimension has three levels of support. We start with what is in front of us, and we build from there."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
           "id": "blk_98aftmszez",
           "type": "component/bff-items",
           "v": 1,
@@ -737,6 +799,16 @@
       },
       "blocks": [
         {
+          "id": "blk_j1rsekkqgr",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "What meeting people where they are looks like.",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
           "id": "blk_h4z3g8hx7s",
           "type": "component/bff-items",
           "v": 1,
@@ -789,6 +861,37 @@
       },
       "blocks": [
         {
+          "id": "blk_c3384pnsg6",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "We stick around for the long haul.",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
+          "id": "blk_5ekk3zp9yh",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "We start with daily successes, then help build an individualized path forward. That might mean supportive housing, student housing, family reunification, becoming a live-in caregiver, meaningful employment, finding roommates, or saving for an RV."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
           "id": "blk_36mes8rzvm",
           "type": "heading",
           "v": 1,
@@ -809,7 +912,10 @@
               "type": "doc",
               "content": [
                 {
-                  "type": "paragraph",
+                  "type": "heading",
+                  "attrs": {
+                    "level": 2
+                  },
                   "content": [
                     {
                       "type": "text",
@@ -845,6 +951,31 @@
               "page": "pg_4wv4ptm674"
             },
             "role": "secondary"
+          }
+        },
+        {
+          "id": "blk_kdzpjh7xtw",
+          "type": "component/bff-buttons",
+          "v": 1,
+          "fields": {
+            "buttons": [
+              {
+                "label": "See our work",
+                "link": {
+                  "page": "pg_4a5crrg8h0",
+                  "type": "page"
+                },
+                "main": false
+              },
+              {
+                "label": "See our impact",
+                "link": {
+                  "page": "pg_4wv4ptm674",
+                  "type": "page"
+                },
+                "main": false
+              }
+            ]
           }
         }
       ]
