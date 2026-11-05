@@ -46,7 +46,7 @@
     "layout": "two"
   },
   "template": "<ul class=\"pl pl--{{layout}}\">{{#each items}}<li>{{#if link}}{{#link link}}{{label}}{{/link}}{{else}}{{label}}{{/if}}</li>{{/each}}</ul>",
-  "css": ".pl { list-style: none; padding: 0; margin: 0; display: grid; gap: .55rem 2rem; }\n.pl--two { grid-template-columns: repeat(2, minmax(0, 1fr)); }\n.pl--one { max-width: 40rem; }\n.pl a { color: var(--os-color-link); text-decoration: underline; text-underline-offset: .2em; }\n@media (max-width: 767px) { .pl--two { grid-template-columns: 1fr; } }",
+  "css": ".pl { list-style: none; padding: 0; margin: 0; }\n.pl li { margin: 0 0 .6rem; break-inside: avoid; }\n.pl--two { columns: 2; column-gap: 2rem; }\n.pl--one { max-width: 40rem; }\n.pl a { color: var(--os-color-link); text-decoration: underline; text-underline-offset: .2em; }\n@media (max-width: 767px) { .pl--two { columns: 1; } }",
   "section": {
     "width": "content"
   },

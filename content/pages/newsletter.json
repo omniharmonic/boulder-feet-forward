@@ -25,6 +25,15 @@
       },
       "blocks": [
         {
+          "id": "blk_szqpfd3tnm",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "What we are seeing, what we need, and what your support made possible.",
+            "title": "Hear from the park."
+          }
+        },
+        {
           "id": "blk_xzwssrc7rw",
           "type": "text",
           "v": 1,
