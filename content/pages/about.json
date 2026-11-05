@@ -53,8 +53,33 @@
       ]
     },
     {
+      "id": "sec_4f81pxmp0c",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {},
+      "blocks": [
+        {
+          "id": "blk_4j2cws5atq",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_9m6th3tc7v",
-      "label": "Boulder Feet Forward exists to enable…",
+      "label": "Mission",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -64,7 +89,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -127,6 +156,41 @@
         "colorTheme": "light"
       },
       "blocks": [
+        {
+          "id": "blk_2jdtxsfmsh",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "The team.",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
+          "id": "blk_kwjxn87qea",
+          "type": "component/team-grid",
+          "v": 1,
+          "fields": {
+            "people": [
+              {
+                "name": "Libby Ogletree, CPFS",
+                "photo": {
+                  "alt": "Libby Ogletree smiling at the camera.",
+                  "src": "media/2026/11/libby-ogletree-a8hy.jpg"
+                },
+                "role": "Co-Director, Peer Specialist, Case Manager"
+              },
+              {
+                "name": "Adam Walker",
+                "photo": {
+                  "alt": "A small figure sits on a rock ledge above a green mountain valley.",
+                  "src": "media/2026/11/adam-walker-9ptj.jpg"
+                },
+                "role": "Co-Director, Peer Specialist"
+              }
+            ]
+          }
+        },
         {
           "id": "blk_0b2ttv2rf1",
           "type": "component/imported-about-2",

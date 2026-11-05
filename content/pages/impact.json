@@ -18,7 +18,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -43,6 +47,9 @@
                 },
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "preset": "lead"
+                  },
                   "content": [
                     {
                       "type": "text",
@@ -52,6 +59,32 @@
                 }
               ]
             }
+          }
+        }
+      ],
+      "label": "Page head"
+    },
+    {
+      "id": "sec_t5vbgncv09",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {},
+      "blocks": [
+        {
+          "id": "blk_ry926knm6b",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
           }
         }
       ]
@@ -232,9 +265,105 @@
       ]
     },
     {
+      "id": "sec_sdrm8qkktd",
+      "preset": "component/bff-facts@1",
+      "label": "Facts with numbers",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_652tzq02p9",
+          "type": "component/bff-facts",
+          "v": 1,
+          "fields": {
+            "dotsLabel": "Twenty people: five where our part is basic needs, ten where we are part of a larger care team, five where we are the primary support.",
+            "facts": [
+              {
+                "after": "different people.",
+                "before": "In a typical week, we meet about",
+                "dots": false,
+                "feet": false,
+                "note": "Across both weekly events. About 85 come to Tuesdays in the Park.",
+                "num": "120"
+              },
+              {
+                "after": "meals since 2024.",
+                "before": "We have served",
+                "dots": false,
+                "feet": false,
+                "note": "",
+                "num": "13,705"
+              },
+              {
+                "after": "questions about where to find something, who to call, or what comes next.",
+                "before": "Every day, our peers answer about",
+                "dots": false,
+                "feet": false,
+                "note": "",
+                "num": "10"
+              },
+              {
+                "after": "",
+                "before": "About two or three times a week, someone connects with a stabilizing resource, with our help.",
+                "dots": false,
+                "feet": false,
+                "note": "",
+                "num": ""
+              },
+              {
+                "after": "people we have worked with reach stable housing.",
+                "before": "Each year, about",
+                "dots": true,
+                "feet": false,
+                "note": "",
+                "num": "20"
+              },
+              {
+                "after": "found their own way there.",
+                "before": "Of the people who reach housing with us as their primary support,",
+                "dots": false,
+                "feet": true,
+                "note": "Self-resolutions are individual paths home that the person chose and pursued.",
+                "num": "4 out of 5"
+              },
+              {
+                "after": "hours at Tuesday events in 2024, worth at least $16,959.",
+                "before": "Volunteers gave about",
+                "dots": false,
+                "feet": false,
+                "note": "Tuesday outreach only. Friday hours are not included.",
+                "num": "424"
+              }
+            ],
+            "feetLabel": "Five pairs of footprints, four filled in.",
+            "filled": 4,
+            "g1": 5,
+            "g1Num": "5",
+            "g1Text": "where we gave basic needs. We count the connection, but we do not claim the housing.",
+            "g2": 10,
+            "g2Num": "10",
+            "g2Text": "where we are part of a larger care team.",
+            "g3": 5,
+            "g3Num": "5",
+            "g3Text": "where we are the primary support.",
+            "source": "Numbers as of October 2026, from the Boulder Feet Forward information packet."
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_8qb4rafgzn",
       "preset": "starter/stack-12@1",
-      "anchor": "where-it-goes",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -562,6 +691,113 @@
               "page": "pg_331y67b2k5"
             },
             "role": "primary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_n0e2zk8445",
+      "preset": "component/budget-breakdown@1",
+      "label": "Where a year of giving goes",
+      "anchor": "where-it-goes",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_0mt77ygb1m",
+          "type": "component/budget-breakdown",
+          "v": 1,
+          "fields": {
+            "barLabel": "Where a year of giving goes: Basic needs $48,920, Stabilization $147,200, Sustained support $76,000.",
+            "footnotes": [
+              {
+                "text": "Volunteer labor is based on about 424 recorded volunteer hours at Tuesday outreach events in 2024, valued at Colorado's current estimated value of volunteer time. Friday hours are not included."
+              },
+              {
+                "text": "$500 buys 37 ten-ride RTD pass books, at least 370 rides. Passes are valid for three hours and may include transfers."
+              }
+            ],
+            "lead": "A full year of this work costs $272,120, or $22,677 a month.",
+            "note": "$272,120 a year funds a four-person team, including two additional full-time Peer Specialist / Case Manager positions at $60,000 each. About $150,000 a year sustains BFF at its current staffing level.",
+            "tiers": [
+              {
+                "annual": "$48,920",
+                "items": [
+                  {
+                    "amount": "$10,400 a year",
+                    "name": "Meals",
+                    "what": "Purchased food fills the gaps in donated food, so we can serve about 458 meals each month. Donated food added another $24,114 in value in 2024."
+                  },
+                  {
+                    "amount": "$3,120 a year",
+                    "name": "Personal care supplies",
+                    "what": "About 11,360 hygiene, first-aid and personal care items each year. In-kind gifts keep our average cost to about $0.27 per item."
+                  },
+                  {
+                    "amount": "$35,400 a year",
+                    "name": "Outreach infrastructure",
+                    "what": "The staff time and licensed kitchen it takes to source, prepare, haul, set up, serve and clean up two outreach events every week. Volunteers add at least $16,959 in labor."
+                  }
+                ],
+                "monthly": "$4,077",
+                "name": "Basic needs",
+                "pct": "18%",
+                "share": 48920
+              },
+              {
+                "annual": "$147,200",
+                "items": [
+                  {
+                    "amount": "$6,000 a year",
+                    "name": "RTD bus passes",
+                    "what": "At least 370 rides a month to appointments, food banks, shelter and services. We buy passes at a 50% nonprofit discount."
+                  },
+                  {
+                    "amount": "$1,200 a year",
+                    "name": "Laundry vouchers",
+                    "what": "Twenty vouchers a month, so people can reuse clothing, blankets and sleeping bags."
+                  },
+                  {
+                    "amount": "$140,000 a year",
+                    "name": "Daily peer outreach and resource navigation",
+                    "what": "Current resource information and partner relationships, personal navigation, Coordinated Entry and housing assessments, and warm handoffs to providers."
+                  }
+                ],
+                "monthly": "$12,267",
+                "name": "Stabilization",
+                "pct": "54%",
+                "share": 147200
+              },
+              {
+                "annual": "$76,000",
+                "items": [
+                  {
+                    "amount": "$70,000 a year",
+                    "name": "Peer case management",
+                    "what": "Individualized support, housing and other advocacy, coordination, problem-solving and follow-through toward goals people set for themselves."
+                  },
+                  {
+                    "amount": "$6,000 a year",
+                    "name": "Mobile service and direct costs",
+                    "what": "Keeps the team mobile and covers the small costs that remove barriers: IDs, documents, application fees."
+                  }
+                ],
+                "monthly": "$6,333",
+                "name": "Sustained support",
+                "pct": "28%",
+                "share": 76000
+              }
+            ]
           }
         }
       ]
