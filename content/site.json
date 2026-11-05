@@ -2,8 +2,8 @@
   "title": "Boulder Feet Forward",
   "tagline": "Meeting people where they are.",
   "logo": {
-    "alt": "Boulder Feet Forward",
-    "src": "media/2026/11/bff-brand-g1ac.png"
+    "src": "media/2026/11/bff-brand-g1ac.png",
+    "alt": "Boulder Feet Forward"
   },
   "favicon": "media/2026/11/favicon-synf.svg",
   "nav": [
