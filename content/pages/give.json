@@ -6,7 +6,7 @@
     "title": "Give",
     "description": "Give where it is needed most, fund something specific, or give supplies."
   },
-  "hidden": true,
+  "hidden": false,
   "sections": [
     {
       "id": "sec_53wzgyc4bt",
@@ -88,13 +88,13 @@
       },
       "style": {
         "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        },
         "padding": {
           "d": "sm",
           "m": "sm"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -134,13 +134,13 @@
       },
       "style": {
         "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        },
         "padding": {
           "d": "sm",
           "m": "sm"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -225,13 +225,13 @@
       },
       "style": {
         "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        },
         "padding": {
           "d": "sm",
           "m": "sm"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -422,13 +422,13 @@
       },
       "style": {
         "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        },
         "padding": {
           "d": "md",
           "m": "md"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [

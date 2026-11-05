@@ -163,6 +163,7 @@
       "id": "sec_sg9jsqc5y2",
       "preset": "component/section-heading@1",
       "label": "Go further",
+      "anchor": "deeper",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -175,8 +176,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -217,8 +218,7 @@
             ]
           }
         }
-      ],
-      "anchor": "deeper"
+      ]
     }
   ]
 }
