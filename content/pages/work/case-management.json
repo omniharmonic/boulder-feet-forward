@@ -20,7 +20,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -45,6 +49,9 @@
                 },
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "preset": "lead"
+                  },
                   "content": [
                     {
                       "type": "text",
@@ -59,18 +66,60 @@
       ]
     },
     {
-      "id": "sec_ss8ssxmhcx",
-      "preset": "starter/stack-12@1",
+      "id": "sec_z5wnbtqz6j",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
       "layout": {
         "mode": "stack",
         "columns": {
           "d": [
             12
           ]
-        }
+        },
+        "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_h44rk4c7rb",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_ss8ssxmhcx",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "columns": {
+          "d": [
+            8,
+            4
+          ],
+          "m": [
+            12
+          ]
+        },
+        "mode": "stack"
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -107,72 +156,146 @@
                       "text": "Case management can look like:"
                     }
                   ]
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "blk_exmdq8r1fg",
-          "type": "columns",
-          "v": 1,
-          "fields": {
-            "items": [
-              {
-                "heading": "Housing assessments and Coordinated Entry",
-                "body": {
-                  "type": "doc",
-                  "content": []
-                }
-              },
-              {
-                "heading": "IDs and vital documents",
-                "body": {
-                  "type": "doc",
-                  "content": []
-                }
-              },
-              {
-                "heading": "Benefits enrollment and advocacy",
-                "body": {
-                  "type": "doc",
-                  "content": []
-                }
-              },
-              {
-                "heading": "Health and behavioral health care",
-                "body": {
-                  "type": "doc",
-                  "content": []
-                }
-              },
-              {
-                "heading": "Employment, education and legal resources.",
-                "body": {
-                  "type": "doc",
-                  "content": []
-                }
-              },
-              {
-                "heading": "Problem-solving when something falls through.",
-                "body": {
-                  "type": "doc",
-                  "content": []
-                }
-              }
-            ],
-            "columns": "4",
-            "aspect": "4:5"
-          }
-        },
-        {
-          "id": "blk_eg9qzy492n",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
+                },
+                {
+                  "type": "bulletList",
+                  "content": [
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Housing assessments and Coordinated Entry",
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": ", done on site, starting from where you are."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "IDs and vital documents",
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": ", including paying the small fees that stand in the way."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Benefits enrollment and advocacy",
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": ", like SNAP and Medicaid, Aid to the Needy Disabled, SSI and SSDI."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Health and behavioral health care",
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": ", with warm handoffs: we introduce you to the provider, help you through intake, get you to the appointment, and follow up afterward."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Employment, education and legal resources.",
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Problem-solving when something falls through.",
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": " If something doesn’t work, we troubleshoot, try something else, and learn from it."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "paragraph",
                   "content": [
@@ -181,36 +304,7 @@
                       "text": "We don’t duplicate the larger system of care. We extend its reach, working with existing providers and care teams so people can get services they might otherwise never reach."
                     }
                   ]
-                }
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": "sec_mdgj099500",
-      "preset": "starter/stack-12@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light"
-      },
-      "blocks": [
-        {
-          "id": "blk_k03jkkw5tc",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
+                },
                 {
                   "type": "heading",
                   "attrs": {
@@ -240,36 +334,7 @@
                       "text": "Of the housing outcomes where we’re the primary support, about four out of five are self-resolutions: individualized paths home that the person identified and pursued themselves."
                     }
                   ]
-                }
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": "sec_3d30ct9agj",
-      "preset": "starter/stack-12@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light"
-      },
-      "blocks": [
-        {
-          "id": "blk_97tazrqqa5",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
+                },
                 {
                   "type": "heading",
                   "attrs": {
@@ -296,42 +361,34 @@
           }
         },
         {
-          "id": "blk_z5dnre5cnz",
-          "type": "button",
+          "id": "blk_tscbmgz3m9",
+          "type": "component/button-row",
           "v": 1,
+          "column": 0,
           "fields": {
-            "label": "Email us",
-            "link": {
-              "type": "email",
-              "email": "libby@feetforwardboulder.org"
-            },
-            "role": "primary"
-          }
-        },
-        {
-          "id": "blk_zspwzjsfrh",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "Call 720-520-2097",
-            "link": {
-              "type": "phone",
-              "phone": "+17205202097"
-            },
-            "role": "secondary"
-          }
-        },
-        {
-          "id": "blk_af296c2er3",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "Find us in the park",
-            "link": {
-              "type": "page",
-              "page": "pg_7cc4g5qmwx"
-            },
-            "role": "secondary"
+            "buttons": [
+              {
+                "label": "Email us",
+                "link": {
+                  "email": "libby@feetforwardboulder.org",
+                  "type": "email"
+                }
+              },
+              {
+                "label": "Call 720-520-2097",
+                "link": {
+                  "phone": "+17205202097",
+                  "type": "phone"
+                }
+              },
+              {
+                "label": "Find us in the park",
+                "link": {
+                  "page": "pg_7cc4g5qmwx",
+                  "type": "page"
+                }
+              }
+            ]
           }
         }
       ]

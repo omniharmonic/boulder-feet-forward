@@ -95,190 +95,61 @@
       ]
     },
     {
-      "id": "sec_j5j94xrxja",
-      "preset": "starter/stack-12@1",
+      "id": "sec_bnwb98q1td",
+      "preset": "component/bff-story@1",
+      "label": "When systems fail",
       "layout": {
         "mode": "stack",
         "columns": {
           "d": [
             12
           ]
-        }
+        },
+        "width": "content"
       },
       "style": {
         "colorTheme": "light",
         "background": {
-          "type": "color",
-          "color": "#e9e6d2"
+          "color": "#e9e6d2",
+          "type": "color"
         }
       },
       "blocks": [
         {
-          "id": "blk_qqqtvsh24r",
-          "type": "text",
+          "id": "blk_80rxh5px12",
+          "type": "component/bff-story",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "When systems fail, people fall through the gaps."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Many of the people we meet have been failed by a system, sometimes over a whole lifetime. Often more than one:"
-                    }
-                  ]
-                },
-                {
-                  "type": "bulletList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Child protection and foster care"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Family and intimate-partner violence"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "The legal and criminal justice systems"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Substance use and the opioid epidemic"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Behavioral health care"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Medical care"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Financial systems"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Climate disaster and food insecurity"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Services exist, but they are not always within reach of the people who need them most. People tell us they have given up asking for help."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Sometimes, we’re able to change that."
-                    }
-                  ]
-                }
-              ]
-            }
+            "heading": "When systems fail, people fall through the gaps.",
+            "intro": "Many of the people we meet have been failed by a system, sometimes over a whole lifetime. Often more than one:",
+            "items": [
+              {
+                "text": "Child protection and foster care"
+              },
+              {
+                "text": "Family and intimate-partner violence"
+              },
+              {
+                "text": "The legal and criminal justice systems"
+              },
+              {
+                "text": "Substance use and the opioid epidemic"
+              },
+              {
+                "text": "Behavioral health care"
+              },
+              {
+                "text": "Medical care"
+              },
+              {
+                "text": "Financial systems"
+              },
+              {
+                "text": "Climate disaster and food insecurity"
+              }
+            ],
+            "outro": "Services exist, but they are not always within reach of the people who need them most. People tell us they have given up asking for help.",
+            "pivot": "Sometimes, we’re able to change that."
           }
         }
       ]
@@ -334,16 +205,20 @@
           }
         },
         {
-          "id": "blk_jcda8a1yrw",
-          "type": "button",
+          "id": "blk_5kbnn8egcw",
+          "type": "component/bff-buttons",
           "v": 1,
           "fields": {
-            "label": "See what we do",
-            "link": {
-              "type": "page",
-              "page": "pg_4a5crrg8h0"
-            },
-            "role": "secondary"
+            "buttons": [
+              {
+                "label": "See what we do",
+                "link": {
+                  "page": "pg_4a5crrg8h0",
+                  "type": "page"
+                },
+                "main": false
+              }
+            ]
           }
         }
       ]
@@ -493,16 +368,20 @@
           }
         },
         {
-          "id": "blk_set6fthjd4",
-          "type": "button",
+          "id": "blk_na5fca9qxa",
+          "type": "component/bff-buttons",
           "v": 1,
           "fields": {
-            "label": "Read about our approach",
-            "link": {
-              "page": "pg_ym9be7p01r",
-              "type": "page"
-            },
-            "role": "secondary"
+            "buttons": [
+              {
+                "label": "Read about our approach",
+                "link": {
+                  "page": "pg_ym9be7p01r",
+                  "type": "page"
+                },
+                "main": false
+              }
+            ]
           }
         }
       ]
@@ -601,16 +480,20 @@
           }
         },
         {
-          "id": "blk_mnzbp0wybg",
-          "type": "button",
+          "id": "blk_vj8zz725kv",
+          "type": "component/bff-buttons",
           "v": 1,
           "fields": {
-            "label": "See our impact",
-            "link": {
-              "page": "pg_4wv4ptm674",
-              "type": "page"
-            },
-            "role": "secondary"
+            "buttons": [
+              {
+                "label": "See our impact",
+                "link": {
+                  "page": "pg_4wv4ptm674",
+                  "type": "page"
+                },
+                "main": false
+              }
+            ]
           }
         }
       ]
@@ -767,6 +650,16 @@
       },
       "blocks": [
         {
+          "id": "blk_3waafn5xgr",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "Hear from the park.",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
           "id": "blk_wq3ksk03zg",
           "type": "text",
           "v": 1,
@@ -774,18 +667,6 @@
             "content": {
               "type": "doc",
               "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Hear from the park."
-                    }
-                  ]
-                },
                 {
                   "type": "paragraph",
                   "content": [
@@ -807,9 +688,9 @@
             "askName": false,
             "placeholder": "you@example.com",
             "buttonLabel": "Join the newsletter",
-            "successMessage": "Almost there — check your inbox to confirm your subscription."
+            "successMessage": "Almost there. Check your inbox to confirm your subscription."
           },
-          "variant": "stacked"
+          "variant": "card"
         }
       ]
     }
