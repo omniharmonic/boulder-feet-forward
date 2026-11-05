@@ -1,6 +1,6 @@
 {
   "title": "Boulder Feet Forward",
-  "tagline": "Boulder Feet Forward is a peer-led, daily street outreach team in Boulder, Colorado. We bring meals, supplies, peer support, and case management to neighbors living outside, and we keep showing up.",
+  "tagline": "Meeting people where they are.",
   "favicon": "media/2026/11/favicon-synf.svg",
   "nav": [
     {
@@ -527,7 +527,7 @@
     }
   ],
   "seo": {
-    "titleTemplate": "%s — Boulder Feet Forward",
+    "titleTemplate": "%s | Boulder Feet Forward",
     "description": "Boulder Feet Forward is a peer-led, daily street outreach team in Boulder, Colorado. We bring meals, supplies, peer support, and case management to neighbors living outside, and we keep showing up."
   },
   "locale": "en",

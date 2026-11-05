@@ -1,0 +1,99 @@
+{
+  "id": "pg_p0daabrg7k",
+  "title": "Newsletter",
+  "slug": "newsletter",
+  "seo": {
+    "description": "News from the park, a few times a year."
+  },
+  "sections": [
+    {
+      "id": "sec_vhxxtd9fkn",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_xzwssrc7rw",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 1
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Hear from the park."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "preset": "lead"
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "What we are seeing, what we need, and what your support made possible."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_62bzr0ym73",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_w1yvevp8fj",
+          "type": "newsletter",
+          "v": 1,
+          "fields": {
+            "askName": false,
+            "placeholder": "you@example.com",
+            "buttonLabel": "Join the newsletter",
+            "successMessage": "Almost there. Check your inbox to confirm your subscription.",
+            "note": "News from the park, a few times a year. No spam."
+          },
+          "variant": "card"
+        }
+      ]
+    }
+  ]
+}
