@@ -1,0 +1,58 @@
+{
+  "name": "plain-list",
+  "label": "Plain list (one or two columns)",
+  "description": "A simple list without bullets, in one or two columns; each item can be a link.",
+  "version": 1,
+  "category": "text",
+  "fields": {
+    "items": {
+      "kind": "list",
+      "label": "Items",
+      "fields": {
+        "label": {
+          "kind": "text",
+          "label": "Text",
+          "maxLength": 120
+        },
+        "link": {
+          "kind": "link",
+          "label": "Link (optional)",
+          "optional": true
+        }
+      }
+    },
+    "layout": {
+      "kind": "select",
+      "label": "Columns",
+      "options": [
+        "one",
+        "two"
+      ]
+    }
+  },
+  "defaults": {
+    "items": [
+      {
+        "label": "Focus ReEntry",
+        "link": {
+          "type": "url",
+          "url": "https://www.focusreentry.org/"
+        }
+      },
+      {
+        "label": "Wash and Wave (laundry)"
+      }
+    ],
+    "layout": "two"
+  },
+  "template": "<ul class=\"pl pl--{{layout}}\">{{#each items}}<li>{{#if link}}{{#link link}}{{label}}{{/link}}{{else}}{{label}}{{/if}}</li>{{/each}}</ul>",
+  "css": ".pl { list-style: none; padding: 0; margin: 0; display: grid; gap: .55rem 2rem; }\n.pl--two { grid-template-columns: repeat(2, minmax(0, 1fr)); }\n.pl--one { max-width: 40rem; }\n.pl a { color: var(--os-color-link); text-decoration: underline; text-underline-offset: .2em; }\n@media (max-width: 767px) { .pl--two { grid-template-columns: 1fr; } }",
+  "section": {
+    "width": "content"
+  },
+  "ai": {
+    "purpose": "Partner lists and reading lists.",
+    "whenToUse": "Lists of names or links without bullets.",
+    "avoid": "Long sentences."
+  }
+}

@@ -620,45 +620,68 @@
       ]
     },
     {
-      "id": "sec_1brw3srppw",
-      "preset": "starter/stack-12@1",
+      "id": "sec_79vqe1bdw7",
+      "preset": "component/quote-carousel@1",
+      "label": "Neighbor quotes (hidden until each person gives written OK)",
       "layout": {
         "mode": "stack",
         "columns": {
           "d": [
             12
           ]
-        }
+        },
+        "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
-          "id": "blk_3dwpvbkche",
-          "type": "text",
+          "id": "blk_a9d1k86nxs",
+          "type": "component/quote-carousel",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "What our neighbors say"
-                    }
-                  ]
-                }
-              ]
-            }
+            "heading": "",
+            "quotes": [
+              {
+                "context": "",
+                "name": "A neighbor",
+                "quote": "I'm not just surviving. I'm borderline thriving."
+              },
+              {
+                "context": "",
+                "name": "A neighbor",
+                "quote": "Boulder Feet Forward has been instrumental to the homelessness community and for myself and my family."
+              },
+              {
+                "context": "",
+                "name": "A neighbor",
+                "quote": "They were able to help me whether it be find resources for food or clothing."
+              },
+              {
+                "context": "A neighbor who is back in school.",
+                "name": "A neighbor",
+                "quote": "I am doing well in school now…"
+              },
+              {
+                "context": "",
+                "name": "A neighbor",
+                "quote": "We were always welcome. Ranting, raving, angry, traumatized people standing in line and acting a fool sometimes. Sometimes misdirecting our anger at Libby—guilty."
+              },
+              {
+                "context": "",
+                "name": "A neighbor",
+                "quote": "She's gotten through to so many that not many people could."
+              }
+            ]
           }
         }
-      ]
+      ],
+      "hidden": true
     },
     {
       "id": "sec_90qp4b08vn",

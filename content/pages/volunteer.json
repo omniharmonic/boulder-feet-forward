@@ -18,40 +18,20 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
-          "id": "blk_n3c2nadytn",
-          "type": "text",
+          "id": "blk_67jaj3rb7s",
+          "type": "component/inner-page-head",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 1
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Be one of the people who shows up."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Our weekly events run on volunteers. No experience needed."
-                    }
-                  ]
-                }
-              ]
-            }
+            "lead": "Our weekly events run on volunteers. No experience needed.",
+            "title": "Be one of the people who shows up."
           }
         }
       ]
@@ -102,7 +82,15 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
       },
       "blocks": [
         {
@@ -179,7 +167,15 @@
         "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
       },
       "blocks": [
         {
@@ -242,9 +238,26 @@
         }
       },
       "style": {
-        "colorTheme": "light-accent"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
       },
       "blocks": [
+        {
+          "id": "blk_909dkznfvw",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "Sign up to volunteer",
+            "rule": true
+          }
+        },
         {
           "id": "blk_w657gvhj0g",
           "type": "text",
@@ -254,23 +267,11 @@
               "type": "doc",
               "content": [
                 {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Sign up to volunteer"
-                    }
-                  ]
-                },
-                {
                   "type": "paragraph",
                   "content": [
                     {
                       "type": "text",
-                      "text": "Tell us which shift you'd like. We'll confirm with you by email or text."
+                      "text": "Tell us which shift you’d like. We’ll confirm with you by email or text."
                     }
                   ]
                 }
@@ -358,31 +359,24 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
       },
       "blocks": [
         {
-          "id": "blk_1a2071s1e5",
-          "type": "text",
+          "id": "blk_4q76caj37c",
+          "type": "component/section-heading",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Questions people ask."
-                    }
-                  ]
-                }
-              ]
-            }
+            "heading": "Questions people ask.",
+            "rule": true
           }
         },
         {

@@ -20,7 +20,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -45,6 +49,9 @@
                 },
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "preset": "lead"
+                  },
                   "content": [
                     {
                       "type": "text",
@@ -59,195 +66,68 @@
       ]
     },
     {
-      "id": "sec_094wk99be3",
-      "preset": "starter/stack-12@1",
-      "anchor": "tuesdays-in-the-park",
+      "id": "sec_9cr1wpkw9y",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
       "layout": {
         "mode": "stack",
         "columns": {
           "d": [
             12
           ]
-        }
+        },
+        "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
       },
       "blocks": [
         {
-          "id": "blk_qmyc62d070",
-          "type": "text",
+          "id": "blk_4pkggw6wky",
+          "type": "component/footprint-trail",
           "v": 1,
           "fields": {
-            "content": {
+            "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_v0a7fgd72b",
+      "preset": "component/event-detail@1",
+      "label": "Tuesdays in the Park",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_erxtg2v686",
+          "type": "component/event-detail",
+          "v": 1,
+          "fields": {
+            "body": {
               "type": "doc",
               "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Tuesdays2:30 PM · Central Park, Boulder"
-                    },
-                    {
-                      "type": "hardBreak"
-                    },
-                    {
-                      "type": "text",
-                      "text": "Since 2020. Next:"
-                    }
-                  ]
-                },
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Tuesdays in the Park"
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Our flagship outreach event. A hot meal, supplies, and a place where a lot of help is in one spot."
-                    }
-                  ]
-                },
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 3
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "What is there"
-                    }
-                  ]
-                },
-                {
-                  "type": "bulletList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "A nutritious meal with a full serving of protein and vegetables"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Snacks, water, and a second meal to take for later"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Personal care, basic first aid, and sexual health supplies"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Harm reduction supplies and wound care kits, from Boulder County Public Health's the Works"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Pet care supplies and pet food"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Clothing, socks, shoes, and gear"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "A device charging station"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Resource navigators for referrals, Coordinated Entry, and housing assessments"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
                 {
                   "type": "paragraph",
                   "content": [
@@ -285,186 +165,81 @@
                   ]
                 }
               ]
-            }
-          }
-        },
-        {
-          "id": "blk_1fhet5jfzx",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "Help at this event",
-            "link": {
-              "type": "page",
-              "page": "pg_88vdm24dxn"
             },
-            "role": "secondary"
+            "buttonLabel": "Help at this event",
+            "buttonLink": {
+              "page": "pg_88vdm24dxn",
+              "type": "page"
+            },
+            "day": "Tuesdays",
+            "deck": "Our flagship outreach event. A hot meal, supplies, and a place where a lot of help is in one spot.",
+            "offers": [
+              {
+                "item": "A nutritious meal with a full serving of protein and vegetables"
+              },
+              {
+                "item": "Snacks, water, and a second meal to take for later"
+              },
+              {
+                "item": "Personal care, basic first aid, and sexual health supplies"
+              },
+              {
+                "item": "Harm reduction supplies and wound care kits, from Boulder County Public Health's the Works"
+              },
+              {
+                "item": "Pet care supplies and pet food"
+              },
+              {
+                "item": "Clothing, socks, shoes, and gear"
+              },
+              {
+                "item": "A device charging station"
+              },
+              {
+                "item": "Resource navigators for referrals, Coordinated Entry, and housing assessments"
+              }
+            ],
+            "offersHeading": "What is there",
+            "place": "Central Park, Boulder",
+            "rule": false,
+            "since": "2020",
+            "time": "2:30 PM",
+            "title": "Tuesdays in the Park",
+            "weekday": "tuesday"
           }
         }
-      ]
+      ],
+      "anchor": "tuesdays-in-the-park"
     },
     {
-      "id": "sec_qcs8fq2q6p",
-      "preset": "starter/stack-12@1",
-      "anchor": "friday-breakfast-club",
+      "id": "sec_w8013fk8tq",
+      "preset": "component/event-detail@1",
+      "label": "Friday Breakfast Club",
       "layout": {
         "mode": "stack",
         "columns": {
           "d": [
             12
           ]
-        }
+        },
+        "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
-          "id": "blk_rtndc3g5fe",
-          "type": "text",
+          "id": "blk_53az59qyah",
+          "type": "component/event-detail",
           "v": 1,
           "fields": {
-            "content": {
+            "body": {
               "type": "doc",
               "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Fridays11:00 AM · Central Park, Boulder"
-                    },
-                    {
-                      "type": "hardBreak"
-                    },
-                    {
-                      "type": "text",
-                      "text": "Since 2024. Next:"
-                    }
-                  ]
-                },
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Friday Breakfast Club"
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Coffee and breakfast, followed by drop-in hours with a peer, workshops, and community."
-                    }
-                  ]
-                },
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 3
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "What is there"
-                    }
-                  ]
-                },
-                {
-                  "type": "bulletList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Coffee and breakfast sandwiches"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "A lunch to take for later, fresh fruit, and snacks"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Clothing, gear, socks, and a charging station"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Hygiene items"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Drop-in hours right after, for case management, troubleshooting, or talking as peers"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Workshops and special events: yoga, poetry, art, board games, yard games, free movies from the Boulder Public Library, and know-your-rights talks with the ACLU"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
                 {
                   "type": "paragraph",
                   "content": [
@@ -502,23 +277,45 @@
                   ]
                 }
               ]
-            }
-          }
-        },
-        {
-          "id": "blk_wwm3m3epy4",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "Help at this event",
-            "link": {
-              "type": "page",
-              "page": "pg_88vdm24dxn"
             },
-            "role": "secondary"
+            "buttonLabel": "Help at this event",
+            "buttonLink": {
+              "page": "pg_88vdm24dxn",
+              "type": "page"
+            },
+            "day": "Fridays",
+            "deck": "Coffee and breakfast, followed by drop-in hours with a peer, workshops, and community.",
+            "offers": [
+              {
+                "item": "Coffee and breakfast sandwiches"
+              },
+              {
+                "item": "A lunch to take for later, fresh fruit, and snacks"
+              },
+              {
+                "item": "Clothing, gear, socks, and a charging station"
+              },
+              {
+                "item": "Hygiene items"
+              },
+              {
+                "item": "Drop-in hours right after, for case management, troubleshooting, or talking as peers"
+              },
+              {
+                "item": "Workshops and special events: yoga, poetry, art, board games, yard games, free movies from the Boulder Public Library, and know-your-rights talks with the ACLU"
+              }
+            ],
+            "offersHeading": "What is there",
+            "place": "Central Park, Boulder",
+            "rule": true,
+            "since": "2024",
+            "time": "11:00 AM",
+            "title": "Friday Breakfast Club",
+            "weekday": "friday"
           }
         }
-      ]
+      ],
+      "anchor": "friday-breakfast-club"
     },
     {
       "id": "sec_ztb3754dxm",
@@ -532,9 +329,23 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
+        {
+          "id": "blk_sbw33fmf5q",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "Partners who show up with us.",
+            "lead": "",
+            "rule": true
+          }
+        },
         {
           "id": "blk_gc60wj658h",
           "type": "text",
@@ -544,18 +355,6 @@
               "type": "doc",
               "content": [
                 {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Partners who show up with us."
-                    }
-                  ]
-                },
-                {
                   "type": "paragraph",
                   "content": [
                     {
@@ -563,249 +362,92 @@
                       "text": "Our events are a gathering place for providers, so people can meet them somewhere they already feel comfortable."
                     }
                   ]
-                },
-                {
-                  "type": "bulletList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Focus ReEntry",
-                              "marks": [
-                                {
-                                  "type": "link",
-                                  "attrs": {
-                                    "href": "https://www.focusreentry.org/"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Boulder Community Court",
-                              "marks": [
-                                {
-                                  "type": "link",
-                                  "attrs": {
-                                    "href": "https://bouldercolorado.gov/services/community-court"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Recovery Café Longmont",
-                              "marks": [
-                                {
-                                  "type": "link",
-                                  "attrs": {
-                                    "href": "https://recoverycafelongmont.org/"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "TGTHR Youth Shelters",
-                              "marks": [
-                                {
-                                  "type": "link",
-                                  "attrs": {
-                                    "href": "https://tgthr.org"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Mental Health Partners",
-                              "marks": [
-                                {
-                                  "type": "link",
-                                  "attrs": {
-                                    "href": "https://mhpcolorado.org/"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Boulder County Public Health, the Works",
-                              "marks": [
-                                {
-                                  "type": "link",
-                                  "attrs": {
-                                    "href": "https://bouldercounty.gov/families/disease/the-works-program/"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "SPAN",
-                              "marks": [
-                                {
-                                  "type": "link",
-                                  "attrs": {
-                                    "href": "https://www.safehousealliance.org/"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Urban Peak",
-                              "marks": [
-                                {
-                                  "type": "link",
-                                  "attrs": {
-                                    "href": "https://share.google/NZTaYXBycu0YfDgc7"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Wash and Wave (laundry)"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "RTD nonprofit pass program"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Boulder Public Library"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "ACLU of Colorado"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
                 }
               ]
             }
           }
+        },
+        {
+          "id": "blk_r799axnfhg",
+          "type": "component/plain-list",
+          "v": 1,
+          "fields": {
+            "items": [
+              {
+                "label": "Focus ReEntry",
+                "link": {
+                  "type": "url",
+                  "url": "https://www.focusreentry.org/"
+                }
+              },
+              {
+                "label": "Boulder Community Court",
+                "link": {
+                  "type": "url",
+                  "url": "https://bouldercolorado.gov/services/community-court"
+                }
+              },
+              {
+                "label": "Recovery Café Longmont",
+                "link": {
+                  "type": "url",
+                  "url": "https://recoverycafelongmont.org/"
+                }
+              },
+              {
+                "label": "TGTHR Youth Shelters",
+                "link": {
+                  "type": "url",
+                  "url": "https://tgthr.org"
+                }
+              },
+              {
+                "label": "Mental Health Partners",
+                "link": {
+                  "type": "url",
+                  "url": "https://mhpcolorado.org/"
+                }
+              },
+              {
+                "label": "Boulder County Public Health, the Works",
+                "link": {
+                  "type": "url",
+                  "url": "https://bouldercounty.gov/families/disease/the-works-program/"
+                }
+              },
+              {
+                "label": "SPAN",
+                "link": {
+                  "type": "url",
+                  "url": "https://www.safehousealliance.org/"
+                }
+              },
+              {
+                "label": "Urban Peak",
+                "link": {
+                  "type": "url",
+                  "url": "https://share.google/NZTaYXBycu0YfDgc7"
+                }
+              },
+              {
+                "label": "Wash and Wave (laundry)"
+              },
+              {
+                "label": "RTD nonprofit pass program"
+              },
+              {
+                "label": "Boulder Public Library"
+              },
+              {
+                "label": "ACLU of Colorado"
+              }
+            ],
+            "layout": "two"
+          }
         }
-      ]
+      ],
+      "anchor": "partners",
+      "label": "Partners"
     }
   ]
 }
