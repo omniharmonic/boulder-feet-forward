@@ -65,7 +65,16 @@
         },
         "width": "content"
       },
-      "style": {},
+      "style": {
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
       "blocks": [
         {
           "id": "blk_4j2cws5atq",
@@ -143,7 +152,7 @@
     },
     {
       "id": "sec_7mznq0x8gq",
-      "label": "The team.",
+      "label": "The team",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -153,7 +162,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -190,38 +203,13 @@
               }
             ]
           }
-        },
-        {
-          "id": "blk_0b2ttv2rf1",
-          "type": "component/imported-about-2",
-          "v": 1,
-          "fields": {
-            "text1": "The team.",
-            "image2": {
-              "src": "media/2026/11/libby-ogletree-a8hy.jpg",
-              "alt": "Libby Ogletree smiling at the camera.",
-              "width": 702,
-              "height": 720,
-              "mediaId": "med_a8hyp6ehmb"
-            },
-            "image3": {
-              "src": "media/2026/11/adam-walker-9ptj.jpg",
-              "alt": "A small figure sits on a rock ledge above a green mountain valley.",
-              "width": 702,
-              "height": 720,
-              "mediaId": "med_9ptj889y02"
-            },
-            "text4": "Libby Ogletree, CPFS",
-            "text5": "Adam Walker",
-            "text6": "Co-Director, Peer Specialist, Case Manager",
-            "text7": "Co-Director, Peer Specialist"
-          }
         }
-      ]
+      ],
+      "anchor": "team"
     },
     {
       "id": "sec_e738z1v2pk",
-      "label": "We work with.",
+      "label": "We work with",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -231,198 +219,103 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
-          "id": "blk_mwk9yc5vr4",
-          "type": "component/imported-about-3",
+          "id": "blk_ssmx04rnq7",
+          "type": "component/section-heading",
           "v": 1,
           "fields": {
-            "text1": "We work with.",
-            "text2": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Focus ReEntry",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "href": "https://www.focusreentry.org/"
-                          }
-                        }
-                      ]
-                    }
-                  ]
+            "heading": "We work with.",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
+          "id": "blk_pv2dz2taxq",
+          "type": "component/plain-list",
+          "v": 1,
+          "fields": {
+            "items": [
+              {
+                "label": "Focus ReEntry",
+                "link": {
+                  "type": "url",
+                  "url": "https://www.focusreentry.org/"
                 }
-              ]
-            },
-            "text3": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "SPAN",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "href": "https://www.safehousealliance.org/"
-                          }
-                        }
-                      ]
-                    }
-                  ]
+              },
+              {
+                "label": "Boulder Community Court",
+                "link": {
+                  "type": "url",
+                  "url": "https://bouldercolorado.gov/services/community-court"
                 }
-              ]
-            },
-            "text4": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Boulder Community Court",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "href": "https://bouldercolorado.gov/services/community-court"
-                          }
-                        }
-                      ]
-                    }
-                  ]
+              },
+              {
+                "label": "Recovery Café Longmont",
+                "link": {
+                  "type": "url",
+                  "url": "https://recoverycafelongmont.org/"
                 }
-              ]
-            },
-            "text5": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Urban Peak",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "href": "https://share.google/NZTaYXBycu0YfDgc7"
-                          }
-                        }
-                      ]
-                    }
-                  ]
+              },
+              {
+                "label": "TGTHR Youth Shelters",
+                "link": {
+                  "type": "url",
+                  "url": "https://tgthr.org"
                 }
-              ]
-            },
-            "text6": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Recovery Café Longmont",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "href": "https://recoverycafelongmont.org/"
-                          }
-                        }
-                      ]
-                    }
-                  ]
+              },
+              {
+                "label": "Mental Health Partners",
+                "link": {
+                  "type": "url",
+                  "url": "https://mhpcolorado.org/"
                 }
-              ]
-            },
-            "text7": "Wash and Wave (laundry)",
-            "text8": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "TGTHR Youth Shelters",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "href": "https://tgthr.org/"
-                          }
-                        }
-                      ]
-                    }
-                  ]
+              },
+              {
+                "label": "Boulder County Public Health, the Works",
+                "link": {
+                  "type": "url",
+                  "url": "https://bouldercounty.gov/families/disease/the-works-program/"
                 }
-              ]
-            },
-            "text9": "RTD nonprofit pass program",
-            "text10": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Mental Health Partners",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "href": "https://mhpcolorado.org/"
-                          }
-                        }
-                      ]
-                    }
-                  ]
+              },
+              {
+                "label": "SPAN",
+                "link": {
+                  "type": "url",
+                  "url": "https://www.safehousealliance.org/"
                 }
-              ]
-            },
-            "text11": "Boulder Public Library",
-            "text12": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Boulder County Public Health, the Works",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "href": "https://bouldercounty.gov/families/disease/the-works-program/"
-                          }
-                        }
-                      ]
-                    }
-                  ]
+              },
+              {
+                "label": "Urban Peak",
+                "link": {
+                  "type": "url",
+                  "url": "https://share.google/NZTaYXBycu0YfDgc7"
                 }
-              ]
-            },
-            "text13": "ACLU of Colorado"
+              },
+              {
+                "label": "Wash and Wave (laundry)"
+              },
+              {
+                "label": "RTD nonprofit pass program"
+              },
+              {
+                "label": "Boulder Public Library"
+              },
+              {
+                "label": "ACLU of Colorado"
+              }
+            ],
+            "layout": "two"
           }
         }
-      ]
+      ],
+      "anchor": "with"
     }
   ]
 }
