@@ -19,8 +19,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "type": "color",
-          "color": "#e9e6d2"
+          "color": "#e9e6d2",
+          "type": "color"
         }
       },
       "blocks": [
@@ -32,41 +32,39 @@
             "lead": "What we are seeing, what we need, and what your support made possible.",
             "title": "Hear from the park."
           }
+        }
+      ]
+    },
+    {
+      "id": "sec_jfme9my7bt",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
         },
+        "width": "content"
+      },
+      "style": {
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
         {
-          "id": "blk_xzwssrc7rw",
-          "type": "text",
+          "id": "blk_96aznzr2yq",
+          "type": "component/footprint-trail",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 1
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Hear from the park."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "What we are seeing, what we need, and what your support made possible."
-                    }
-                  ]
-                }
-              ]
-            }
+            "show": true
           }
         }
       ]
@@ -74,18 +72,26 @@
     {
       "id": "sec_62bzr0ym73",
       "layout": {
-        "mode": "stack",
         "columns": {
           "d": [
+            7,
+            5
+          ],
+          "m": [
             12
           ]
-        }
+        },
+        "mode": "stack"
       },
       "style": {
         "colorTheme": "light",
         "background": {
-          "type": "color",
-          "color": "#e9e6d2"
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "md",
+          "m": "md"
         }
       },
       "blocks": [
@@ -97,8 +103,7 @@
             "askName": false,
             "placeholder": "you@example.com",
             "buttonLabel": "Join the newsletter",
-            "successMessage": "Almost there. Check your inbox to confirm your subscription.",
-            "note": "News from the park, a few times a year. No spam."
+            "successMessage": "Almost there. Check your inbox to confirm your subscription."
           },
           "variant": "card"
         }

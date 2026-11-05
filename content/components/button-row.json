@@ -1,0 +1,52 @@
+{
+  "name": "button-row",
+  "label": "Row of outline buttons",
+  "description": "Two or three outline buttons side by side.",
+  "version": 1,
+  "category": "cta",
+  "fields": {
+    "buttons": {
+      "kind": "list",
+      "label": "Buttons",
+      "fields": {
+        "label": {
+          "kind": "text",
+          "label": "Label",
+          "maxLength": 40
+        },
+        "link": {
+          "kind": "link",
+          "label": "Goes to"
+        }
+      }
+    }
+  },
+  "defaults": {
+    "buttons": [
+      {
+        "label": "The eight dimensions",
+        "link": {
+          "page": "pg_ym9be7p01r",
+          "type": "page"
+        }
+      },
+      {
+        "label": "Case management",
+        "link": {
+          "page": "pg_qz66x1wyak",
+          "type": "page"
+        }
+      }
+    ]
+  },
+  "template": "<div class=\"br\">{{#each buttons}}{{#link link}}<span class=\"br__btn\">{{label}}</span>{{/link}}{{/each}}</div>",
+  "css": ".br { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }\n.br a { text-decoration: none; }\n.br__btn { display: inline-flex; align-items: center; min-height: 48px; padding: .7rem 1.4rem; border: 2px solid currentColor; border-radius: 999px; font-weight: 700; font-size: 1rem; color: var(--os-color-heading); }\n.br__btn:hover { background: color-mix(in srgb, var(--os-color-text) 8%, transparent); }",
+  "section": {
+    "width": "content"
+  },
+  "ai": {
+    "purpose": "Several secondary links as buttons in one row.",
+    "whenToUse": "After body text to point to related pages.",
+    "avoid": "Main calls to action."
+  }
+}

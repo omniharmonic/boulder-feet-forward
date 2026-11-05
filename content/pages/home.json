@@ -508,118 +508,6 @@
       ]
     },
     {
-      "id": "sec_s8t6x4d2gd",
-      "preset": "component/imported-home-5@1",
-      "label": "Small steps add up.",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        },
-        "width": "wide"
-      },
-      "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_jf4t4m0751",
-          "type": "component/imported-home-5",
-          "v": 1,
-          "fields": {
-            "text1": "Small steps add up.",
-            "text2": "In a typical week, we meet about 120 different people.",
-            "text3": "We have served 13,705 meals since 2024.",
-            "text4": "Every day, our peers answer about 10 questions about where to find something, who to call, or what comes next.",
-            "text5": "Each year, about 20 people we have worked with reach stable housing.",
-            "text6": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "5",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "text": " where we gave basic needs. We count the connection, but we do not claim the housing."
-                    }
-                  ]
-                }
-              ]
-            },
-            "text7": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "10",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "text": " where we are part of a larger care team."
-                    }
-                  ]
-                }
-              ]
-            },
-            "text8": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "5",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "text": " where we are the primary support."
-                    }
-                  ]
-                }
-              ]
-            },
-            "text9": "Of the people who reach housing with us as their primary support, 4 out of 5 found their own way there.",
-            "text10": "Self-resolutions are individual paths home that the person chose and pursued.",
-            "text11": "Numbers as of October 2026, from the Boulder Feet Forward information packet.",
-            "label12": "See our impact",
-            "link12": {
-              "type": "page",
-              "page": "pg_4wv4ptm674"
-            }
-          }
-        }
-      ]
-    },
-    {
       "id": "sec_mvw0kr56bs",
       "preset": "component/bff-facts@1",
       "label": "Small steps add up",
@@ -635,8 +523,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -792,8 +680,9 @@
       ]
     },
     {
-      "id": "sec_90qp4b08vn",
-      "preset": "cta/banner@1",
+      "id": "sec_5axtevj90c",
+      "preset": "component/bff-buttons@1",
+      "label": "Help us keep showing up",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -801,97 +690,62 @@
             12
           ]
         },
-        "gap": "lg",
-        "width": "narrow"
+        "width": "content"
       },
       "style": {
-        "colorTheme": "brand",
-        "padding": {
-          "d": "xl",
-          "m": "lg"
-        },
+        "colorTheme": "light",
         "background": {
-          "type": "color",
-          "color": "#e9e6d2"
+          "color": "#e9e6d2",
+          "type": "color"
         }
       },
       "blocks": [
         {
-          "id": "blk_fxp7r8hh22",
-          "type": "heading",
+          "id": "blk_xg1bt578na",
+          "type": "component/section-heading",
           "v": 1,
           "fields": {
-            "text": "Help us keep showing up.",
-            "level": "h2",
-            "size": "auto",
-            "subheading": "A gift, an afternoon, or a bag of supplies all end up in the same place: in someone’s hands, in Central Park."
-          },
-          "variant": "plain",
-          "style": {
-            "align": {
-              "d": "center"
-            }
+            "heading": "Help us keep showing up.",
+            "lead": "A gift, an afternoon, or a bag of supplies all end up in the same place: in someone’s hands, in Central Park.",
+            "rule": true
           }
         },
         {
-          "id": "blk_k7nt34g4v5",
-          "type": "button",
+          "id": "blk_4an5gz060a",
+          "type": "component/bff-buttons",
           "v": 1,
           "fields": {
-            "label": "Give where it’s needed",
-            "link": {
-              "type": "page",
-              "page": "pg_331y67b2k5"
-            },
-            "role": "primary"
-          },
-          "variant": "large",
-          "style": {
-            "align": {
-              "d": "center"
-            }
-          }
-        },
-        {
-          "id": "blk_w5c1qxbtn9",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "Sign up to volunteer",
-            "link": {
-              "type": "page",
-              "page": "pg_88vdm24dxn"
-            },
-            "role": "secondary"
-          },
-          "variant": "large",
-          "style": {
-            "align": {
-              "d": "center"
-            }
-          }
-        },
-        {
-          "id": "blk_hn2dd1pzhe",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "Give supplies",
-            "link": {
-              "type": "page",
-              "page": "pg_331y67b2k5",
-              "anchor": "give-things"
-            },
-            "role": "secondary"
-          },
-          "variant": "large",
-          "style": {
-            "align": {
-              "d": "center"
-            }
+            "buttons": [
+              {
+                "label": "Give where it’s needed",
+                "link": {
+                  "page": "pg_331y67b2k5",
+                  "type": "page"
+                },
+                "main": true
+              },
+              {
+                "label": "Sign up to volunteer",
+                "link": {
+                  "page": "pg_88vdm24dxn",
+                  "type": "page"
+                },
+                "main": false
+              },
+              {
+                "label": "Give supplies",
+                "link": {
+                  "anchor": "give-things",
+                  "page": "pg_331y67b2k5",
+                  "type": "page"
+                },
+                "main": false
+              }
+            ]
           }
         }
-      ]
+      ],
+      "anchor": "help"
     },
     {
       "id": "sec_sp6jpae46d",

@@ -22,8 +22,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -78,7 +78,16 @@
         },
         "width": "content"
       },
-      "style": {},
+      "style": {
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
       "blocks": [
         {
           "id": "blk_912xpbn06g",
@@ -94,6 +103,7 @@
       "id": "sec_6qsb4j6rmb",
       "preset": "starter/stack-12@1",
       "layout": {
+        "mode": "stack",
         "columns": {
           "d": [
             8,
@@ -102,14 +112,13 @@
           "m": [
             12
           ]
-        },
-        "mode": "stack"
+        }
       },
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -171,29 +180,27 @@
           }
         },
         {
-          "id": "blk_fttgcx5bst",
-          "type": "button",
+          "id": "blk_5phts4j73t",
+          "type": "component/button-row",
           "v": 1,
+          "column": 0,
           "fields": {
-            "label": "The eight dimensions",
-            "link": {
-              "type": "page",
-              "page": "pg_ym9be7p01r"
-            },
-            "role": "secondary"
-          }
-        },
-        {
-          "id": "blk_1q2d9gefgm",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "Case management",
-            "link": {
-              "type": "page",
-              "page": "pg_qz66x1wyak"
-            },
-            "role": "secondary"
+            "buttons": [
+              {
+                "label": "The eight dimensions",
+                "link": {
+                  "page": "pg_ym9be7p01r",
+                  "type": "page"
+                }
+              },
+              {
+                "label": "Case management",
+                "link": {
+                  "page": "pg_qz66x1wyak",
+                  "type": "page"
+                }
+              }
+            ]
           }
         }
       ]
@@ -210,7 +217,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -260,125 +271,10 @@
             ],
             "layout": "one"
           }
-        },
-        {
-          "id": "blk_kdj9mfa80y",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 3
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Further reading"
-                    }
-                  ]
-                },
-                {
-                  "type": "bulletList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "SAMHSA: about recovery",
-                              "marks": [
-                                {
-                                  "type": "link",
-                                  "attrs": {
-                                    "href": "https://www.samhsa.gov/substance-use/recovery/about"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "SAMHSA: Peers Supporting Recovery from Substance Use Disorders (PDF)",
-                              "marks": [
-                                {
-                                  "type": "link",
-                                  "attrs": {
-                                    "href": "https://www.samhsa.gov/sites/default/files/programs_campaigns/brss_tacs/peers-supporting-recovery-substance-use-disorders-2017.pdf"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Recovery Answers: what is the evidence for peer recovery support services?",
-                              "marks": [
-                                {
-                                  "type": "link",
-                                  "attrs": {
-                                    "href": "https://www.recoveryanswers.org/research-post/what-is-the-evidence-for-peer-recovery-support-services/"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Hazelden Betty Ford: peer recovery support",
-                              "marks": [
-                                {
-                                  "type": "link",
-                                  "attrs": {
-                                    "href": "https://www.hazeldenbettyford.org/research-studies/addiction-research/peer-recovery-support"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
         }
-      ]
+      ],
+      "anchor": "reading",
+      "label": "Further reading"
     }
   ]
 }
