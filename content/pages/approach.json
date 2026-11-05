@@ -62,6 +62,15 @@
       },
       "blocks": [
         {
+          "id": "blk_skc3zg7eqh",
+          "type": "component/bff-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "No single solution fits every individual. We help each person find the one that works for them.",
+            "title": "A different way to reach people."
+          }
+        },
+        {
           "id": "blk_k5d8e4cceq",
           "type": "text",
           "v": 1,
