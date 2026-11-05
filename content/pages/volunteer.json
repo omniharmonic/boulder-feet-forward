@@ -193,6 +193,123 @@
       ]
     },
     {
+      "id": "sec_mmck60bew6",
+      "label": "Volunteer sign-up form",
+      "anchor": "sign-up",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light-accent"
+      },
+      "blocks": [
+        {
+          "id": "blk_w657gvhj0g",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 2
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Sign up to volunteer"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Tell us which shift you'd like. We'll confirm with you by email or text."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_6aecx904df",
+          "type": "form",
+          "v": 1,
+          "fields": {
+            "form": {
+              "fields": [
+                {
+                  "label": "Your name",
+                  "name": "name",
+                  "required": true,
+                  "type": "text",
+                  "width": "half"
+                },
+                {
+                  "help": "So we can confirm with you.",
+                  "label": "Email or phone",
+                  "name": "contact",
+                  "required": true,
+                  "type": "text",
+                  "width": "half"
+                },
+                {
+                  "label": "Which shift?",
+                  "name": "shift",
+                  "options": [
+                    "Tuesdays in the Park, Tuesdays 2:30 PM",
+                    "Friday Breakfast Club, Fridays 11:00 AM",
+                    "Something else"
+                  ],
+                  "type": "select",
+                  "width": "half"
+                },
+                {
+                  "label": "Which day? (optional)",
+                  "name": "date",
+                  "type": "date",
+                  "width": "half"
+                },
+                {
+                  "label": "How many people?",
+                  "maxLength": 3,
+                  "name": "people",
+                  "placeholder": "1",
+                  "type": "text",
+                  "width": "half"
+                },
+                {
+                  "label": "Anything we should know? (optional)",
+                  "maxLength": 2000,
+                  "name": "notes",
+                  "type": "textarea"
+                }
+              ],
+              "id": "frm_v7nteer2k3",
+              "name": "Volunteer sign-up",
+              "notifyOwner": true,
+              "submitLabel": "Sign me up",
+              "success": {
+                "message": "You are signed up. We will confirm by email or text.",
+                "type": "message"
+              }
+            }
+          },
+          "variant": "card"
+        }
+      ]
+    },
+    {
       "id": "sec_3mz222vrvk",
       "preset": "starter/stack-12@1",
       "layout": {
