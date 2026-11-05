@@ -364,6 +364,10 @@
         "background": {
           "type": "color",
           "color": "#e9e6d2"
+        },
+        "padding": {
+          "d": "lg",
+          "m": "md"
         }
       },
       "blocks": [
@@ -397,19 +401,6 @@
               ]
             }
           }
-        },
-        {
-          "id": "blk_2n6h419xgb",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "Read about our approach",
-            "link": {
-              "type": "page",
-              "page": "pg_ym9be7p01r"
-            },
-            "role": "secondary"
-          }
         }
       ]
     },
@@ -427,9 +418,48 @@
         "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
       },
       "blocks": [
+        {
+          "id": "blk_7enwepjtvt",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "There is no single pathway out of homelessness.",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
+          "id": "blk_n276p8hwvf",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Housing matters. But four walls and a roof do not automatically create health, stability, community, purpose or home. So we ask what this person needs to move forward, not which program they fit into. Choose a dimension of wellness to see how we help."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
         {
           "id": "blk_tg74x62dns",
           "type": "component/wellness-wheel",
@@ -520,6 +550,19 @@
             "hub1": "Whole",
             "hub2": "person",
             "hubNote": "Eight dimensions"
+          }
+        },
+        {
+          "id": "blk_set6fthjd4",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Read about our approach",
+            "link": {
+              "page": "pg_ym9be7p01r",
+              "type": "page"
+            },
+            "role": "secondary"
           }
         }
       ]
