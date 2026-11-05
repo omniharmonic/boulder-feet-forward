@@ -55,7 +55,7 @@
   ],
   "header": {
     "variant": "classic-left",
-    "sticky": false,
+    "sticky": true,
     "transparentOnHero": false,
     "mobileMenu": "fullscreen",
     "logoHeight": {
@@ -82,12 +82,25 @@
     },
     "style": {
       "colorTheme": "light",
+      "padding": {
+        "d": "xl",
+        "m": "xl"
+      },
       "background": {
         "type": "color",
         "color": "#dad7be"
       }
     },
     "blocks": [
+      {
+        "id": "blk_xkz3wvsby1",
+        "type": "component/footer-skyline",
+        "v": 1,
+        "column": 0,
+        "fields": {
+          "show": true
+        }
+      },
       {
         "id": "blk_vfrpvteka4",
         "type": "component/logo-lockup",
@@ -147,31 +160,30 @@
         }
       },
       {
-        "id": "blk_e376vcj9kx",
-        "type": "text",
+        "id": "blk_bmmw29cbq1",
+        "type": "component/footer-fineprint",
         "v": 1,
         "column": 0,
         "fields": {
-          "content": {
+          "left": {
             "type": "doc",
             "content": [
               {
                 "type": "paragraph",
-                "attrs": {
-                  "preset": "small"
-                },
                 "content": [
                   {
                     "type": "text",
                     "text": "© 2026 Boulder Feet Forward. A peer-led street outreach team in Boulder, Colorado."
                   }
                 ]
-              },
+              }
+            ]
+          },
+          "right": {
+            "type": "doc",
+            "content": [
               {
                 "type": "paragraph",
-                "attrs": {
-                  "preset": "small"
-                },
                 "content": [
                   {
                     "type": "text",

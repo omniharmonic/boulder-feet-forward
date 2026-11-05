@@ -74,7 +74,7 @@
     "pivot": "Sometimes, we’re able to change that."
   },
   "template": "<div class=\"bs\"><h2 class=\"bs__h\">{{heading}}</h2><p class=\"bs__p\">{{intro}}</p><ul class=\"bs__l\">{{#each items}}<li>{{text}}</li>{{/each}}</ul>{{#if outro}}<p class=\"bs__p bs__o\">{{outro}}</p>{{/if}}{{#if pivot}}<p class=\"bs__pv\">{{pivot}}</p>{{/if}}</div>",
-  "css": ".bs__h{margin:0 0 .5em;max-width:18ch}\n.bs__p{max-width:62ch;margin:0}\n.bs__l{columns:2 16rem;column-gap:2.5rem;margin:1.2rem 0 0;padding:0;list-style:none;font-size:1.05rem;color:var(--os-color-text-muted)}\n.bs__l li{break-inside:avoid;padding:.15rem 0}\n.bs__o{margin-top:1.4rem}\n.bs__pv{font-family:var(--os-font-heading);font-size:clamp(2rem,1rem + 4vw,4rem);line-height:1.05;letter-spacing:-.015em;max-width:16ch;margin:clamp(2.2rem,5vw,4rem) 0 0;color:var(--os-color-heading)}",
+  "css": ".bs__h{margin:0 0 .5em;font-family:var(--os-font-heading);font-weight:400;font-size:clamp(2.1rem,1.2rem + 3.4vw,3.7rem);line-height:1.08;letter-spacing:-.015em;text-wrap:balance;color:var(--os-color-heading)}\n.bs__p{max-width:62ch;margin:0}\n.bs__l{columns:2 16rem;column-gap:2.5rem;margin:1.2rem 0 0;padding:0;list-style:none;font-size:1.05rem;color:var(--os-color-text-muted)}\n.bs__l li{break-inside:avoid;padding:.15rem 0}\n.bs__o{margin-top:1.4rem}\n.bs__pv{font-family:var(--os-font-heading);font-size:clamp(2rem,1rem + 4vw,4rem);line-height:1.05;letter-spacing:-.015em;max-width:15ch;text-wrap:balance;margin:clamp(2.2rem,5vw,4rem) 0 0;color:var(--os-color-heading)}",
   "section": {
     "width": "content"
   },

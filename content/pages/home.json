@@ -22,6 +22,10 @@
       },
       "style": {
         "colorTheme": "light",
+        "padding": {
+          "d": "sm",
+          "m": "sm"
+        },
         "background": {
           "type": "color",
           "color": "#e9e6d2"
@@ -161,6 +165,10 @@
         "mode": "stack",
         "columns": {
           "d": [
+            8,
+            4
+          ],
+          "m": [
             12
           ]
         }
@@ -671,6 +679,10 @@
         "mode": "stack",
         "columns": {
           "d": [
+            7,
+            5
+          ],
+          "m": [
             12
           ]
         }
