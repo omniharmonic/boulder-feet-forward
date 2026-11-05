@@ -35,42 +35,6 @@
             "lead": "It is not just a handout. Your gift pays for the meals, and for the people who help someone find a way home.",
             "title": "Help us keep showing up."
           }
-        },
-        {
-          "id": "blk_7dm1yj2cmb",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 1
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Help us keep showing up."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "It is not just a handout. Your gift pays for the meals, and for the people who help someone find a way home."
-                    }
-                  ]
-                }
-              ]
-            }
-          }
         }
       ]
     },
@@ -120,13 +84,17 @@
             12
           ]
         },
-        "width": "wide"
+        "width": "content"
       },
       "style": {
         "colorTheme": "light",
         "background": {
           "type": "color",
           "color": "#e9e6d2"
+        },
+        "padding": {
+          "d": "sm",
+          "m": "sm"
         }
       },
       "blocks": [
@@ -162,13 +130,17 @@
             12
           ]
         },
-        "width": "wide"
+        "width": "content"
       },
       "style": {
         "colorTheme": "light",
         "background": {
           "type": "color",
           "color": "#e9e6d2"
+        },
+        "padding": {
+          "d": "sm",
+          "m": "sm"
         }
       },
       "blocks": [
@@ -249,13 +221,17 @@
             12
           ]
         },
-        "width": "wide"
+        "width": "content"
       },
       "style": {
         "colorTheme": "light",
         "background": {
           "type": "color",
           "color": "#e9e6d2"
+        },
+        "padding": {
+          "d": "sm",
+          "m": "sm"
         }
       },
       "blocks": [
@@ -449,6 +425,10 @@
         "background": {
           "type": "color",
           "color": "#e9e6d2"
+        },
+        "padding": {
+          "d": "md",
+          "m": "md"
         }
       },
       "blocks": [

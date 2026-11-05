@@ -349,62 +349,6 @@
       ]
     },
     {
-      "id": "sec_r1zar0fhp3",
-      "preset": "starter/stack-12@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light",
-        "padding": {
-          "d": "lg",
-          "m": "md"
-        },
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_6tby97jp8j",
-          "type": "component/section-heading",
-          "v": 1,
-          "fields": {
-            "heading": "There is no single pathway out of homelessness.",
-            "lead": "",
-            "rule": true
-          }
-        },
-        {
-          "id": "blk_gtvtbh9z78",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Housing matters. But four walls and a roof do not automatically create health, stability, community, purpose or home. So we ask what this person needs to move forward, not which program they fit into. Choose a dimension of wellness to see how we help."
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "id": "sec_4871fad6ph",
       "preset": "component/wellness-wheel@1",
       "label": "Wellness wheel",
@@ -419,10 +363,6 @@
       },
       "style": {
         "colorTheme": "light",
-        "padding": {
-          "d": "none",
-          "m": "none"
-        },
         "background": {
           "type": "color",
           "color": "#e9e6d2"
