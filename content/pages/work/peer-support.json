@@ -28,39 +28,12 @@
       },
       "blocks": [
         {
-          "id": "blk_s9zbmt5xvp",
-          "type": "text",
+          "id": "blk_1bzb8e8znr",
+          "type": "component/inner-page-head",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 1
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Support from someone who has been there."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Zero-barrier peer support, starting wherever a person is."
-                    }
-                  ]
-                }
-              ]
-            }
+            "lead": "Zero-barrier peer support, starting wherever a person is.",
+            "title": "Support from someone who has been there."
           }
         }
       ]

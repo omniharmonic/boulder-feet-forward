@@ -28,39 +28,12 @@
       },
       "blocks": [
         {
-          "id": "blk_h34pdm7d9q",
-          "type": "text",
+          "id": "blk_3bjb1x2af8",
+          "type": "component/inner-page-head",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 1
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "All are welcome."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Meals, supplies and people who can help, in one place, twice a week."
-                    }
-                  ]
-                }
-              ]
-            }
+            "lead": "Meals, supplies and people who can help, in one place, twice a week.",
+            "title": "All are welcome."
           }
         }
       ]

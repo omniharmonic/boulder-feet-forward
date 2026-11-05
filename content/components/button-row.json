@@ -1,7 +1,7 @@
 {
   "name": "button-row",
-  "label": "Row of outline buttons",
-  "description": "Two or three outline buttons side by side.",
+  "label": "Row of buttons",
+  "description": "Two or three buttons side by side; each can be the main (gradient) button or an outline button.",
   "version": 1,
   "category": "cta",
   "fields": {
@@ -17,6 +17,11 @@
         "link": {
           "kind": "link",
           "label": "Goes to"
+        },
+        "primary": {
+          "kind": "boolean",
+          "label": "Main button (gradient)",
+          "optional": true
         }
       }
     }
@@ -39,8 +44,8 @@
       }
     ]
   },
-  "template": "<div class=\"br\">{{#each buttons}}{{#link link}}<span class=\"br__btn\">{{label}}</span>{{/link}}{{/each}}</div>",
-  "css": ".br { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }\n.br a { text-decoration: none; }\n.br__btn { display: inline-flex; align-items: center; min-height: 48px; padding: .7rem 1.4rem; border: 2px solid currentColor; border-radius: 999px; font-weight: 700; font-size: 1rem; color: var(--os-color-heading); }\n.br__btn:hover { background: color-mix(in srgb, var(--os-color-text) 8%, transparent); }",
+  "template": "<div class=\"br\">{{#each buttons}}{{#link link}}{{#if primary}}<span class=\"br__btn br__btn--p\">{{label}}</span>{{else}}<span class=\"br__btn\">{{label}}</span>{{/if}}{{/link}}{{/each}}</div>",
+  "css": ".br { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }\n.br a { text-decoration: none; }\n.br__btn { display: inline-flex; align-items: center; min-height: 48px; padding: .7rem 1.4rem; border: 2px solid currentColor; border-radius: 999px; font-weight: 700; font-size: 1rem; color: var(--os-color-heading); }\n.br__btn--p { border-color: transparent; background: linear-gradient(90deg, #a7c25a, #f2cb4a); }\n.br__btn:hover { background-color: color-mix(in srgb, var(--os-color-text) 8%, transparent); }\n.br__btn--p:hover { filter: saturate(1.15); }",
   "section": {
     "width": "content"
   },

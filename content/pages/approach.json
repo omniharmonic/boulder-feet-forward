@@ -20,7 +20,16 @@
         },
         "width": "content"
       },
-      "style": {},
+      "style": {
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
       "blocks": [
         {
           "id": "blk_7aht97ch8h",
@@ -35,6 +44,7 @@
     {
       "id": "sec_dwhc2x7ys9",
       "preset": "starter/stack-12@1",
+      "label": "Page head",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -46,8 +56,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -87,105 +97,12 @@
             }
           }
         }
-      ],
-      "label": "Page head"
-    },
-    {
-      "id": "sec_tstc2ps2n0",
-      "preset": "services/image-cards@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        },
-        "gap": "xl"
-      },
-      "style": {
-        "colorTheme": "light"
-      },
-      "blocks": [
-        {
-          "id": "blk_mk9t8s1tmm",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "Our principles",
-            "level": "h2",
-            "size": "h3"
-          },
-          "variant": "plain"
-        },
-        {
-          "id": "blk_8x3hwfzz6p",
-          "type": "columns",
-          "v": 1,
-          "fields": {
-            "items": [
-              {
-                "heading": "Person first",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Our care is collaborative, trust-based, trauma-informed and built on choice. The individual determines the destination."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "Wellness first",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "We don’t decide that everyone needs treatment first, housing first, employment first or sobriety first. We ask: what does success look like to you, and what would it take to make that happen?"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "The engagement bridge",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "We don’t duplicate the larger system of care. We extend its reach. We work alongside existing providers and care teams so people can get services they might otherwise never reach."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              }
-            ],
-            "columns": "3",
-            "aspect": "4:5"
-          },
-          "variant": "plain"
-        }
       ]
     },
     {
       "id": "sec_rw84gy7j0c",
       "preset": "component/bff-items@1",
-      "label": "Items: columns, steps or rows",
+      "label": "Principles",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -196,7 +113,11 @@
         "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -224,130 +145,13 @@
             "layout": "columns"
           }
         }
-      ]
-    },
-    {
-      "id": "sec_st9vwv6v1k",
-      "preset": "starter/stack-12@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light"
-      },
-      "blocks": [
-        {
-          "id": "blk_p9v6zyy88r",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Eight dimensions of wellness."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Our framework is SAMHSA’s Eight Dimensions of Wellness. People need support in every one of them, not just one. Choose a dimension to see how our work touches it, from the first conversation to the long haul."
-                    }
-                  ]
-                },
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 3
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Emotional"
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Wellbeing starts with someone who shows up. Our peers are there every day, as equals."
-                    }
-                  ]
-                },
-                {
-                  "type": "orderedList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Basic needsDaily connection and a co-equal relationship with peers"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Stabilizing resourcesCare referrals, and our continued daily presence"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Sustainable supportContinued support to each individual"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        }
-      ]
+      ],
+      "anchor": "principles"
     },
     {
       "id": "sec_w78cg7hp45",
       "preset": "component/wellness-wheel@1",
-      "label": "Wellness wheel",
+      "label": "Eight dimensions",
       "anchor": "eight",
       "layout": {
         "mode": "stack",
@@ -359,7 +163,11 @@
         "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -488,102 +296,9 @@
       ]
     },
     {
-      "id": "sec_amsf4kf7rr",
-      "preset": "services/image-cards@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        },
-        "gap": "xl"
-      },
-      "style": {
-        "colorTheme": "light"
-      },
-      "blocks": [
-        {
-          "id": "blk_kxt5sgsssa",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "Small steps build stability.",
-            "level": "h2",
-            "size": "auto",
-            "subheading": "Every dimension has three levels of support. We start with what is in front of us, and we build from there."
-          },
-          "variant": "plain"
-        },
-        {
-          "id": "blk_xmcsrc32qy",
-          "type": "columns",
-          "v": 1,
-          "fields": {
-            "items": [
-              {
-                "heading": "Basic needs",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Solve the immediate problem."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "Stabilizing resources",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Plan an accessible solution someone can use for themselves."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "Sustainable support",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Work toward a sustainable solution."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              }
-            ],
-            "columns": "3",
-            "aspect": "4:5"
-          },
-          "variant": "plain"
-        }
-      ]
-    },
-    {
       "id": "sec_5g07q06zfb",
       "preset": "component/bff-items@1",
-      "label": "Items: columns, steps or rows",
+      "label": "Small steps",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -594,7 +309,11 @@
         "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -653,138 +372,13 @@
             "layout": "steps"
           }
         }
-      ]
-    },
-    {
-      "id": "sec_bpbeh6nh2z",
-      "preset": "services/image-cards@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        },
-        "gap": "xl"
-      },
-      "style": {
-        "colorTheme": "light"
-      },
-      "blocks": [
-        {
-          "id": "blk_fdfz646dcc",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "What meeting people where they are looks like.",
-            "level": "h2",
-            "size": "auto"
-          },
-          "variant": "plain"
-        },
-        {
-          "id": "blk_43ta5gc2dk",
-          "type": "columns",
-          "v": 1,
-          "fields": {
-            "items": [
-              {
-                "heading": "Twice a week, zero-barrier outreach events",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Nutritious meals, hygiene supplies, clothing and weather gear, first aid, harm reduction supplies, pet care supplies and more. We provide the infrastructure, food and hygiene supplies. Partners, volunteers and donors expand what is on the table, and providers get a reliable place to meet people who may never walk through their doors."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "We solve the problem in front of us",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "A bus pass, a bike lock, glasses, laundry, a shower, a haircut, a bike or car repair, a safe place to park, a phone call. If the resource exists, we help people reach it, and we spend our own dollars only where we find gaps. It is whatever small thing is standing between someone and their next step."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "We help people navigate services and systems",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Coordinated Entry from wherever you are. Housing assessments on site. IDs and documents, social benefits, health and behavioral health care, employment, education and volunteer opportunities, legal resources, treatment, sober living and many pathways to recovery. Trained peers help with applications, phone calls, paperwork, rides and the next step."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "We make warm handoffs, not just referrals",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "We introduce people to providers, help them through intake, advocate when needed, get them to appointments, follow up afterward and coordinate with existing care teams. If something does not work, we troubleshoot, try something else and learn from it."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                "heading": "We create connection, community and belonging",
-                "body": {
-                  "type": "doc",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "Workshops and useful information, art and poetry, movies and games, trauma-informed movement and more. Belonging is part of stability."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              }
-            ],
-            "columns": "2",
-            "aspect": "4:5"
-          },
-          "variant": "plain"
-        }
-      ]
+      ],
+      "anchor": "steps"
     },
     {
       "id": "sec_qvc58hgwce",
       "preset": "component/bff-items@1",
-      "label": "Items: columns, steps or rows",
+      "label": "What it looks like",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -795,7 +389,11 @@
         "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -843,7 +441,8 @@
             "layout": "rows"
           }
         }
-      ]
+      ],
+      "anchor": "modes"
     },
     {
       "id": "sec_06axbj2n3p",
@@ -857,7 +456,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -892,18 +495,6 @@
           }
         },
         {
-          "id": "blk_36mes8rzvm",
-          "type": "heading",
-          "v": 1,
-          "fields": {
-            "text": "We stick around for the long haul.",
-            "level": "h2",
-            "size": "auto",
-            "subheading": "We start with daily successes, then help build an individualized path forward. That might mean supportive housing, student housing, family reunification, becoming a live-in caregiver, meaningful employment, finding roommates, or saving for an RV."
-          },
-          "variant": "plain"
-        },
-        {
           "id": "blk_0ze1axfxx2",
           "type": "text",
           "v": 1,
@@ -925,32 +516,6 @@
                 }
               ]
             }
-          }
-        },
-        {
-          "id": "blk_pcj042m91d",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "See our work",
-            "link": {
-              "type": "page",
-              "page": "pg_4a5crrg8h0"
-            },
-            "role": "secondary"
-          }
-        },
-        {
-          "id": "blk_ztzx7rr5qb",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "See our impact",
-            "link": {
-              "type": "page",
-              "page": "pg_4wv4ptm674"
-            },
-            "role": "secondary"
           }
         },
         {
@@ -978,7 +543,9 @@
             ]
           }
         }
-      ]
+      ],
+      "anchor": "haul",
+      "label": "Long haul"
     }
   ]
 }

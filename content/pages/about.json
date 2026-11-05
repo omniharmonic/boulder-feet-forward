@@ -27,27 +27,11 @@
       },
       "blocks": [
         {
-          "id": "blk_bg8rw7wk48",
-          "type": "text",
+          "id": "blk_kkh5q3rags",
+          "type": "component/inner-page-head",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 1
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Our mission."
-                    }
-                  ]
-                }
-              ]
-            }
+            "title": "Our mission."
           }
         }
       ]

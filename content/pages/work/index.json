@@ -27,39 +27,12 @@
       },
       "blocks": [
         {
-          "id": "blk_f25b26fwqh",
-          "type": "text",
+          "id": "blk_2x07tymftz",
+          "type": "component/inner-page-head",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 1
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "We are there every day."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Two weekly events in Central Park are where most people first meet us. Peer support and case management grow from there, when people are ready."
-                    }
-                  ]
-                }
-              ]
-            }
+            "lead": "Two weekly events in Central Park are where most people first meet us. Peer support and case management grow from there, when people are ready.",
+            "title": "We are there every day."
           }
         }
       ]

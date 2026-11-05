@@ -28,39 +28,12 @@
       },
       "blocks": [
         {
-          "id": "blk_b2vhvax3e5",
-          "type": "text",
+          "id": "blk_0tb08v8w83",
+          "type": "component/inner-page-head",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 1
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "The long game, at your pace."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Sustained support toward goals people set for themselves."
-                    }
-                  ]
-                }
-              ]
-            }
+            "lead": "Sustained support toward goals people set for themselves.",
+            "title": "The long game, at your pace."
           }
         }
       ]
@@ -372,7 +345,8 @@
                 "link": {
                   "email": "libby@feetforwardboulder.org",
                   "type": "email"
-                }
+                },
+                "primary": true
               },
               {
                 "label": "Call 720-520-2097",

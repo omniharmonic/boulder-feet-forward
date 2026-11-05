@@ -27,39 +27,12 @@
       },
       "blocks": [
         {
-          "id": "blk_drtdms0f23",
-          "type": "text",
+          "id": "blk_xj4y18hvwp",
+          "type": "component/inner-page-head",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 1
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Find us, or reach us."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "attrs": {
-                    "preset": "lead"
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "The easiest way to find us is in the park. If you need something and cannot get there, call."
-                    }
-                  ]
-                }
-              ]
-            }
+            "lead": "The easiest way to find us is in the park. If you need something and cannot get there, call.",
+            "title": "Find us, or reach us."
           }
         }
       ]
