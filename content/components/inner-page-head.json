@@ -1,0 +1,35 @@
+{
+  "name": "inner-page-head",
+  "label": "Page title with lead",
+  "description": "The opening of an inner page: a big serif title and a larger serif lead sentence, at the original site's line lengths.",
+  "version": 1,
+  "category": "hero",
+  "fields": {
+    "lead": {
+      "kind": "text",
+      "label": "Lead",
+      "optional": true,
+      "maxLength": 300,
+      "multiline": true
+    },
+    "title": {
+      "kind": "text",
+      "label": "Title",
+      "maxLength": 120
+    }
+  },
+  "defaults": {
+    "lead": "It is not just a handout. Your gift pays for the meals, and for the people who help someone find a way home.",
+    "title": "Help us keep showing up."
+  },
+  "template": "<div class=\"ph\"><h1 class=\"ph__t\">{{title}}</h1>{{#if lead}}<p class=\"ph__l\">{{lead}}</p>{{/if}}</div>",
+  "css": ".ph__t { margin: 0 0 .4em; max-width: 15ch; font-family: var(--os-font-heading); font-weight: 400; font-size: clamp(2.6rem, 1.2rem + 5.2vw, 5.2rem); line-height: 1; letter-spacing: -0.025em; color: var(--os-color-heading); text-wrap: balance; }\n.ph__l { margin: 0; max-width: 34ch; font-family: var(--os-font-heading); font-size: clamp(1.5rem, 1rem + 1.8vw, 2.3rem); line-height: 1.25; letter-spacing: -0.01em; color: var(--os-color-heading); text-wrap: balance; }",
+  "section": {
+    "width": "content"
+  },
+  "ai": {
+    "purpose": "The title and lead at the top of an inner page.",
+    "whenToUse": "First section of every inner page.",
+    "avoid": "The home page."
+  }
+}
