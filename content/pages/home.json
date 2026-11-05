@@ -8,6 +8,55 @@
   },
   "sections": [
     {
+      "id": "sec_9q7n028b63",
+      "preset": "component/flatirons-hero@1",
+      "label": "Home hero with Flatirons drawing",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_31j0b96bxe",
+          "type": "component/flatirons-hero",
+          "v": 1,
+          "fields": {
+            "heading": "Meeting people where they are.",
+            "intro": "Boulder Feet Forward is a peer-led street outreach team. We visit our neighbors every day with meals, supplies and someone to talk to.",
+            "primaryLabel": "Give where it’s needed",
+            "primaryLink": {
+              "page": "pg_331y67b2k5",
+              "type": "page"
+            },
+            "secondaryLabel": "Volunteer",
+            "secondaryLink": {
+              "page": "pg_88vdm24dxn",
+              "type": "page"
+            },
+            "times": [
+              {
+                "day": "Tuesdays",
+                "time": "2:30 PM"
+              },
+              {
+                "day": "Fridays",
+                "time": "11:00 AM"
+              }
+            ],
+            "where": "Central Park, Boulder. All are welcome."
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_dwsy171p7t",
       "preset": "component/imported-home-1@1",
       "label": "Meeting people where they are.",
