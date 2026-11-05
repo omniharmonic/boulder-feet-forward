@@ -131,6 +131,68 @@
       ]
     },
     {
+      "id": "sec_h0x1bw47v8",
+      "preset": "component/shift-list@1",
+      "label": "Volunteer shifts",
+      "anchor": "shifts",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_4hrz3a405z",
+          "type": "component/shift-list",
+          "v": 1,
+          "fields": {
+            "footer": "Coming with a group, or want to share a skill like yoga, art or poetry?",
+            "footerLabel": "Tell us about it",
+            "footerLink": {
+              "type": "url",
+              "url": "/volunteer/#sign-up"
+            },
+            "heading": "Pick a shift.",
+            "shifts": [
+              {
+                "button": {
+                  "type": "url",
+                  "url": "/volunteer/#sign-up"
+                },
+                "buttonLabel": "I’m in",
+                "day": "Tuesdays",
+                "note": "Arrive a little early. Our shift lead will show you the ropes before we start.",
+                "place": "Central Park, Boulder",
+                "time": "2:30 PM",
+                "title": "Tuesdays in the Park",
+                "weekday": "tuesday"
+              },
+              {
+                "button": {
+                  "type": "url",
+                  "url": "/volunteer/#sign-up"
+                },
+                "buttonLabel": "I’m in",
+                "day": "Fridays",
+                "note": "Arrive a little early. Our shift lead will show you the ropes before we start.",
+                "place": "Central Park, Boulder",
+                "time": "11:00 AM",
+                "title": "Friday Breakfast Club",
+                "weekday": "friday"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_ze7sbt2wrm",
       "preset": "starter/stack-12@1",
       "layout": {
