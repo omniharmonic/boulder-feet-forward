@@ -303,6 +303,16 @@
       },
       "blocks": [
         {
+          "id": "blk_90vqqnrh7p",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "We meet people where they are. Then we keep showing up.",
+            "lead": "If someone isn’t ready today, we show up again tomorrow. When they are ready, we’re already there.",
+            "rule": true
+          }
+        },
+        {
           "id": "blk_3crcc6rja7",
           "type": "heading",
           "v": 1,
