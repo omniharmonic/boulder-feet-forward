@@ -86,15 +86,17 @@
     "footer": "Coming with a group, or want to share a skill like yoga, art or poetry?",
     "footerLabel": "Tell us about it",
     "footerLink": {
-      "type": "url",
-      "url": "/volunteer/#sign-up"
+      "anchor": "sign-up",
+      "page": "pg_88vdm24dxn",
+      "type": "page"
     },
     "heading": "Pick a shift.",
     "shifts": [
       {
         "button": {
-          "type": "url",
-          "url": "/volunteer/#sign-up"
+          "anchor": "sign-up",
+          "page": "pg_88vdm24dxn",
+          "type": "page"
         },
         "buttonLabel": "I’m in",
         "day": "Tuesdays",
@@ -103,19 +105,6 @@
         "time": "2:30 PM",
         "title": "Tuesdays in the Park",
         "weekday": "tuesday"
-      },
-      {
-        "button": {
-          "type": "url",
-          "url": "/volunteer/#sign-up"
-        },
-        "buttonLabel": "I’m in",
-        "day": "Fridays",
-        "note": "Arrive a little early. Our shift lead will show you the ropes before we start.",
-        "place": "Central Park, Boulder",
-        "time": "11:00 AM",
-        "title": "Friday Breakfast Club",
-        "weekday": "friday"
       }
     ]
   },

@@ -156,15 +156,17 @@
             "footer": "Coming with a group, or want to share a skill like yoga, art or poetry?",
             "footerLabel": "Tell us about it",
             "footerLink": {
-              "type": "url",
-              "url": "/volunteer/#sign-up"
+              "anchor": "sign-up",
+              "page": "pg_88vdm24dxn",
+              "type": "page"
             },
             "heading": "Pick a shift.",
             "shifts": [
               {
                 "button": {
-                  "type": "url",
-                  "url": "/volunteer/#sign-up"
+                  "anchor": "sign-up",
+                  "page": "pg_88vdm24dxn",
+                  "type": "page"
                 },
                 "buttonLabel": "I’m in",
                 "day": "Tuesdays",
@@ -176,8 +178,9 @@
               },
               {
                 "button": {
-                  "type": "url",
-                  "url": "/volunteer/#sign-up"
+                  "anchor": "sign-up",
+                  "page": "pg_88vdm24dxn",
+                  "type": "page"
                 },
                 "buttonLabel": "I’m in",
                 "day": "Fridays",
