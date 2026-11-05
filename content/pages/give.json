@@ -20,10 +20,10 @@
         }
       },
       "style": {
-        "colorTheme": "dark",
+        "colorTheme": "light",
         "background": {
-          "type": "color",
-          "color": "#15261a"
+          "color": "#e9e6d2",
+          "type": "color"
         }
       },
       "blocks": [
@@ -49,10 +49,351 @@
                 },
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "preset": "lead"
+                  },
                   "content": [
                     {
                       "type": "text",
                       "text": "It is not just a handout. Your gift pays for the meals, and for the people who help someone find a way home."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_xkp6f1hc48",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {},
+      "blocks": [
+        {
+          "id": "blk_9av56tmjtx",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_yr9a1jp8qw",
+      "preset": "component/giving-path@1",
+      "label": "Giving path row",
+      "anchor": "needed-most",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_tgj43p58cn",
+          "type": "component/giving-path",
+          "v": 1,
+          "fields": {
+            "buttonLabel": "Give where it’s needed",
+            "buttonLink": {
+              "type": "url",
+              "url": "https://www.zeffy.com/en-US/donation-form/support-our-work-48"
+            },
+            "buttonStyle": "primary",
+            "heading": "Give where it’s needed most",
+            "intro": "Give once, or give monthly. Monthly gifts are how we keep showing up.",
+            "items": [],
+            "note": "You will finish on our giving page at Zeffy. You can choose one time or monthly there.",
+            "summary": "Our work is much more than a handout. A direct gift keeps case management going: housing assessments, resource navigation, referrals, warm handoffs, benefits enrollment, peer support and advocacy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_vqc5h1naf2",
+      "preset": "component/giving-path@1",
+      "label": "Giving path row",
+      "anchor": "something-specific",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_f6j2vg7n9t",
+          "type": "component/giving-path",
+          "v": 1,
+          "fields": {
+            "buttonLabel": "",
+            "buttonLink": {
+              "type": "url",
+              "url": "https://www.zeffy.com/en-US/donation-form/support-our-work-48"
+            },
+            "buttonStyle": "outline",
+            "heading": "Fund something specific",
+            "intro": "",
+            "items": [
+              {
+                "approx": true,
+                "impact": "$19 buys food for about 10 meals.",
+                "link": {
+                  "type": "url",
+                  "url": "https://www.zeffy.com/en-US/donation-form/sponsor-community-meals"
+                },
+                "linkLabel": "Fund this",
+                "summary": "Purchased food fills the gaps in donated food, so we can serve about 458 nutritious meals every month.",
+                "title": "Community meals"
+              },
+              {
+                "approx": true,
+                "impact": "$27 stocks about 100 care items.",
+                "link": {
+                  "type": "url",
+                  "url": "https://www.zeffy.com/en-US/donation-form/sponsor-personal-care-supplies"
+                },
+                "linkLabel": "Fund this",
+                "summary": "About 11,360 hygiene, first-aid and personal care items a year. People choose what they need, rather than getting pre-made kits.",
+                "title": "Personal care supplies"
+              },
+              {
+                "approx": true,
+                "impact": "$5 pays for one wash-and-dry load.",
+                "link": {
+                  "type": "url",
+                  "url": "https://www.zeffy.com/en-US/donation-form/sponsor-our-laundry-program"
+                },
+                "linkLabel": "Fund this",
+                "summary": "Twenty vouchers a month at Wash and Wave in North Boulder, so people can reuse clothing, blankets and sleeping bags.",
+                "title": "Laundry program"
+              },
+              {
+                "approx": true,
+                "impact": "$14 buys a ten-ride pass.",
+                "link": {
+                  "type": "url",
+                  "url": "https://www.zeffy.com/en-US/donation-form/sponsor-our-transportation-and-mobility-program"
+                },
+                "linkLabel": "Fund this",
+                "summary": "Half-price RTD passes through the nonprofit program: at least 370 rides a month to appointments, food banks, shelter and services.",
+                "title": "Transportation and mobility"
+              }
+            ],
+            "note": "",
+            "summary": "Choose what your gift does. Amounts are estimates from our recent costs."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_p238m6a8hq",
+      "preset": "component/giving-path@1",
+      "label": "Giving path row",
+      "anchor": "give-things",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_pqnph22pfn",
+          "type": "component/giving-path",
+          "v": 1,
+          "fields": {
+            "buttonLabel": "Open the wish list",
+            "buttonLink": {
+              "type": "url",
+              "url": "https://a.co/08YXvcyJ"
+            },
+            "buttonStyle": "outline",
+            "heading": "Give things",
+            "intro": "Our outreach events use single-use food service items, and we aim to use mostly compostable supplies. We also hand out seasonal survival gear. Our Amazon wish list lists what we use and distribute, and anything ordered ships directly to us.",
+            "items": [],
+            "note": "",
+            "summary": "Your gently used items go to neighbors according to need.",
+            "body": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 3
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Donating items yourself"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The things our neighbors can use most:"
+                    }
+                  ]
+                },
+                {
+                  "type": "bulletList",
+                  "content": [
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Bikes, bike locks and bicycle repair supplies"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Sturdy backpacks and other luggage"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Mobility aids such as canes, walkers and crutches"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Camping gear"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Water bottles"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Email us",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "mailto:libby@feetforwardboulder.org"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " to arrange a drop-off. For clothing and shoes, please contact "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Deacon’s Closet",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://www.deaconscloset.org/"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". For furniture, contact "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Home Ahead",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://www.homeahead.org/"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". We are glad to send you to partners who can use those."
                     }
                   ]
                 }

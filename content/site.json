@@ -479,5 +479,77 @@
     "analytics": false,
     "bookingUrl": null,
     "stripeConnected": false
-  }
+  },
+  "redirects": [
+    {
+      "from": "/home",
+      "status": 301,
+      "to": "/"
+    },
+    {
+      "from": "/about-us",
+      "status": 301,
+      "to": "/about/"
+    },
+    {
+      "from": "/about-us/our-mission",
+      "status": 301,
+      "to": "/about/"
+    },
+    {
+      "from": "/about-us/our-approach",
+      "status": 301,
+      "to": "/approach/"
+    },
+    {
+      "from": "/our-work",
+      "status": 301,
+      "to": "/work/"
+    },
+    {
+      "from": "/our-work/peer-support",
+      "status": 301,
+      "to": "/work/peer-support/"
+    },
+    {
+      "from": "/our-work/weekly-outreach",
+      "status": 301,
+      "to": "/work/weekly-outreach/"
+    },
+    {
+      "from": "/our-work/tuesdays-in-the-park",
+      "status": 301,
+      "to": "/work/weekly-outreach/"
+    },
+    {
+      "from": "/our-work/friday-breakfast-club",
+      "status": 301,
+      "to": "/work/weekly-outreach/"
+    },
+    {
+      "from": "/get-involved",
+      "status": 301,
+      "to": "/give/"
+    },
+    {
+      "from": "/get-involved/donate",
+      "status": 301,
+      "to": "/give/"
+    },
+    {
+      "from": "/get-involved/sponsor",
+      "status": 301,
+      "to": "/give/"
+    },
+    {
+      "from": "/get-involved/volunteer",
+      "status": 301,
+      "to": "/volunteer/"
+    },
+    {
+      "from": "/get-involved/contact",
+      "status": 301,
+      "to": "/contact/"
+    }
+  ]
 }
