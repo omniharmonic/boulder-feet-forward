@@ -368,6 +368,16 @@
       },
       "blocks": [
         {
+          "id": "blk_6tby97jp8j",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "There is no single pathway out of homelessness.",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
           "id": "blk_gtvtbh9z78",
           "type": "text",
           "v": 1,
@@ -376,91 +386,11 @@
               "type": "doc",
               "content": [
                 {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "There is no single pathway out of homelessness."
-                    }
-                  ]
-                },
-                {
                   "type": "paragraph",
                   "content": [
                     {
                       "type": "text",
                       "text": "Housing matters. But four walls and a roof do not automatically create health, stability, community, purpose or home. So we ask what this person needs to move forward, not which program they fit into. Choose a dimension of wellness to see how we help."
-                    }
-                  ]
-                },
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 3
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Emotional"
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Wellbeing starts with someone who shows up. Our peers are there every day, as equals."
-                    }
-                  ]
-                },
-                {
-                  "type": "orderedList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Basic needsDaily connection and a co-equal relationship with peers"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Stabilizing resourcesCare referrals, and our continued daily presence"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Sustainable supportContinued support to each individual"
-                            }
-                          ]
-                        }
-                      ]
                     }
                   ]
                 }
@@ -479,6 +409,117 @@
               "page": "pg_ym9be7p01r"
             },
             "role": "secondary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_4871fad6ph",
+      "preset": "component/wellness-wheel@1",
+      "label": "Wellness wheel",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_tg74x62dns",
+          "type": "component/wellness-wheel",
+          "v": 1,
+          "fields": {
+            "dimensions": [
+              {
+                "name": "Emotional",
+                "step1": "Daily connection and a co-equal relationship with peers",
+                "step2": "Care referrals, and our continued daily presence",
+                "step3": "Continued support to each individual",
+                "summary": "Wellbeing starts with someone who shows up. Our peers are there every day, as equals.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Occupational",
+                "step1": "Reliable transportation (bus passes, bike locks) and professional clothing",
+                "step2": "Referrals for job placement programs, and résumé assistance",
+                "step3": "Ongoing individualized support",
+                "summary": "Work and purpose depend on being able to get there, and to show up as yourself.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Intellectual",
+                "step1": "Art, poetry and movie workshops, and supplies",
+                "step2": "Exploration: referrals and information for classes, groups and events",
+                "step3": "Program enrollments for education and more, with ongoing goal-setting and support",
+                "summary": "Curiosity doesn't wait for housing. Learning is part of how people rebuild.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Environmental",
+                "step1": "Park cleanup, sleeping bags or blankets, clothing",
+                "step2": "Laundry vouchers, plus referrals and information for shelters and free, friendly public spaces with bathrooms, showers and storage",
+                "step3": "Housing and furniture",
+                "summary": "The spaces people live in, and move through, shape everything else.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Financial",
+                "step1": "Essentials provided at no cost",
+                "step2": "Enrollment and advocacy for Aid to the Needy Disabled (AND), SSI and SSDI",
+                "step3": "Long-term goal setting and individualized planning",
+                "summary": "Money is a barrier at every step. We remove it first, then help people build a way forward.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Social",
+                "step1": "Conversation and companionship with peers",
+                "step2": "Continued daily interaction, deepening connection, and prosocial events",
+                "step3": "A broadened sense of community",
+                "summary": "Belonging is basic. It starts with conversation and grows into community.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Physical",
+                "step1": "Nutritious food and water, hygiene supplies, basic wound care, safe-use and harm reduction supplies, and safer-sex supplies",
+                "step2": "Food bank information, care referrals, and SNAP and Medicaid enrollment",
+                "step3": "Housing and advocacy",
+                "summary": "Food, water, first aid and harm reduction come first, wherever someone is.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Spiritual",
+                "step1": "Outreach by the faith groups that join our events",
+                "step2": "Conversation, and referrals to programs and groups that fit each person",
+                "step3": "Ongoing follow-up",
+                "summary": "Meaning looks different for everyone. We make room for whatever it is for you.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              }
+            ],
+            "hub1": "Whole",
+            "hub2": "person",
+            "hubNote": "Eight dimensions"
           }
         }
       ]
