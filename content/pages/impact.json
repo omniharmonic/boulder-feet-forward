@@ -8,6 +8,7 @@
   "sections": [
     {
       "id": "sec_w0xdxe5xmp",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -53,11 +54,11 @@
             }
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_bw07gf206y",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -228,11 +229,12 @@
             }
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_8qb4rafgzn",
+      "preset": "starter/stack-12@1",
+      "anchor": "where-it-goes",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -269,12 +271,11 @@
             }
           }
         }
-      ],
-      "preset": "starter/stack-12@1",
-      "anchor": "where-it-goes"
+      ]
     },
     {
       "id": "sec_e37hza9kbd",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -563,8 +564,7 @@
             "role": "primary"
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     }
   ]
 }

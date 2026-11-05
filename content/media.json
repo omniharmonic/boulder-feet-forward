@@ -8,11 +8,11 @@
     "width": 702,
     "height": 720,
     "alt": "Libby Ogletree smiling at the camera.",
-    "createdAt": "2026-11-05T20:47:47.824Z",
-    "originalName": "libby-ogletree.jpg",
     "credit": {
       "source": "Imported from the original site"
-    }
+    },
+    "originalName": "libby-ogletree.jpg",
+    "createdAt": "2026-11-05T20:47:47.824Z"
   },
   "media/2026/11/adam-walker-sg6h.jpg": {
     "id": "med_sg6hp3de87",
@@ -23,11 +23,11 @@
     "width": 702,
     "height": 720,
     "alt": "A small figure sits on a rock ledge above a green mountain valley.",
-    "createdAt": "2026-11-05T20:47:47.824Z",
-    "originalName": "adam-walker.jpg",
     "credit": {
       "source": "Imported from the original site"
-    }
+    },
+    "originalName": "adam-walker.jpg",
+    "createdAt": "2026-11-05T20:47:47.824Z"
   },
   "media/2026/11/favicon-synf.svg": {
     "id": "med_synfgnqt2m",
@@ -38,11 +38,11 @@
     "width": 1060,
     "height": 650,
     "alt": "",
-    "originalName": "favicon.svg",
-    "createdAt": "2026-11-05T20:47:47.824Z",
     "credit": {
       "source": "Imported from the original site"
-    }
+    },
+    "originalName": "favicon.svg",
+    "createdAt": "2026-11-05T20:47:47.824Z"
   },
   "media/2026/11/libby-ogletree-a8hy.jpg": {
     "id": "med_a8hyp6ehmb",
@@ -53,11 +53,11 @@
     "width": 702,
     "height": 720,
     "alt": "Libby Ogletree smiling at the camera.",
-    "createdAt": "2026-11-05T20:51:20.504Z",
-    "originalName": "libby-ogletree.jpg",
     "credit": {
       "source": "Imported from the original site"
-    }
+    },
+    "originalName": "libby-ogletree.jpg",
+    "createdAt": "2026-11-05T20:51:20.504Z"
   },
   "media/2026/11/adam-walker-9ptj.jpg": {
     "id": "med_9ptj889y02",
@@ -68,10 +68,10 @@
     "width": 702,
     "height": 720,
     "alt": "A small figure sits on a rock ledge above a green mountain valley.",
-    "createdAt": "2026-11-05T20:51:20.504Z",
-    "originalName": "adam-walker.jpg",
     "credit": {
       "source": "Imported from the original site"
-    }
+    },
+    "originalName": "adam-walker.jpg",
+    "createdAt": "2026-11-05T20:51:20.504Z"
   }
 }

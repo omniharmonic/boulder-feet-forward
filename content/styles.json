@@ -14,10 +14,11 @@
     "imageTreatment": "none",
     "typography": {
       "heading": {
-        "family": "Playfair Display",
+        "family": "Newsreader",
         "category": "serif",
         "weights": [
-          400
+          400,
+          500
         ]
       },
       "body": {
@@ -67,8 +68,8 @@
           "lineHeight": 1.23,
           "letterSpacing": 0,
           "case": "none",
-          "font": "heading",
-          "weight": 400
+          "weight": 400,
+          "font": "heading"
         },
         "display": {
           "size": 88,
@@ -115,17 +116,13 @@
     "layout": {
       "contentWidth": 992,
       "sectionPadding": 91,
-      "sectionPaddingMobile": 53
+      "sectionPaddingMobile": 53,
+      "pageBackground": "#e9e6d2"
     }
   },
   "overrides": {
     "color": {
-      "light": {
-        "background": {
-          "$type": "color",
-          "$value": "#e9e6d2"
-        }
-      }
+      "light": {}
     }
   }
 }

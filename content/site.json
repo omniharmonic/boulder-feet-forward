@@ -46,16 +46,17 @@
   ],
   "header": {
     "variant": "classic-left",
+    "sticky": false,
+    "transparentOnHero": false,
+    "mobileMenu": "fullscreen",
     "logoHeight": {
       "d": 35,
       "m": 35
-    },
-    "sticky": false,
-    "transparentOnHero": false,
-    "mobileMenu": "fullscreen"
+    }
   },
   "footer": {
     "id": "sec_gx0nn8jd5z",
+    "label": "Footer",
     "layout": {
       "mode": "stack",
       "columns": {
@@ -82,6 +83,7 @@
         "id": "blk_nbyrmvsfb9",
         "type": "text",
         "v": 1,
+        "column": 0,
         "fields": {
           "content": {
             "type": "doc",
@@ -97,13 +99,13 @@
               }
             ]
           }
-        },
-        "column": 0
+        }
       },
       {
         "id": "blk_e376vcj9kx",
         "type": "text",
         "v": 1,
+        "column": 0,
         "fields": {
           "content": {
             "type": "doc",
@@ -144,13 +146,13 @@
               }
             ]
           }
-        },
-        "column": 0
+        }
       },
       {
         "id": "blk_g7ngbb3we2",
         "type": "social-links",
         "v": 1,
+        "column": 0,
         "fields": {
           "source": "site",
           "profiles": [
@@ -167,13 +169,13 @@
               "url": "mailto:hello@juniperyoga.com"
             }
           ]
-        },
-        "column": 0
+        }
       },
       {
         "id": "blk_g2zdmfqef4",
         "type": "text",
         "v": 1,
+        "column": 1,
         "fields": {
           "content": {
             "type": "doc",
@@ -329,13 +331,13 @@
               }
             ]
           }
-        },
-        "column": 1
+        }
       },
       {
         "id": "blk_aj1aj6ck3q",
         "type": "text",
         "v": 1,
+        "column": 2,
         "fields": {
           "content": {
             "type": "doc",
@@ -459,13 +461,13 @@
               }
             ]
           }
-        },
-        "column": 2
+        }
       },
       {
         "id": "blk_7tcfcx1v46",
         "type": "text",
         "v": 1,
+        "column": 3,
         "fields": {
           "content": {
             "type": "doc",
@@ -493,24 +495,22 @@
               }
             ]
           }
-        },
-        "column": 3
+        }
       },
       {
         "id": "blk_5206wy2jby",
         "type": "newsletter",
         "v": 1,
+        "column": 3,
         "fields": {
           "askName": false,
           "placeholder": "you@example.com",
           "buttonLabel": "Join the newsletter",
           "successMessage": "Almost there — check your inbox to confirm your subscription."
         },
-        "variant": "stacked",
-        "column": 3
+        "variant": "stacked"
       }
-    ],
-    "label": "Footer"
+    ]
   },
   "social": [
     {

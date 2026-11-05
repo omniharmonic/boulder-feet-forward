@@ -9,6 +9,7 @@
   "sections": [
     {
       "id": "sec_dwhc2x7ys9",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -54,11 +55,11 @@
             }
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_tstc2ps2n0",
+      "preset": "services/image-cards@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -146,11 +147,11 @@
           },
           "variant": "plain"
         }
-      ],
-      "preset": "services/image-cards@1"
+      ]
     },
     {
       "id": "sec_st9vwv6v1k",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -264,11 +265,11 @@
             }
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_amsf4kf7rr",
+      "preset": "services/image-cards@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -357,11 +358,11 @@
           },
           "variant": "plain"
         }
-      ],
-      "preset": "services/image-cards@1"
+      ]
     },
     {
       "id": "sec_bpbeh6nh2z",
+      "preset": "services/image-cards@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -483,11 +484,11 @@
           },
           "variant": "plain"
         }
-      ],
-      "preset": "services/image-cards@1"
+      ]
     },
     {
       "id": "sec_06axbj2n3p",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -559,8 +560,7 @@
             "role": "secondary"
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     }
   ]
 }

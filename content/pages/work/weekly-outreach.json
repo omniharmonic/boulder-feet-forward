@@ -10,6 +10,7 @@
   "sections": [
     {
       "id": "sec_mejr85zthb",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -55,11 +56,12 @@
             }
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_094wk99be3",
+      "preset": "starter/stack-12@1",
+      "anchor": "tuesdays-in-the-park",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -299,12 +301,12 @@
             "role": "secondary"
           }
         }
-      ],
-      "preset": "starter/stack-12@1",
-      "anchor": "tuesdays-in-the-park"
+      ]
     },
     {
       "id": "sec_qcs8fq2q6p",
+      "preset": "starter/stack-12@1",
+      "anchor": "friday-breakfast-club",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -516,12 +518,11 @@
             "role": "secondary"
           }
         }
-      ],
-      "preset": "starter/stack-12@1",
-      "anchor": "friday-breakfast-club"
+      ]
     },
     {
       "id": "sec_ztb3754dxm",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -804,8 +805,7 @@
             }
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     }
   ]
 }

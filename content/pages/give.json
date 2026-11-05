@@ -10,6 +10,7 @@
   "sections": [
     {
       "id": "sec_53wzgyc4bt",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -59,11 +60,11 @@
             }
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_dt9ke4wcvk",
+      "preset": "starter/stack-6-6@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -84,19 +85,20 @@
           "id": "blk_rbf8n22bcc",
           "type": "heading",
           "v": 1,
+          "column": 0,
           "fields": {
             "text": "Give where it’s needed most",
             "level": "h2",
             "size": "auto",
             "subheading": "Our work is much more than a handout. A direct gift keeps case management going: housing assessments, resource navigation, referrals, warm handoffs, benefits enrollment, peer support and advocacy."
           },
-          "variant": "plain",
-          "column": 0
+          "variant": "plain"
         },
         {
           "id": "blk_f2fjshgr8n",
           "type": "text",
           "v": 1,
+          "column": 1,
           "fields": {
             "content": {
               "type": "doc",
@@ -112,13 +114,13 @@
                 }
               ]
             }
-          },
-          "column": 1
+          }
         },
         {
           "id": "blk_hzvt8vc0pa",
           "type": "button",
           "v": 1,
+          "column": 1,
           "fields": {
             "label": "Give where it’s needed",
             "link": {
@@ -126,13 +128,13 @@
               "url": "https://www.zeffy.com/en-US/donation-form/support-our-work-48"
             },
             "role": "primary"
-          },
-          "column": 1
+          }
         },
         {
           "id": "blk_ea30drkp3v",
           "type": "text",
           "v": 1,
+          "column": 1,
           "fields": {
             "content": {
               "type": "doc",
@@ -148,14 +150,13 @@
                 }
               ]
             }
-          },
-          "column": 1
+          }
         }
-      ],
-      "preset": "starter/stack-6-6@1"
+      ]
     },
     {
       "id": "sec_z6e5yr3hce",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -336,11 +337,11 @@
             "aspect": "4:5"
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_se7waemg72",
+      "preset": "starter/stack-6-6@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -361,6 +362,7 @@
           "id": "blk_t9ng97trn5",
           "type": "text",
           "v": 1,
+          "column": 0,
           "fields": {
             "content": {
               "type": "doc",
@@ -388,13 +390,13 @@
                 }
               ]
             }
-          },
-          "column": 0
+          }
         },
         {
           "id": "blk_je5k386psa",
           "type": "text",
           "v": 1,
+          "column": 1,
           "fields": {
             "content": {
               "type": "doc",
@@ -410,13 +412,13 @@
                 }
               ]
             }
-          },
-          "column": 1
+          }
         },
         {
           "id": "blk_emzmsf2yby",
           "type": "button",
           "v": 1,
+          "column": 1,
           "fields": {
             "label": "Open the wish list",
             "link": {
@@ -424,13 +426,13 @@
               "url": "https://a.co/08YXvcyJ"
             },
             "role": "secondary"
-          },
-          "column": 1
+          }
         },
         {
           "id": "blk_v1vr5f1qnp",
           "type": "text",
           "v": 1,
+          "column": 1,
           "fields": {
             "content": {
               "type": "doc",
@@ -586,14 +588,13 @@
                 }
               ]
             }
-          },
-          "column": 1
+          }
         }
-      ],
-      "preset": "starter/stack-6-6@1"
+      ]
     },
     {
       "id": "sec_gchsgmc90m",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -639,8 +640,7 @@
             }
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     }
   ]
 }

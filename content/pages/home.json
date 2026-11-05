@@ -87,6 +87,7 @@
     },
     {
       "id": "sec_j5j94xrxja",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -271,11 +272,11 @@
             }
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_86eswx3c0q",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -338,11 +339,11 @@
             "role": "secondary"
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_r1zar0fhp3",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -473,8 +474,7 @@
             "role": "secondary"
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_s8t6x4d2gd",
@@ -590,6 +590,7 @@
     },
     {
       "id": "sec_1brw3srppw",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -626,11 +627,11 @@
             }
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_90qp4b08vn",
+      "preset": "cta/banner@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -728,11 +729,11 @@
             }
           }
         }
-      ],
-      "preset": "cta/banner@1"
+      ]
     },
     {
       "id": "sec_sp6jpae46d",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -794,8 +795,7 @@
           },
           "variant": "stacked"
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     }
   ]
 }
