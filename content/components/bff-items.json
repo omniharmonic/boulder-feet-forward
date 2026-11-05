@@ -1,0 +1,71 @@
+{
+  "name": "bff-items",
+  "label": "Items: columns, steps or rows",
+  "description": "A list of short items shown as three columns, as three coloured steps, or as rows with the title beside the text.",
+  "version": 1,
+  "category": "features",
+  "fields": {
+    "items": {
+      "kind": "list",
+      "label": "Items",
+      "fields": {
+        "kicker": {
+          "kind": "text",
+          "label": "Small label above (e.g. Step 1)",
+          "optional": true,
+          "maxLength": 30
+        },
+        "text": {
+          "kind": "text",
+          "label": "Text",
+          "maxLength": 500,
+          "multiline": true
+        },
+        "title": {
+          "kind": "text",
+          "label": "Title",
+          "maxLength": 80
+        }
+      }
+    },
+    "layout": {
+      "kind": "select",
+      "label": "Layout",
+      "options": [
+        "columns",
+        "steps",
+        "rows"
+      ]
+    }
+  },
+  "defaults": {
+    "items": [
+      {
+        "kicker": "",
+        "text": "Our care is collaborative, trust-based, trauma-informed and built on choice. The individual determines the destination.",
+        "title": "Person first"
+      },
+      {
+        "kicker": "",
+        "text": "We don’t decide that everyone needs treatment first, housing first, employment first or sobriety first. We ask: what does success look like to you, and what would it take to make that happen?",
+        "title": "Wellness first"
+      },
+      {
+        "kicker": "",
+        "text": "We don’t duplicate the larger system of care. We extend its reach. We work alongside existing providers and care teams so people can get services they might otherwise never reach.",
+        "title": "The engagement bridge"
+      }
+    ],
+    "layout": "columns"
+  },
+  "template": "<ul class=\"bi\" data-layout=\"{{layout}}\">{{#each items}}<li class=\"bi__i\">{{#if kicker}}<b class=\"bi__k\">{{kicker}}</b>{{/if}}<h3 class=\"bi__t\">{{title}}</h3><p class=\"bi__p\">{{text}}</p></li>{{/each}}</ul>",
+  "css": ".bi{list-style:none;margin:0;padding:0;display:grid;gap:1.5rem 3rem}\n.bi__t{margin:0 0 .3em}\n.bi__p{margin:0;color:var(--os-color-text-muted)}\n.bi__k{display:block;font-family:var(--os-font-heading);font-size:1.1rem;font-weight:500;color:var(--os-color-heading);margin-bottom:.2rem}\n@media (min-width:992px){.bi[data-layout=columns]{grid-template-columns:repeat(3,minmax(0,1fr))}}\n.bi[data-layout=steps]{gap:1.6rem;margin-top:1rem}\n.bi[data-layout=steps] .bi__i{border-top:6px solid #6b8e36;padding-top:1rem}\n.bi[data-layout=steps] .bi__i:nth-child(2){border-top-color:#a9a72f}\n.bi[data-layout=steps] .bi__i:nth-child(3){border-top-color:#eec02b}\n.bi[data-layout=steps] .bi__t{margin-bottom:.25em}\n@media (min-width:768px){.bi[data-layout=steps]{grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;align-items:start}}\n.bi[data-layout=rows]{gap:0;margin-top:.4rem}\n.bi[data-layout=rows] .bi__i{padding:1.1rem 0;border-top:1px solid rgba(21,38,26,.22);display:grid;gap:.2rem 3rem}\n.bi[data-layout=rows] .bi__i:last-child{border-bottom:1px solid rgba(21,38,26,.22)}\n.bi[data-layout=rows] .bi__t{font-size:1.35rem;margin:0}\n.bi[data-layout=rows] .bi__p{max-width:62ch}\n@media (min-width:992px){.bi[data-layout=rows] .bi__i{grid-template-columns:minmax(0,17rem) minmax(0,1fr)}}",
+  "section": {
+    "width": "content"
+  },
+  "ai": {
+    "purpose": "Short items in columns, steps or rows.",
+    "whenToUse": "Principles, steps of support, ways of working.",
+    "avoid": "Long paragraphs in columns layout."
+  }
+}

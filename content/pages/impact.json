@@ -20,13 +20,13 @@
         "width": "content"
       },
       "style": {
-        "background": {
-          "color": "#e9e6d2",
-          "type": "color"
-        },
         "padding": {
           "d": "none",
           "m": "none"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -43,6 +43,7 @@
     {
       "id": "sec_w0xdxe5xmp",
       "preset": "starter/stack-12@1",
+      "label": "Page head",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -54,8 +55,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -95,13 +96,13 @@
             }
           }
         }
-      ],
-      "label": "Page head"
+      ]
     },
     {
       "id": "sec_sdrm8qkktd",
       "preset": "component/bff-facts@1",
       "label": "The numbers",
+      "anchor": "numbers",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -114,8 +115,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -197,8 +198,7 @@
             "source": "Numbers as of October 2026, from the Boulder Feet Forward information packet."
           }
         }
-      ],
-      "anchor": "numbers"
+      ]
     },
     {
       "id": "sec_bpk2sbqcqg",
@@ -216,10 +216,11 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
+      "hidden": true,
       "blocks": [
         {
           "id": "blk_21994r440q",
@@ -261,8 +262,7 @@
             ]
           }
         }
-      ],
-      "hidden": true
+      ]
     },
     {
       "id": "sec_n0e2zk8445",
@@ -281,8 +281,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [

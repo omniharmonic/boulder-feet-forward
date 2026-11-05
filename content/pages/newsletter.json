@@ -19,8 +19,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -49,13 +49,13 @@
         "width": "content"
       },
       "style": {
-        "background": {
-          "color": "#e9e6d2",
-          "type": "color"
-        },
         "padding": {
           "d": "none",
           "m": "none"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -72,6 +72,7 @@
     {
       "id": "sec_62bzr0ym73",
       "layout": {
+        "mode": "stack",
         "columns": {
           "d": [
             7,
@@ -80,18 +81,17 @@
           "m": [
             12
           ]
-        },
-        "mode": "stack"
+        }
       },
       "style": {
         "colorTheme": "light",
-        "background": {
-          "color": "#e9e6d2",
-          "type": "color"
-        },
         "padding": {
           "d": "md",
           "m": "md"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [

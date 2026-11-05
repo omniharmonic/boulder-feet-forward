@@ -79,13 +79,13 @@
         "width": "content"
       },
       "style": {
-        "background": {
-          "color": "#e9e6d2",
-          "type": "color"
-        },
         "padding": {
           "d": "none",
           "m": "none"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -208,6 +208,8 @@
     {
       "id": "sec_rz60hr2wk9",
       "preset": "starter/stack-12@1",
+      "label": "Further reading",
+      "anchor": "reading",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -219,8 +221,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -272,9 +274,7 @@
             "layout": "one"
           }
         }
-      ],
-      "anchor": "reading",
-      "label": "Further reading"
+      ]
     }
   ]
 }

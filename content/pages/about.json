@@ -66,13 +66,13 @@
         "width": "content"
       },
       "style": {
-        "background": {
-          "color": "#e9e6d2",
-          "type": "color"
-        },
         "padding": {
           "d": "none",
           "m": "none"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -100,8 +100,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -153,6 +153,7 @@
     {
       "id": "sec_7mznq0x8gq",
       "label": "The team",
+      "anchor": "team",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -164,8 +165,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -204,12 +205,12 @@
             ]
           }
         }
-      ],
-      "anchor": "team"
+      ]
     },
     {
       "id": "sec_e738z1v2pk",
       "label": "We work with",
+      "anchor": "with",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -221,8 +222,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -314,8 +315,7 @@
             "layout": "two"
           }
         }
-      ],
-      "anchor": "with"
+      ]
     }
   ]
 }
