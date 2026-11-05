@@ -1,0 +1,59 @@
+{
+  "name": "team-grid",
+  "label": "Team",
+  "description": "The team: a tall photo, name and role for each person.",
+  "version": 1,
+  "category": "team",
+  "fields": {
+    "people": {
+      "kind": "list",
+      "label": "People",
+      "fields": {
+        "name": {
+          "kind": "text",
+          "label": "Name",
+          "maxLength": 80
+        },
+        "photo": {
+          "kind": "image",
+          "label": "Photo"
+        },
+        "role": {
+          "kind": "text",
+          "label": "Role",
+          "maxLength": 120
+        }
+      }
+    }
+  },
+  "defaults": {
+    "people": [
+      {
+        "name": "Libby Ogletree, CPFS",
+        "photo": {
+          "alt": "Libby Ogletree smiling at the camera.",
+          "src": "media/2026/11/libby-ogletree-a8hy.jpg"
+        },
+        "role": "Co-Director, Peer Specialist, Case Manager"
+      },
+      {
+        "name": "Adam Walker",
+        "photo": {
+          "alt": "A small figure sits on a rock ledge above a green mountain valley.",
+          "src": "media/2026/11/adam-walker-9ptj.jpg"
+        },
+        "role": "Co-Director, Peer Specialist"
+      }
+    ]
+  },
+  "template": "<div class=\"tg\">{{#each people}}<figure class=\"tg__p\"><div class=\"tg__img\">{{image photo sizes=\"(max-width: 767px) 100vw, 320px\" aspect=\"11:20\"}}</div><figcaption><h3 class=\"tg__n\">{{name}}</h3><p class=\"tg__r\">{{role}}</p></figcaption></figure>{{/each}}</div>",
+  "css": ".tg { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem clamp(1.5rem, 4vw, 2.75rem); margin-top: 1.8rem; }\n.tg__p { margin: 0; }\n.tg__img { width: min(100%, 20rem); aspect-ratio: 11 / 20; border-radius: 8px; overflow: hidden; }\n.tg__img picture, .tg__img img { display: block; width: 100%; height: 100%; object-fit: cover; }\n.tg__n { margin: 1rem 0 .3rem; font-size: clamp(1.4rem, 1.2rem + .6vw, 1.75rem); }\n.tg__r { margin: 0; font-size: .92rem; color: var(--os-color-text-muted); }\n@media (max-width: 767px) { .tg { grid-template-columns: 1fr; } .tg__img { aspect-ratio: 4 / 5; } }",
+  "section": {
+    "width": "content"
+  },
+  "ai": {
+    "purpose": "Shows the people on the team.",
+    "whenToUse": "About page.",
+    "avoid": "More than six people."
+  }
+}

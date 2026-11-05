@@ -1,0 +1,186 @@
+{
+  "name": "budget-breakdown",
+  "label": "Where a year of giving goes",
+  "description": "The yearly budget: a lead line, a coloured bar split by the three tiers, a key, then each tier with its line items and amounts, and footnotes.",
+  "version": 1,
+  "category": "stats",
+  "fields": {
+    "barLabel": {
+      "kind": "text",
+      "label": "Bar description (for screen readers)",
+      "maxLength": 240
+    },
+    "footnotes": {
+      "kind": "list",
+      "label": "Footnotes",
+      "fields": {
+        "text": {
+          "kind": "text",
+          "label": "Footnote",
+          "maxLength": 300,
+          "multiline": true
+        }
+      }
+    },
+    "lead": {
+      "kind": "text",
+      "label": "Lead line",
+      "maxLength": 200,
+      "multiline": true
+    },
+    "note": {
+      "kind": "text",
+      "label": "Note",
+      "optional": true,
+      "maxLength": 400,
+      "multiline": true
+    },
+    "tiers": {
+      "kind": "list",
+      "label": "Tiers (up to three; first green, last gold)",
+      "fields": {
+        "annual": {
+          "kind": "text",
+          "label": "A year",
+          "maxLength": 20
+        },
+        "items": {
+          "kind": "list",
+          "label": "Line items",
+          "fields": {
+            "amount": {
+              "kind": "text",
+              "label": "Amount",
+              "maxLength": 30
+            },
+            "name": {
+              "kind": "text",
+              "label": "Item",
+              "maxLength": 80
+            },
+            "what": {
+              "kind": "text",
+              "label": "What it does",
+              "maxLength": 300,
+              "multiline": true
+            }
+          }
+        },
+        "monthly": {
+          "kind": "text",
+          "label": "A month",
+          "maxLength": 20
+        },
+        "name": {
+          "kind": "text",
+          "label": "Name",
+          "maxLength": 40
+        },
+        "pct": {
+          "kind": "text",
+          "label": "Share (e.g. 18%)",
+          "maxLength": 8
+        },
+        "share": {
+          "kind": "number",
+          "label": "Size in the bar (yearly amount, numbers only)",
+          "min": 0,
+          "max": 10000000
+        }
+      }
+    }
+  },
+  "defaults": {
+    "barLabel": "Where a year of giving goes: Basic needs $48,920, Stabilization $147,200, Sustained support $76,000.",
+    "footnotes": [
+      {
+        "text": "Volunteer labor is based on about 424 recorded volunteer hours at Tuesday outreach events in 2024, valued at Colorado's current estimated value of volunteer time. Friday hours are not included."
+      },
+      {
+        "text": "$500 buys 37 ten-ride RTD pass books, at least 370 rides. Passes are valid for three hours and may include transfers."
+      }
+    ],
+    "lead": "A full year of this work costs $272,120, or $22,677 a month.",
+    "note": "$272,120 a year funds a four-person team, including two additional full-time Peer Specialist / Case Manager positions at $60,000 each. About $150,000 a year sustains BFF at its current staffing level.",
+    "tiers": [
+      {
+        "annual": "$48,920",
+        "items": [
+          {
+            "amount": "$10,400 a year",
+            "name": "Meals",
+            "what": "Purchased food fills the gaps in donated food, so we can serve about 458 meals each month. Donated food added another $24,114 in value in 2024."
+          },
+          {
+            "amount": "$3,120 a year",
+            "name": "Personal care supplies",
+            "what": "About 11,360 hygiene, first-aid and personal care items each year. In-kind gifts keep our average cost to about $0.27 per item."
+          },
+          {
+            "amount": "$35,400 a year",
+            "name": "Outreach infrastructure",
+            "what": "The staff time and licensed kitchen it takes to source, prepare, haul, set up, serve and clean up two outreach events every week. Volunteers add at least $16,959 in labor."
+          }
+        ],
+        "monthly": "$4,077",
+        "name": "Basic needs",
+        "pct": "18%",
+        "share": 48920
+      },
+      {
+        "annual": "$147,200",
+        "items": [
+          {
+            "amount": "$6,000 a year",
+            "name": "RTD bus passes",
+            "what": "At least 370 rides a month to appointments, food banks, shelter and services. We buy passes at a 50% nonprofit discount."
+          },
+          {
+            "amount": "$1,200 a year",
+            "name": "Laundry vouchers",
+            "what": "Twenty vouchers a month, so people can reuse clothing, blankets and sleeping bags."
+          },
+          {
+            "amount": "$140,000 a year",
+            "name": "Daily peer outreach and resource navigation",
+            "what": "Current resource information and partner relationships, personal navigation, Coordinated Entry and housing assessments, and warm handoffs to providers."
+          }
+        ],
+        "monthly": "$12,267",
+        "name": "Stabilization",
+        "pct": "54%",
+        "share": 147200
+      },
+      {
+        "annual": "$76,000",
+        "items": [
+          {
+            "amount": "$70,000 a year",
+            "name": "Peer case management",
+            "what": "Individualized support, housing and other advocacy, coordination, problem-solving and follow-through toward goals people set for themselves."
+          },
+          {
+            "amount": "$6,000 a year",
+            "name": "Mobile service and direct costs",
+            "what": "Keeps the team mobile and covers the small costs that remove barriers: IDs, documents, application fees."
+          }
+        ],
+        "monthly": "$6,333",
+        "name": "Sustained support",
+        "pct": "28%",
+        "share": 76000
+      }
+    ]
+  },
+  "template": "<div class=\"bg\"><p class=\"bg__lead\">{{lead}}</p>{{#if note}}<p class=\"bg__note\">{{note}}</p>{{/if}}<div class=\"bg__bar\" role=\"img\" aria-label=\"{{barLabel}}\">{{#each tiers}}<span class=\"bg__s bg__c{{@index}}\" data-f=\"{{share}}\"></span>{{/each}}</div><ul class=\"bg__key\">{{#each tiers}}<li><i class=\"bg__c{{@index}}\"></i>{{name}}, {{annual}} ({{pct}})</li>{{/each}}</ul>{{#each tiers}}<div class=\"bg__tier\"><div><h3 class=\"bg__h\">{{name}}</h3><p class=\"bg__tot\">{{annual}} a year<br>{{monthly}} a month</p></div><dl class=\"bg__dl\">{{#each items}}<div class=\"bg__row\"><dt>{{name}}</dt><dd>{{what}}</dd><dd class=\"bg__amt\">{{amount}}</dd></div>{{/each}}</dl></div>{{/each}}{{#each footnotes}}<p class=\"bg__fn\">{{text}}</p>{{/each}}</div>",
+  "css": ".bg__lead{font-family:var(--os-font-heading);font-size:clamp(1.5rem,1rem + 1.8vw,2.3rem);line-height:1.25;letter-spacing:-.01em;max-width:36ch;margin:0 0 1rem;color:var(--os-color-heading)}\n.bg__note{max-width:62ch;color:var(--os-color-text-muted);margin:0}\n.bg__bar{display:flex;height:3.2rem;border-radius:999px;overflow:hidden;margin:1.6rem 0 .8rem;gap:3px}\n.bg__s{display:block;min-width:0;flex:1}\n.bg__c0{background:#6b8e36}.bg__c1{background:#a9a72f}.bg__c2{background:#eec02b}\n.bg__key{display:flex;flex-wrap:wrap;gap:.6rem 2rem;font-size:.98rem;margin:0 0 2.2rem;padding:0;list-style:none}\n.bg__key li{display:flex;align-items:center;gap:.5rem}\n.bg__key i{width:.9rem;height:.9rem;border-radius:999px;display:block}\n.bg__tier{padding:1.5rem 0;border-top:1px solid rgba(21,38,26,.22);display:grid;gap:.5rem 3rem}\n@media (min-width:1200px){.bg__tier{grid-template-columns:minmax(0,15rem) minmax(0,1fr)}}\n.bg__h{margin:0}\n.bg__tot{color:var(--os-color-text-muted);margin:.2rem 0 0;font-size:1rem}\n.bg__dl{margin:0}\n.bg__row{display:grid;gap:.2rem 1.5rem;padding:.9rem 0;border-bottom:1px solid rgba(21,38,26,.22)}\n.bg__row:last-child{border-bottom:0}\n.bg__row dt{font-weight:700}\n.bg__row dd{margin:0;color:var(--os-color-text-muted);font-size:1.02rem}\n.bg__row .bg__amt{font-variant-numeric:tabular-nums;font-weight:700;color:var(--os-color-heading);grid-row:1}\n@media (min-width:768px){.bg__row{grid-template-columns:minmax(0,1fr) 8rem}.bg__row .bg__amt{text-align:right;grid-column:2}.bg__row dt,.bg__row dd{grid-column:1}}\n.bg__fn{font-size:.92rem;color:var(--os-color-text-muted);max-width:62ch;margin:.4rem 0 0}",
+  "js": "[].forEach.call(root.querySelectorAll('.bg__s'),function(s){var f=parseFloat(s.getAttribute('data-f'));if(f>0)s.style.flex=String(f)});",
+  "section": {
+    "width": "content"
+  },
+  "ai": {
+    "purpose": "Shows where a year of giving goes.",
+    "whenToUse": "Impact page, budget section.",
+    "avoid": "Amounts not from BFF's own budget."
+  }
+}
