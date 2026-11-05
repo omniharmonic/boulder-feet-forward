@@ -89,6 +89,20 @@
     },
     "blocks": [
       {
+        "id": "blk_4n4ya49c70",
+        "type": "image",
+        "v": 1,
+        "column": 0,
+        "fields": {
+          "image": {
+            "alt": "Boulder Feet Forward",
+            "src": "media/2026/11/bff-lockup-wmdg.png"
+          },
+          "aspect": "4:5",
+          "lightbox": false
+        }
+      },
+      {
         "id": "blk_nbyrmvsfb9",
         "type": "text",
         "v": 1,
