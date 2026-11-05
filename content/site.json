@@ -89,17 +89,16 @@
     },
     "blocks": [
       {
-        "id": "blk_4n4ya49c70",
-        "type": "image",
+        "id": "blk_vfrpvteka4",
+        "type": "component/logo-lockup",
         "v": 1,
         "column": 0,
         "fields": {
-          "image": {
+          "logo": {
             "alt": "Boulder Feet Forward",
             "src": "media/2026/11/bff-lockup-wmdg.png"
           },
-          "aspect": "4:5",
-          "lightbox": false
+          "width": 190
         }
       },
       {
@@ -122,6 +121,29 @@
               }
             ]
           }
+        }
+      },
+      {
+        "id": "blk_g7ngbb3we2",
+        "type": "social-links",
+        "v": 1,
+        "column": 0,
+        "fields": {
+          "source": "site",
+          "profiles": [
+            {
+              "network": "facebook",
+              "url": "https://www.facebook.com/profile.php?id=61558925265378"
+            },
+            {
+              "network": "instagram",
+              "url": "https://www.instagram.com/boulderfeetforward/"
+            },
+            {
+              "network": "x",
+              "url": "https://x.com/BoCoFeetForward"
+            }
+          ]
         }
       },
       {
@@ -175,29 +197,6 @@
               }
             ]
           }
-        }
-      },
-      {
-        "id": "blk_g7ngbb3we2",
-        "type": "social-links",
-        "v": 1,
-        "column": 0,
-        "fields": {
-          "source": "site",
-          "profiles": [
-            {
-              "network": "facebook",
-              "url": "https://www.facebook.com/profile.php?id=61558925265378"
-            },
-            {
-              "network": "instagram",
-              "url": "https://www.instagram.com/boulderfeetforward/"
-            },
-            {
-              "network": "x",
-              "url": "https://x.com/BoCoFeetForward"
-            }
-          ]
         }
       },
       {

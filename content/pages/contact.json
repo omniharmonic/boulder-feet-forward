@@ -65,9 +65,43 @@
       ]
     },
     {
-      "id": "sec_21syj0gz56",
-      "preset": "component/imported-contact-1@1",
-      "label": "Find us, or reach us.",
+      "id": "sec_5h28p78wrs",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_sg0cmkxsrv",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_yzmwrz85bg",
+      "preset": "component/contact-columns@1",
+      "label": "Find us",
       "anchor": "find-us",
       "layout": {
         "mode": "stack",
@@ -76,83 +110,60 @@
             12
           ]
         },
-        "width": "wide"
+        "width": "content"
       },
       "style": {
-        "colorTheme": "dark",
+        "colorTheme": "light",
         "background": {
-          "type": "color",
-          "color": "#15261a"
+          "color": "#e9e6d2",
+          "type": "color"
         }
       },
       "blocks": [
         {
-          "id": "blk_8k1hn60ksg",
-          "type": "component/imported-contact-1",
+          "id": "blk_zy909657fv",
+          "type": "component/contact-columns",
           "v": 1,
           "fields": {
-            "label1": "Skip to content",
-            "text2": "Find us, or reach us.",
-            "text3": "The easiest way to find us is in the park. If you need something and cannot get there, call.",
-            "text4": "Come to the park.",
-            "text5": "Call or write.",
-            "text6": "All are welcome.",
-            "label7": "720-520-2097",
-            "text8": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Tuesdays in the Park",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "text": ", 2:30 PM"
-                    }
-                  ]
-                }
-              ]
+            "address": "PO Box 241, Boulder, CO 80306",
+            "callHeading": "Call or write.",
+            "emailLabel": "libby@feetforwardboulder.org",
+            "emailLink": {
+              "email": "libby@feetforwardboulder.org",
+              "type": "email"
             },
-            "label9": "libby@feetforwardboulder.org",
-            "link9": {
-              "type": "email",
-              "email": "libby@feetforwardboulder.org"
+            "nextDays": [
+              {
+                "label": "Next Tuesday",
+                "weekday": "tuesday"
+              },
+              {
+                "label": "Next Friday",
+                "weekday": "friday"
+              }
+            ],
+            "parkHeading": "Come to the park.",
+            "parkNote": "All are welcome.",
+            "phoneLabel": "720-520-2097",
+            "phoneLink": {
+              "phone": "+17205202097",
+              "type": "phone"
             },
-            "text10": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Friday Breakfast Club",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "text": ", 11:00 AM, with drop-in hours right after"
-                    }
-                  ]
-                }
-              ]
-            },
-            "text11": "Central Park, Boulder",
-            "text12": "PO Box 241, Boulder, CO 80306",
-            "text13": "Next Tuesday: Tuesday, November 10 Next Friday: Friday, November 6",
-            "text14": {
+            "schedule": [
+              {
+                "detail": ", 2:30 PM",
+                "name": "Tuesdays in the Park"
+              },
+              {
+                "detail": ", 11:00 AM, with drop-in hours right after",
+                "name": "Friday Breakfast Club"
+              },
+              {
+                "detail": "Central Park, Boulder",
+                "name": ""
+              }
+            ],
+            "social": {
               "type": "doc",
               "content": [
                 {

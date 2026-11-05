@@ -1,0 +1,33 @@
+{
+  "name": "logo-lockup",
+  "label": "Logo",
+  "description": "The logo at a set width, for the footer.",
+  "version": 1,
+  "category": "media",
+  "fields": {
+    "logo": {
+      "kind": "image",
+      "label": "Logo"
+    },
+    "width": {
+      "kind": "number",
+      "label": "Width in pixels",
+      "min": 80,
+      "max": 400
+    }
+  },
+  "defaults": {
+    "logo": {
+      "alt": "Boulder Feet Forward",
+      "src": "media/2026/11/bff-lockup-wmdg.png"
+    },
+    "width": 190
+  },
+  "template": "<div class=\"ll\" style=\"--w: {{width}}px\">{{image logo sizes=\"190px\"}}</div>",
+  "css": ".ll { width: min(100%, var(--w, 190px)); }\n.ll img, .ll picture { display: block; width: 100%; height: auto; }",
+  "ai": {
+    "purpose": "Shows the logo at a fixed width.",
+    "whenToUse": "Footer.",
+    "avoid": "Using it as a hero."
+  }
+}
