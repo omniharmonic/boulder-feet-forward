@@ -6,7 +6,7 @@
     "title": "Peer support",
     "description": "Zero-barrier peer support, starting wherever a person is."
   },
-  "hidden": true,
+  "hidden": false,
   "sections": [
     {
       "id": "sec_hdtazc8se8",

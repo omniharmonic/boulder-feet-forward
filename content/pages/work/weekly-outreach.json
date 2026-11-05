@@ -6,7 +6,7 @@
     "title": "Weekly outreach",
     "description": "Tuesdays in the Park and Friday Breakfast Club, every week in Central Park, Boulder."
   },
-  "hidden": true,
+  "hidden": false,
   "sections": [
     {
       "id": "sec_mejr85zthb",

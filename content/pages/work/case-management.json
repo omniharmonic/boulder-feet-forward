@@ -6,7 +6,7 @@
     "title": "Case management",
     "description": "Sustained, individualized support toward goals people set for themselves."
   },
-  "hidden": true,
+  "hidden": false,
   "sections": [
     {
       "id": "sec_rak0dvj89m",
