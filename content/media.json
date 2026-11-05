@@ -97,5 +97,17 @@
     "alt": "Boulder Feet Forward logo",
     "originalName": "bff-lockup.png",
     "createdAt": "2026-11-05T21:12:56.749Z"
+  },
+  "media/2026/11/bff-brand-g1ac.png": {
+    "id": "med_g1acrfwqkk",
+    "path": "media/2026/11/bff-brand-g1ac.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 25410,
+    "width": 759,
+    "height": 108,
+    "alt": "Boulder Feet Forward",
+    "originalName": "bff-brand.png",
+    "createdAt": "2026-11-05T21:14:15.843Z"
   }
 }

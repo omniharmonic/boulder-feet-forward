@@ -1,6 +1,10 @@
 {
   "title": "Boulder Feet Forward",
   "tagline": "Meeting people where they are.",
+  "logo": {
+    "alt": "Boulder Feet Forward",
+    "src": "media/2026/11/bff-brand-g1ac.png"
+  },
   "favicon": "media/2026/11/favicon-synf.svg",
   "nav": [
     {
@@ -55,8 +59,8 @@
     "transparentOnHero": false,
     "mobileMenu": "fullscreen",
     "logoHeight": {
-      "d": 35,
-      "m": 35
+      "d": 36,
+      "m": 30
     }
   },
   "footer": {
@@ -540,9 +544,5 @@
     "analytics": false,
     "bookingUrl": null,
     "stripeConnected": false
-  },
-  "logo": {
-    "alt": "Boulder Feet Forward",
-    "src": "media/2026/11/bff-mark-bsep.png"
   }
 }
