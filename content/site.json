@@ -535,5 +535,9 @@
     "analytics": false,
     "bookingUrl": null,
     "stripeConnected": false
+  },
+  "logo": {
+    "alt": "Boulder Feet Forward",
+    "src": "media/2026/11/bff-mark-bsep.png"
   }
 }
