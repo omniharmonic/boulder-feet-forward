@@ -21,7 +21,11 @@
         "width": "full"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -52,6 +56,40 @@
               }
             ],
             "where": "Central Park, Boulder. All are welcome."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_vd4qvx69hy",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_9x99hzj09d",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
           }
         }
       ]
