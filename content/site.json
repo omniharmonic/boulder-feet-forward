@@ -135,6 +135,9 @@
             "content": [
               {
                 "type": "paragraph",
+                "attrs": {
+                  "preset": "small"
+                },
                 "content": [
                   {
                     "type": "text",
@@ -144,6 +147,9 @@
               },
               {
                 "type": "paragraph",
+                "attrs": {
+                  "preset": "small"
+                },
                 "content": [
                   {
                     "type": "text",
@@ -180,16 +186,16 @@
           "source": "site",
           "profiles": [
             {
+              "network": "facebook",
+              "url": "https://www.facebook.com/profile.php?id=61558925265378"
+            },
+            {
               "network": "instagram",
-              "url": "https://instagram.com/juniperyoga"
+              "url": "https://www.instagram.com/boulderfeetforward/"
             },
             {
-              "network": "youtube",
-              "url": "https://youtube.com/@juniperyoga"
-            },
-            {
-              "network": "email",
-              "url": "mailto:hello@juniperyoga.com"
+              "network": "x",
+              "url": "https://x.com/BoCoFeetForward"
             }
           ]
         }
@@ -204,149 +210,106 @@
             "type": "doc",
             "content": [
               {
-                "type": "heading",
-                "attrs": {
-                  "level": 2
-                },
+                "type": "paragraph",
                 "content": [
                   {
                     "type": "text",
-                    "text": "Explore"
+                    "text": "Explore",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "type": "bulletList",
+                "type": "paragraph",
                 "content": [
                   {
-                    "type": "listItem",
-                    "content": [
+                    "type": "text",
+                    "text": "Our approach",
+                    "marks": [
                       {
-                        "type": "paragraph",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "Our approach",
-                            "marks": [
-                              {
-                                "type": "link",
-                                "attrs": {
-                                  "href": "/approach/"
-                                }
-                              }
-                            ]
-                          }
-                        ]
+                        "type": "link",
+                        "attrs": {
+                          "href": "/approach/"
+                        }
                       }
                     ]
                   },
                   {
-                    "type": "listItem",
-                    "content": [
+                    "type": "hardBreak"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Our work",
+                    "marks": [
                       {
-                        "type": "paragraph",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "Our work",
-                            "marks": [
-                              {
-                                "type": "link",
-                                "attrs": {
-                                  "href": "/work/"
-                                }
-                              }
-                            ]
-                          }
-                        ]
+                        "type": "link",
+                        "attrs": {
+                          "href": "/work/"
+                        }
                       }
                     ]
                   },
                   {
-                    "type": "listItem",
-                    "content": [
+                    "type": "hardBreak"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Impact",
+                    "marks": [
                       {
-                        "type": "paragraph",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "Impact",
-                            "marks": [
-                              {
-                                "type": "link",
-                                "attrs": {
-                                  "href": "/impact/"
-                                }
-                              }
-                            ]
-                          }
-                        ]
+                        "type": "link",
+                        "attrs": {
+                          "href": "/impact/"
+                        }
                       }
                     ]
                   },
                   {
-                    "type": "listItem",
-                    "content": [
+                    "type": "hardBreak"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Give",
+                    "marks": [
                       {
-                        "type": "paragraph",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "Give",
-                            "marks": [
-                              {
-                                "type": "link",
-                                "attrs": {
-                                  "href": "/give/"
-                                }
-                              }
-                            ]
-                          }
-                        ]
+                        "type": "link",
+                        "attrs": {
+                          "href": "/give/"
+                        }
                       }
                     ]
                   },
                   {
-                    "type": "listItem",
-                    "content": [
+                    "type": "hardBreak"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Volunteer",
+                    "marks": [
                       {
-                        "type": "paragraph",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "Volunteer",
-                            "marks": [
-                              {
-                                "type": "link",
-                                "attrs": {
-                                  "href": "/volunteer/"
-                                }
-                              }
-                            ]
-                          }
-                        ]
+                        "type": "link",
+                        "attrs": {
+                          "href": "/volunteer/"
+                        }
                       }
                     ]
                   },
                   {
-                    "type": "listItem",
-                    "content": [
+                    "type": "hardBreak"
+                  },
+                  {
+                    "type": "text",
+                    "text": "About us",
+                    "marks": [
                       {
-                        "type": "paragraph",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "About us",
-                            "marks": [
-                              {
-                                "type": "link",
-                                "attrs": {
-                                  "href": "/about/"
-                                }
-                              }
-                            ]
-                          }
-                        ]
+                        "type": "link",
+                        "attrs": {
+                          "href": "/about/"
+                        }
                       }
                     ]
                   }
@@ -366,119 +329,76 @@
             "type": "doc",
             "content": [
               {
-                "type": "heading",
-                "attrs": {
-                  "level": 2
-                },
+                "type": "paragraph",
                 "content": [
                   {
                     "type": "text",
-                    "text": "Find us"
+                    "text": "Find us",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "type": "bulletList",
+                "type": "paragraph",
                 "content": [
                   {
-                    "type": "listItem",
-                    "content": [
+                    "type": "text",
+                    "text": "Tuesdays, 2:30 PM"
+                  },
+                  {
+                    "type": "hardBreak"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Fridays, 11:00 AM"
+                  },
+                  {
+                    "type": "hardBreak"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Central Park, Boulder"
+                  },
+                  {
+                    "type": "hardBreak"
+                  },
+                  {
+                    "type": "text",
+                    "text": "720-520-2097",
+                    "marks": [
                       {
-                        "type": "paragraph",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "Tuesdays, 2:30 PM"
-                          }
-                        ]
+                        "type": "link",
+                        "attrs": {
+                          "href": "tel:+17205202097"
+                        }
                       }
                     ]
                   },
                   {
-                    "type": "listItem",
-                    "content": [
+                    "type": "hardBreak"
+                  },
+                  {
+                    "type": "text",
+                    "text": "libby@feetforwardboulder.org",
+                    "marks": [
                       {
-                        "type": "paragraph",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "Fridays, 11:00 AM"
-                          }
-                        ]
+                        "type": "link",
+                        "attrs": {
+                          "href": "mailto:libby@feetforwardboulder.org"
+                        }
                       }
                     ]
                   },
                   {
-                    "type": "listItem",
-                    "content": [
-                      {
-                        "type": "paragraph",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "Central Park, Boulder"
-                          }
-                        ]
-                      }
-                    ]
+                    "type": "hardBreak"
                   },
                   {
-                    "type": "listItem",
-                    "content": [
-                      {
-                        "type": "paragraph",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "720-520-2097",
-                            "marks": [
-                              {
-                                "type": "link",
-                                "attrs": {
-                                  "href": "tel:+17205202097"
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "listItem",
-                    "content": [
-                      {
-                        "type": "paragraph",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "libby@feetforwardboulder.org",
-                            "marks": [
-                              {
-                                "type": "link",
-                                "attrs": {
-                                  "href": "mailto:libby@feetforwardboulder.org"
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "listItem",
-                    "content": [
-                      {
-                        "type": "paragraph",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "PO Box 241, Boulder, CO 80306"
-                          }
-                        ]
-                      }
-                    ]
+                    "type": "text",
+                    "text": "PO Box 241, Boulder, CO 80306"
                   }
                 ]
               }
@@ -496,14 +416,16 @@
             "type": "doc",
             "content": [
               {
-                "type": "heading",
-                "attrs": {
-                  "level": 2
-                },
+                "type": "paragraph",
                 "content": [
                   {
                     "type": "text",
-                    "text": "Stay in touch"
+                    "text": "Stay in touch",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
                   }
                 ]
               },
@@ -529,7 +451,7 @@
           "askName": false,
           "placeholder": "you@example.com",
           "buttonLabel": "Join the newsletter",
-          "successMessage": "Almost there — check your inbox to confirm your subscription."
+          "successMessage": "Almost there. Check your inbox to confirm your subscription."
         },
         "variant": "stacked"
       }

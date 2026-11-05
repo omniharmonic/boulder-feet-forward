@@ -1,0 +1,210 @@
+{
+  "name": "contact-columns",
+  "label": "Find us / call or write",
+  "description": "Two columns: where and when to find the team in the park (with the next dates worked out automatically), and how to call, email or write.",
+  "version": 1,
+  "category": "contact",
+  "fields": {
+    "address": {
+      "kind": "text",
+      "label": "Mailing address",
+      "maxLength": 120
+    },
+    "callHeading": {
+      "kind": "text",
+      "label": "Call heading",
+      "maxLength": 60
+    },
+    "emailLabel": {
+      "kind": "text",
+      "label": "Email",
+      "maxLength": 80
+    },
+    "emailLink": {
+      "kind": "link",
+      "label": "Email link"
+    },
+    "nextDays": {
+      "kind": "list",
+      "label": "Next dates to show",
+      "fields": {
+        "label": {
+          "kind": "text",
+          "label": "Label",
+          "maxLength": 40
+        },
+        "weekday": {
+          "kind": "select",
+          "label": "Day of the week",
+          "options": [
+            "sunday",
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ]
+        }
+      }
+    },
+    "parkHeading": {
+      "kind": "text",
+      "label": "Park heading",
+      "maxLength": 60
+    },
+    "parkNote": {
+      "kind": "text",
+      "label": "Park note",
+      "maxLength": 160
+    },
+    "phoneLabel": {
+      "kind": "text",
+      "label": "Phone",
+      "maxLength": 40
+    },
+    "phoneLink": {
+      "kind": "link",
+      "label": "Phone link"
+    },
+    "schedule": {
+      "kind": "list",
+      "label": "Schedule lines",
+      "fields": {
+        "detail": {
+          "kind": "text",
+          "label": "Detail",
+          "maxLength": 120
+        },
+        "name": {
+          "kind": "text",
+          "label": "Name (bold)",
+          "optional": true,
+          "maxLength": 60
+        }
+      }
+    },
+    "social": {
+      "kind": "richText",
+      "label": "Follow along line",
+      "marks": [
+        "bold",
+        "italic",
+        "link"
+      ],
+      "blocks": [
+        "paragraph"
+      ],
+      "maxLength": 400
+    }
+  },
+  "defaults": {
+    "address": "PO Box 241, Boulder, CO 80306",
+    "callHeading": "Call or write.",
+    "emailLabel": "libby@feetforwardboulder.org",
+    "emailLink": {
+      "email": "libby@feetforwardboulder.org",
+      "type": "email"
+    },
+    "nextDays": [
+      {
+        "label": "Next Tuesday",
+        "weekday": "tuesday"
+      },
+      {
+        "label": "Next Friday",
+        "weekday": "friday"
+      }
+    ],
+    "parkHeading": "Come to the park.",
+    "parkNote": "All are welcome.",
+    "phoneLabel": "720-520-2097",
+    "phoneLink": {
+      "phone": "+17205202097",
+      "type": "phone"
+    },
+    "schedule": [
+      {
+        "detail": ", 2:30 PM",
+        "name": "Tuesdays in the Park"
+      },
+      {
+        "detail": ", 11:00 AM, with drop-in hours right after",
+        "name": "Friday Breakfast Club"
+      },
+      {
+        "detail": "Central Park, Boulder",
+        "name": ""
+      }
+    ],
+    "social": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Follow along: "
+            },
+            {
+              "type": "text",
+              "text": "Facebook",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://www.facebook.com/profile.php?id=61558925265378"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "text",
+              "text": "Instagram",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://www.instagram.com/boulderfeetforward/"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "text",
+              "text": "X",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://x.com/BoCoFeetForward"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "template": "<div class=\"cc\">\n  <div class=\"cc__col\">\n    <h2 class=\"cc__h\">{{parkHeading}}</h2>\n    <p class=\"cc__note\">{{parkNote}}</p>\n    <ul class=\"cc__sched\">{{#each schedule}}<li>{{#if name}}<strong>{{name}}</strong>{{/if}}{{detail}}</li>{{/each}}</ul>\n    <p class=\"cc__next\">{{#each nextDays}}<span class=\"cc__nd\" data-weekday=\"{{weekday}}\">{{label}}: <b></b></span>{{/each}}</p>\n  </div>\n  <div class=\"cc__col\">\n    <h2 class=\"cc__h\">{{callHeading}}</h2>\n    {{#link phoneLink}}<span class=\"cc__big\">{{phoneLabel}}</span>{{/link}}\n    {{#link emailLink}}<span class=\"cc__big\">{{emailLabel}}</span>{{/link}}\n    <p class=\"cc__addr\">{{address}}</p>\n    <div class=\"cc__social\">{{rich social}}</div>\n  </div>\n</div>",
+  "css": ".cc { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: clamp(2rem, 5vw, 4rem); }\n.cc__h { font-size: clamp(1.45rem, 1.2rem + .8vw, 1.75rem); line-height: 1.2; margin: 0 0 .9rem; }\n.cc__note { margin: 0 0 1rem; }\n.cc__sched { list-style: none; padding: 0; margin: 0; }\n.cc__sched li { margin: 0 0 .45rem; }\n.cc__sched strong { color: var(--os-color-heading); }\n.cc__next { margin: 1rem 0 0; font-size: .9rem; color: var(--os-color-text-muted); }\n.cc__nd { display: block; }\n.cc__nd b { color: var(--os-color-link); }\n.cc__col a { display: block; width: fit-content; }\n.cc__big { display: inline-block; font-family: var(--os-font-heading); font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.45rem); line-height: 1.25; color: var(--os-color-link); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: .18em; overflow-wrap: anywhere; }\n.cc__addr { margin: 1rem 0 .6rem; }\n.cc__social { font-size: .9rem; color: var(--os-color-text-muted); }\n.cc__social p { margin: 0; }\n@media (max-width: 767px) { .cc { grid-template-columns: 1fr; } }",
+  "js": "var D=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];root.querySelectorAll('.cc__nd').forEach(function(el){var d=D.indexOf(el.getAttribute('data-weekday'));if(d<0)return;var t=new Date(),n=new Date(t.getFullYear(),t.getMonth(),t.getDate()+(d-t.getDay()+7)%7);el.querySelector('b').textContent=n.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'})});",
+  "section": {
+    "width": "content"
+  },
+  "ai": {
+    "purpose": "Contact details: where to find the team in person, and how to reach them.",
+    "whenToUse": "The contact page.",
+    "avoid": "Repeating it on other pages."
+  }
+}
