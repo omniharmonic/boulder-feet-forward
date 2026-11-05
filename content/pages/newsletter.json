@@ -1,0 +1,113 @@
+{
+  "id": "pg_p0daabrg7k",
+  "title": "Newsletter",
+  "slug": "newsletter",
+  "seo": {
+    "description": "News from the park, a few times a year."
+  },
+  "sections": [
+    {
+      "id": "sec_vhxxtd9fkn",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_szqpfd3tnm",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "What we are seeing, what we need, and what your support made possible.",
+            "title": "Hear from the park."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_jfme9my7bt",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "padding": {
+          "d": "none",
+          "m": "none"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_96aznzr2yq",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_62bzr0ym73",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            7,
+            5
+          ],
+          "m": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_w1yvevp8fj",
+          "type": "newsletter",
+          "v": 1,
+          "fields": {
+            "askName": false,
+            "placeholder": "you@example.com",
+            "buttonLabel": "Join the newsletter",
+            "successMessage": "Almost there. Check your inbox to confirm your subscription."
+          },
+          "variant": "card"
+        }
+      ]
+    }
+  ]
+}

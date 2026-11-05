@@ -8,6 +8,7 @@
   "sections": [
     {
       "id": "sec_bb78h23w8q",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -17,47 +18,61 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
       },
       "blocks": [
         {
-          "id": "blk_n3c2nadytn",
-          "type": "text",
+          "id": "blk_67jaj3rb7s",
+          "type": "component/inner-page-head",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 1
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Be one of the people who shows up."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Our weekly events run on volunteers. No experience needed."
-                    }
-                  ]
-                }
-              ]
-            }
+            "lead": "Our weekly events run on volunteers. No experience needed.",
+            "title": "Be one of the people who shows up."
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
+    },
+    {
+      "id": "sec_p8t7t96zx4",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "padding": {
+          "d": "none",
+          "m": "none"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_5wz0fnfg77",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
+        }
+      ]
     },
     {
       "id": "sec_ecdhj2wqbf",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -67,7 +82,15 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
       },
       "blocks": [
         {
@@ -127,11 +150,85 @@
             }
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
-      "id": "sec_ze7sbt2wrm",
+      "id": "sec_h0x1bw47v8",
+      "preset": "component/shift-list@1",
+      "label": "Volunteer shifts",
+      "anchor": "shifts",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_4hrz3a405z",
+          "type": "component/shift-list",
+          "v": 1,
+          "fields": {
+            "footer": "Coming with a group, or want to share a skill like yoga, art or poetry?",
+            "footerLabel": "Tell us about it",
+            "footerLink": {
+              "anchor": "sign-up",
+              "page": "pg_88vdm24dxn",
+              "type": "page"
+            },
+            "heading": "Pick a shift.",
+            "shifts": [
+              {
+                "button": {
+                  "anchor": "sign-up",
+                  "page": "pg_88vdm24dxn",
+                  "type": "page"
+                },
+                "buttonLabel": "I’m in",
+                "day": "Tuesdays",
+                "note": "Arrive a little early. Our shift lead will show you the ropes before we start.",
+                "place": "Central Park, Boulder",
+                "time": "2:30 PM",
+                "title": "Tuesdays in the Park",
+                "weekday": "tuesday"
+              },
+              {
+                "button": {
+                  "anchor": "sign-up",
+                  "page": "pg_88vdm24dxn",
+                  "type": "page"
+                },
+                "buttonLabel": "I’m in",
+                "day": "Fridays",
+                "note": "Arrive a little early. Our shift lead will show you the ropes before we start.",
+                "place": "Central Park, Boulder",
+                "time": "11:00 AM",
+                "title": "Friday Breakfast Club",
+                "weekday": "friday"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_mmck60bew6",
+      "label": "Volunteer sign-up form",
+      "anchor": "sign-up",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -141,11 +238,28 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
       },
       "blocks": [
         {
-          "id": "blk_sprq3ntabv",
+          "id": "blk_909dkznfvw",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "Sign up to volunteer",
+            "rule": true
+          }
+        },
+        {
+          "id": "blk_w657gvhj0g",
           "type": "text",
           "v": 1,
           "fields": {
@@ -153,109 +267,89 @@
               "type": "doc",
               "content": [
                 {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Pick a shift."
-                    }
-                  ]
-                },
-                {
                   "type": "paragraph",
                   "content": [
                     {
                       "type": "text",
-                      "text": "Tuesdays2:30 PM · Central Park, Boulder"
-                    },
-                    {
-                      "type": "hardBreak"
-                    },
-                    {
-                      "type": "text",
-                      "text": "Next:"
-                    }
-                  ]
-                },
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 3
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Tuesdays in the Park"
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Arrive a little early. Our shift lead will show you the ropes before we start."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Fridays11:00 AM · Central Park, Boulder"
-                    },
-                    {
-                      "type": "hardBreak"
-                    },
-                    {
-                      "type": "text",
-                      "text": "Next:"
-                    }
-                  ]
-                },
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 3
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Friday Breakfast Club"
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Arrive a little early. Our shift lead will show you the ropes before we start."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Coming with a group, or want to share a skill like yoga, art or poetry? Tell us about it"
+                      "text": "Tell us which shift you’d like. We’ll confirm with you by email or text."
                     }
                   ]
                 }
               ]
             }
           }
+        },
+        {
+          "id": "blk_6aecx904df",
+          "type": "form",
+          "v": 1,
+          "fields": {
+            "form": {
+              "fields": [
+                {
+                  "label": "Your name",
+                  "name": "name",
+                  "required": true,
+                  "type": "text",
+                  "width": "half"
+                },
+                {
+                  "help": "So we can confirm with you.",
+                  "label": "Email or phone",
+                  "name": "contact",
+                  "required": true,
+                  "type": "text",
+                  "width": "half"
+                },
+                {
+                  "label": "Which shift?",
+                  "name": "shift",
+                  "options": [
+                    "Tuesdays in the Park, Tuesdays 2:30 PM",
+                    "Friday Breakfast Club, Fridays 11:00 AM",
+                    "Something else"
+                  ],
+                  "type": "select",
+                  "width": "half"
+                },
+                {
+                  "label": "Which day? (optional)",
+                  "name": "date",
+                  "type": "date",
+                  "width": "half"
+                },
+                {
+                  "label": "How many people?",
+                  "maxLength": 3,
+                  "name": "people",
+                  "placeholder": "1",
+                  "type": "text",
+                  "width": "half"
+                },
+                {
+                  "label": "Anything we should know? (optional)",
+                  "maxLength": 2000,
+                  "name": "notes",
+                  "type": "textarea"
+                }
+              ],
+              "id": "frm_v7nteer2k3",
+              "name": "Volunteer sign-up",
+              "notifyOwner": true,
+              "submitLabel": "Sign me up",
+              "success": {
+                "message": "You are signed up. We will confirm by email or text.",
+                "type": "message"
+              }
+            }
+          },
+          "variant": "card"
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_3mz222vrvk",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -265,31 +359,24 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
       },
       "blocks": [
         {
-          "id": "blk_1a2071s1e5",
-          "type": "text",
+          "id": "blk_4q76caj37c",
+          "type": "component/section-heading",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Questions people ask."
-                    }
-                  ]
-                }
-              ]
-            }
+            "heading": "Questions people ask.",
+            "rule": true
           }
         },
         {
@@ -399,8 +486,7 @@
             "faqSchema": false
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     }
   ]
 }

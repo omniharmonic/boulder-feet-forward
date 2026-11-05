@@ -1,0 +1,197 @@
+{
+  "id": "pg_4a5crrg8h0",
+  "title": "Work",
+  "slug": "work",
+  "seo": {
+    "title": "Our work",
+    "description": "Two weekly outreach events, peer support, and case management, all from the same team."
+  },
+  "sections": [
+    {
+      "id": "sec_1w46pxxq76",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_2x07tymftz",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "Two weekly events in Central Park are where most people first meet us. Peer support and case management grow from there, when people are ready.",
+            "title": "We are there every day."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_bp61fnpvne",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "padding": {
+          "d": "none",
+          "m": "none"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_x8nxrfdgf8",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_w747em1t61",
+      "preset": "component/event-rows@1",
+      "label": "Weekly events",
+      "anchor": "events",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_md4m8qqvgc",
+          "type": "component/event-rows",
+          "v": 1,
+          "fields": {
+            "events": [
+              {
+                "day": "Tuesdays",
+                "link": {
+                  "anchor": "tuesdays-in-the-park",
+                  "page": "pg_7cc4g5qmwx",
+                  "type": "page"
+                },
+                "linkLabel": "What we offer",
+                "place": "Central Park, Boulder",
+                "summary": "Our flagship outreach event. A hot meal, supplies, and a place where a lot of help is in one spot.",
+                "time": "2:30 PM",
+                "title": "Tuesdays in the Park",
+                "weekday": "tuesday"
+              },
+              {
+                "day": "Fridays",
+                "link": {
+                  "anchor": "friday-breakfast-club",
+                  "page": "pg_7cc4g5qmwx",
+                  "type": "page"
+                },
+                "linkLabel": "What we offer",
+                "place": "Central Park, Boulder",
+                "summary": "Coffee and breakfast, followed by drop-in hours with a peer, workshops, and community.",
+                "time": "11:00 AM",
+                "title": "Friday Breakfast Club",
+                "weekday": "friday"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_sg9jsqc5y2",
+      "preset": "component/section-heading@1",
+      "label": "Go further",
+      "anchor": "deeper",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_p2kyx9f3fg",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "When someone is ready to go further.",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
+          "id": "blk_2d68v6znmt",
+          "type": "component/link-cards",
+          "v": 1,
+          "fields": {
+            "cards": [
+              {
+                "label": "About peer support",
+                "link": {
+                  "page": "pg_ggeh6r9pyk",
+                  "type": "page"
+                },
+                "text": "Zero-barrier support from people who listen without judgment, help you make plans, and tell you the truth. It starts informal and flexible, and becomes more structured when you want it to.",
+                "title": "Peer support"
+              },
+              {
+                "label": "About case management",
+                "link": {
+                  "page": "pg_qz66x1wyak",
+                  "type": "page"
+                },
+                "text": "Sustained, individualized support toward goals you set for yourself: housing, documents, benefits, health care, and follow-through when something falls apart.",
+                "title": "Case management"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

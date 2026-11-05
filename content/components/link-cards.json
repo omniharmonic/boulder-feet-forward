@@ -1,0 +1,67 @@
+{
+  "name": "link-cards",
+  "label": "Two link cards",
+  "description": "Side-by-side cards, each with a title, a short description and an outline button.",
+  "version": 1,
+  "category": "features",
+  "fields": {
+    "cards": {
+      "kind": "list",
+      "label": "Cards",
+      "fields": {
+        "label": {
+          "kind": "text",
+          "label": "Button label",
+          "maxLength": 40
+        },
+        "link": {
+          "kind": "link",
+          "label": "Button goes to"
+        },
+        "text": {
+          "kind": "text",
+          "label": "Text",
+          "maxLength": 400,
+          "multiline": true
+        },
+        "title": {
+          "kind": "text",
+          "label": "Title",
+          "maxLength": 60
+        }
+      }
+    }
+  },
+  "defaults": {
+    "cards": [
+      {
+        "label": "About peer support",
+        "link": {
+          "page": "pg_ggeh6r9pyk",
+          "type": "page"
+        },
+        "text": "Zero-barrier support from people who listen without judgment, help you make plans, and tell you the truth. It starts informal and flexible, and becomes more structured when you want it to.",
+        "title": "Peer support"
+      },
+      {
+        "label": "About case management",
+        "link": {
+          "page": "pg_qz66x1wyak",
+          "type": "page"
+        },
+        "text": "Sustained, individualized support toward goals you set for yourself: housing, documents, benefits, health care, and follow-through when something falls apart.",
+        "title": "Case management"
+      }
+    ]
+  },
+  "template": "<div class=\"lc\">{{#each cards}}<article class=\"lc__card\"><h3 class=\"lc__t\">{{title}}</h3><p class=\"lc__p\">{{text}}</p>{{#link link}}<span class=\"lc__btn\">{{label}}</span>{{/link}}</article>{{/each}}</div>",
+  "css": ".lc { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: 2.2rem clamp(1.5rem, 4vw, 2.75rem); margin-top: 1.8rem; }\n.lc__card { border-top: 1px solid color-mix(in srgb, var(--os-color-text) 22%, transparent); padding-top: 1.2rem; }\n.lc__t { margin: 0 0 .6rem; font-size: clamp(1.5rem, 1.2rem + .8vw, 1.85rem); }\n.lc__p { margin: 0 0 1rem; color: var(--os-color-text-muted); }\n.lc__card a { text-decoration: none; display: inline-block; }\n.lc__btn { display: inline-flex; align-items: center; min-height: 44px; padding: .45rem 1rem; border: 2px solid currentColor; border-radius: 999px; font-weight: 700; font-size: .92rem; color: var(--os-color-heading); }\n.lc__btn:hover { background: color-mix(in srgb, var(--os-color-text) 8%, transparent); }\n@media (max-width: 767px) { .lc__btn { min-height: 48px; padding: .6rem 1.2rem; } }",
+  "section": {
+    "width": "content"
+  },
+  "ai": {
+    "purpose": "Two or three cards that each lead to a page.",
+    "whenToUse": "Pointing to deeper pages.",
+    "avoid": "Long text."
+  }
+}

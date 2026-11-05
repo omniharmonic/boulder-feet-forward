@@ -8,11 +8,11 @@
     "width": 702,
     "height": 720,
     "alt": "Libby Ogletree smiling at the camera.",
-    "createdAt": "2026-11-05T20:47:47.824Z",
-    "originalName": "libby-ogletree.jpg",
     "credit": {
       "source": "Imported from the original site"
-    }
+    },
+    "originalName": "libby-ogletree.jpg",
+    "createdAt": "2026-11-05T20:47:47.824Z"
   },
   "media/2026/11/adam-walker-sg6h.jpg": {
     "id": "med_sg6hp3de87",
@@ -23,11 +23,11 @@
     "width": 702,
     "height": 720,
     "alt": "A small figure sits on a rock ledge above a green mountain valley.",
-    "createdAt": "2026-11-05T20:47:47.824Z",
-    "originalName": "adam-walker.jpg",
     "credit": {
       "source": "Imported from the original site"
-    }
+    },
+    "originalName": "adam-walker.jpg",
+    "createdAt": "2026-11-05T20:47:47.824Z"
   },
   "media/2026/11/favicon-synf.svg": {
     "id": "med_synfgnqt2m",
@@ -38,11 +38,11 @@
     "width": 1060,
     "height": 650,
     "alt": "",
-    "originalName": "favicon.svg",
-    "createdAt": "2026-11-05T20:47:47.824Z",
     "credit": {
       "source": "Imported from the original site"
-    }
+    },
+    "originalName": "favicon.svg",
+    "createdAt": "2026-11-05T20:47:47.824Z"
   },
   "media/2026/11/libby-ogletree-a8hy.jpg": {
     "id": "med_a8hyp6ehmb",
@@ -53,11 +53,11 @@
     "width": 702,
     "height": 720,
     "alt": "Libby Ogletree smiling at the camera.",
-    "createdAt": "2026-11-05T20:51:20.504Z",
-    "originalName": "libby-ogletree.jpg",
     "credit": {
       "source": "Imported from the original site"
-    }
+    },
+    "originalName": "libby-ogletree.jpg",
+    "createdAt": "2026-11-05T20:51:20.504Z"
   },
   "media/2026/11/adam-walker-9ptj.jpg": {
     "id": "med_9ptj889y02",
@@ -68,10 +68,46 @@
     "width": 702,
     "height": 720,
     "alt": "A small figure sits on a rock ledge above a green mountain valley.",
-    "createdAt": "2026-11-05T20:51:20.504Z",
-    "originalName": "adam-walker.jpg",
     "credit": {
       "source": "Imported from the original site"
-    }
+    },
+    "originalName": "adam-walker.jpg",
+    "createdAt": "2026-11-05T20:51:20.504Z"
+  },
+  "media/2026/11/bff-mark-bsep.png": {
+    "id": "med_bseps58etg",
+    "path": "media/2026/11/bff-mark-bsep.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 25868,
+    "width": 240,
+    "height": 141,
+    "alt": "Boulder Feet Forward",
+    "originalName": "bff-mark.png",
+    "createdAt": "2026-11-05T21:12:51.572Z"
+  },
+  "media/2026/11/bff-lockup-wmdg.png": {
+    "id": "med_wmdg8ekht5",
+    "path": "media/2026/11/bff-lockup-wmdg.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 82353,
+    "width": 480,
+    "height": 327,
+    "alt": "Boulder Feet Forward logo",
+    "originalName": "bff-lockup.png",
+    "createdAt": "2026-11-05T21:12:56.749Z"
+  },
+  "media/2026/11/bff-brand-g1ac.png": {
+    "id": "med_g1acrfwqkk",
+    "path": "media/2026/11/bff-brand-g1ac.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 25410,
+    "width": 759,
+    "height": 108,
+    "alt": "Boulder Feet Forward",
+    "originalName": "bff-brand.png",
+    "createdAt": "2026-11-05T21:14:15.843Z"
   }
 }

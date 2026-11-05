@@ -1,0 +1,106 @@
+{
+  "name": "event-rows",
+  "label": "Weekly event rows",
+  "description": "The weekly events as rows: the day, time and place with the next date worked out automatically, then the event name, a short summary and a link.",
+  "version": 1,
+  "category": "events",
+  "fields": {
+    "events": {
+      "kind": "list",
+      "label": "Events",
+      "fields": {
+        "day": {
+          "kind": "text",
+          "label": "Day (plural, e.g. Tuesdays)",
+          "maxLength": 30
+        },
+        "link": {
+          "kind": "link",
+          "label": "Link goes to"
+        },
+        "linkLabel": {
+          "kind": "text",
+          "label": "Link label",
+          "maxLength": 40
+        },
+        "place": {
+          "kind": "text",
+          "label": "Place",
+          "maxLength": 80
+        },
+        "summary": {
+          "kind": "text",
+          "label": "Summary",
+          "maxLength": 300,
+          "multiline": true
+        },
+        "time": {
+          "kind": "text",
+          "label": "Time",
+          "maxLength": 30
+        },
+        "title": {
+          "kind": "text",
+          "label": "Event name",
+          "maxLength": 80
+        },
+        "weekday": {
+          "kind": "select",
+          "label": "Day of the week (for the next date)",
+          "options": [
+            "sunday",
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ]
+        }
+      }
+    }
+  },
+  "defaults": {
+    "events": [
+      {
+        "day": "Tuesdays",
+        "link": {
+          "anchor": "tuesdays-in-the-park",
+          "page": "pg_7cc4g5qmwx",
+          "type": "page"
+        },
+        "linkLabel": "What we offer",
+        "place": "Central Park, Boulder",
+        "summary": "Our flagship outreach event. A hot meal, supplies, and a place where a lot of help is in one spot.",
+        "time": "2:30 PM",
+        "title": "Tuesdays in the Park",
+        "weekday": "tuesday"
+      },
+      {
+        "day": "Fridays",
+        "link": {
+          "anchor": "friday-breakfast-club",
+          "page": "pg_7cc4g5qmwx",
+          "type": "page"
+        },
+        "linkLabel": "What we offer",
+        "place": "Central Park, Boulder",
+        "summary": "Coffee and breakfast, followed by drop-in hours with a peer, workshops, and community.",
+        "time": "11:00 AM",
+        "title": "Friday Breakfast Club",
+        "weekday": "friday"
+      }
+    ]
+  },
+  "template": "<div class=\"er\">{{#each events}}<article class=\"er__item\"><div><p class=\"er__day\">{{day}}</p><p class=\"er__meta\">{{time}} · {{place}}<span class=\"er__next\" data-weekday=\"{{weekday}}\"></span></p></div><div><h3 class=\"er__title\">{{title}}</h3><p class=\"er__sum\">{{summary}}</p>{{#link link}}<span class=\"er__more\">{{linkLabel}}</span>{{/link}}</div></article>{{/each}}</div>",
+  "css": ".er__item { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2.3fr); gap: var(--os-space-lg); padding-block: 1.9rem; border-top: 1px solid color-mix(in srgb, var(--os-color-text) 22%, transparent); }\n.er__day { margin: 0; font-family: var(--os-font-heading); font-size: 2.4rem; line-height: 1.1; color: var(--os-color-heading); }\n.er__meta { margin: .4rem 0 0; font-size: .9rem; line-height: 1.4; color: var(--os-color-text-muted); }\n.er__next { display: block; }\n.er__next b { color: var(--os-color-link); }\n.er__title { margin: 0 0 .7rem; font-size: clamp(1.5rem, 1.2rem + .8vw, 1.85rem); }\n.er__sum { margin: 0 0 .9rem; }\n.er__more { color: var(--os-color-link); text-decoration: underline; text-underline-offset: .2em; }\n@media (max-width: 767px) { .er__item { grid-template-columns: 1fr; gap: .6rem; } .er__day { font-size: 1.9rem; } .er__item a { display: inline-flex; align-items: center; min-height: 48px; min-width: 48px; } }",
+  "js": "var D=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];root.querySelectorAll('.er__next').forEach(function(el){var d=D.indexOf(el.getAttribute('data-weekday'));if(d<0)return;var t=new Date(),n=new Date(t.getFullYear(),t.getMonth(),t.getDate()+(d-t.getDay()+7)%7);el.textContent='Next: ';var b=document.createElement('b');b.textContent=n.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});el.appendChild(b)});",
+  "section": {
+    "width": "content"
+  },
+  "ai": {
+    "purpose": "Lists the weekly outreach events.",
+    "whenToUse": "The Work page.",
+    "avoid": "Volunteer sign-up (use shift-list)."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": "shift-list",
+  "label": "Volunteer shifts",
+  "description": "The weekly volunteer shifts, each with its day, time, place, the next date, and an \"I'm in\" button that jumps to the sign-up form.",
+  "version": 1,
+  "category": "events",
+  "fields": {
+    "footer": {
+      "kind": "text",
+      "label": "Line under the shifts",
+      "optional": true,
+      "maxLength": 200
+    },
+    "footerLabel": {
+      "kind": "text",
+      "label": "Line button label",
+      "optional": true,
+      "maxLength": 40
+    },
+    "footerLink": {
+      "kind": "link",
+      "label": "Line button goes to",
+      "optional": true
+    },
+    "heading": {
+      "kind": "text",
+      "label": "Heading",
+      "maxLength": 80
+    },
+    "shifts": {
+      "kind": "list",
+      "label": "Shifts",
+      "fields": {
+        "button": {
+          "kind": "link",
+          "label": "Button goes to"
+        },
+        "buttonLabel": {
+          "kind": "text",
+          "label": "Button label",
+          "maxLength": 30
+        },
+        "day": {
+          "kind": "text",
+          "label": "Day (plural, e.g. Tuesdays)",
+          "maxLength": 30
+        },
+        "note": {
+          "kind": "text",
+          "label": "Note",
+          "maxLength": 240,
+          "multiline": true
+        },
+        "place": {
+          "kind": "text",
+          "label": "Place",
+          "maxLength": 80
+        },
+        "time": {
+          "kind": "text",
+          "label": "Time",
+          "maxLength": 30
+        },
+        "title": {
+          "kind": "text",
+          "label": "Event name",
+          "maxLength": 80
+        },
+        "weekday": {
+          "kind": "select",
+          "label": "Day of the week (for the next date)",
+          "options": [
+            "sunday",
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ]
+        }
+      }
+    }
+  },
+  "defaults": {
+    "footer": "Coming with a group, or want to share a skill like yoga, art or poetry?",
+    "footerLabel": "Tell us about it",
+    "footerLink": {
+      "anchor": "sign-up",
+      "page": "pg_88vdm24dxn",
+      "type": "page"
+    },
+    "heading": "Pick a shift.",
+    "shifts": [
+      {
+        "button": {
+          "anchor": "sign-up",
+          "page": "pg_88vdm24dxn",
+          "type": "page"
+        },
+        "buttonLabel": "I’m in",
+        "day": "Tuesdays",
+        "note": "Arrive a little early. Our shift lead will show you the ropes before we start.",
+        "place": "Central Park, Boulder",
+        "time": "2:30 PM",
+        "title": "Tuesdays in the Park",
+        "weekday": "tuesday"
+      }
+    ]
+  },
+  "template": "<div class=\"sl\">\n  <span class=\"sl__rule\" aria-hidden=\"true\"></span>\n  <h2 class=\"sl__h\">{{heading}}</h2>\n  <div class=\"sl__list\">\n    {{#each shifts}}\n    <article class=\"sl__item\">\n      <div class=\"sl__when\">\n        <p class=\"sl__day\">{{day}}</p>\n        <p class=\"sl__meta\">{{time}} · {{place}}<span class=\"sl__next\" data-weekday=\"{{weekday}}\"></span></p>\n      </div>\n      <div class=\"sl__what\">\n        <h3 class=\"sl__title\">{{title}}</h3>\n        <p class=\"sl__note\">{{note}}</p>\n        {{#link button}}<span class=\"sl__btn sl__btn--a\">{{buttonLabel}}</span>{{/link}}\n      </div>\n    </article>\n    {{/each}}\n  </div>\n  {{#if footer}}<p class=\"sl__foot\">{{footer}} {{#if footerLabel}}{{#link footerLink}}<span class=\"sl__btn sl__btn--b\">{{footerLabel}}</span>{{/link}}{{/if}}</p>{{/if}}\n</div>",
+  "css": ".sl__rule { display: block; width: 3.5rem; height: 3px; border-radius: 3px; background: linear-gradient(90deg, #6b8e36, #eec02b); margin-bottom: clamp(1.4rem, 3vw, 2.2rem); }\n.sl__h { margin: 0 0 var(--os-space-lg); }\n.sl__item { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2.3fr); gap: var(--os-space-lg); padding-block: var(--os-space-lg); border-top: 1px solid color-mix(in srgb, var(--os-color-text) 22%, transparent); }\n.sl__day { margin: 0; font-family: var(--os-font-heading); font-size: 2.4rem; line-height: 1.1; color: var(--os-color-heading); }\n.sl__meta { margin: .4rem 0 0; font-size: .9rem; line-height: 1.4; color: var(--os-color-text-muted); }\n.sl__next { display: block; }\n.sl__next b { color: var(--os-color-link); }\n.sl__title { margin: 0 0 var(--os-space-sm); }\n.sl__note { margin: 0 0 var(--os-space-md); }\n.sl a { display: inline-flex; min-height: 44px; min-width: 44px; text-decoration: none; }\n.sl__btn { display: inline-flex; align-items: center; min-height: 44px; padding: .6em 1.1em; border-radius: 999px; font-weight: 700; font-size: .95rem; line-height: 1.1; color: var(--os-color-heading); border: 2px solid transparent; }\n.sl__btn--a { background: linear-gradient(100deg, #a7c25a, #f2cb4a 60%, #a7c25a) 0 0 / 220% 100%; transition: background-position .4s; }\n.sl__btn--a:hover { background-position: 100% 0; }\n.sl__btn--b { border-color: currentColor; }\n.sl__btn--b:hover { background: var(--os-color-heading); color: var(--os-color-background); }\n.sl__foot { margin: var(--os-space-lg) 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: var(--os-space-sm); }\n@media (max-width: 767px) {\n  .sl__item { grid-template-columns: 1fr; gap: var(--os-space-sm); }\n  .sl__day { font-size: 1.9rem; }\n  .sl__btn { padding: .75em 1.4em; }\n}\n@media (prefers-reduced-motion: reduce) { .sl__btn--a { transition: none; } }",
+  "js": "var days=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];\nroot.querySelectorAll('.sl__next').forEach(function(el){\n  var d=days.indexOf(el.getAttribute('data-weekday')); if(d<0) return;\n  var t=new Date(); var add=(d-t.getDay()+7)%7; var n=new Date(t.getFullYear(),t.getMonth(),t.getDate()+add);\n  var s=n.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});\n  el.textContent='Next: '; var b=document.createElement('b'); b.textContent=s; el.appendChild(b);\n});",
+  "section": {
+    "width": "wide"
+  },
+  "ai": {
+    "purpose": "Lists the recurring volunteer shifts with a sign-up button each.",
+    "whenToUse": "The volunteer page, above the sign-up form.",
+    "avoid": "One-off events."
+  }
+}

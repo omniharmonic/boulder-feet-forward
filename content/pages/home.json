@@ -8,9 +8,9 @@
   },
   "sections": [
     {
-      "id": "sec_dwsy171p7t",
-      "preset": "component/imported-home-1@1",
-      "label": "Meeting people where they are.",
+      "id": "sec_9q7n028b63",
+      "preset": "component/flatirons-hero@1",
+      "label": "Home hero with Flatirons drawing",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -18,7 +18,7 @@
             12
           ]
         },
-        "width": "wide"
+        "width": "full"
       },
       "style": {
         "colorTheme": "light",
@@ -29,71 +29,83 @@
       },
       "blocks": [
         {
-          "id": "blk_wq91fttf5z",
-          "type": "component/imported-home-1",
+          "id": "blk_31j0b96bxe",
+          "type": "component/flatirons-hero",
           "v": 1,
           "fields": {
-            "text1": "Meeting people where they are.",
-            "text2": "Boulder Feet Forward is a peer-led street outreach team. We visit our neighbors every day with meals, supplies and someone to talk to.",
-            "label3": "Give where it’s needed",
-            "link3": {
-              "type": "page",
-              "page": "pg_331y67b2k5"
+            "heading": "Meeting people where they are.",
+            "intro": "Boulder Feet Forward is a peer-led street outreach team. We visit our neighbors every day with meals, supplies and someone to talk to.",
+            "primaryLabel": "Give where it’s needed",
+            "primaryLink": {
+              "page": "pg_331y67b2k5",
+              "type": "page"
             },
-            "label4": "Volunteer",
-            "link4": {
-              "type": "page",
-              "page": "pg_88vdm24dxn"
+            "secondaryLabel": "Volunteer",
+            "secondaryLink": {
+              "page": "pg_88vdm24dxn",
+              "type": "page"
             },
-            "text5": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Tuesdays",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "text": " 2:30 PM"
-                    },
-                    {
-                      "type": "text",
-                      "text": "Fridays",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "text": " 11:00 AMCentral Park, Boulder. All are welcome."
-                    }
-                  ]
-                }
-              ]
-            }
+            "times": [
+              {
+                "day": "Tuesdays",
+                "time": "2:30 PM"
+              },
+              {
+                "day": "Fridays",
+                "time": "11:00 AM"
+              }
+            ],
+            "where": "Central Park, Boulder. All are welcome."
           }
         }
       ]
     },
     {
-      "id": "sec_j5j94xrxja",
+      "id": "sec_vd4qvx69hy",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
       "layout": {
         "mode": "stack",
         "columns": {
           "d": [
             12
           ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "padding": {
+          "d": "none",
+          "m": "none"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
         }
+      },
+      "blocks": [
+        {
+          "id": "blk_9x99hzj09d",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_bnwb98q1td",
+      "preset": "component/bff-story@1",
+      "label": "When systems fail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
       },
       "style": {
         "colorTheme": "light",
@@ -104,178 +116,47 @@
       },
       "blocks": [
         {
-          "id": "blk_qqqtvsh24r",
-          "type": "text",
+          "id": "blk_80rxh5px12",
+          "type": "component/bff-story",
           "v": 1,
           "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "When systems fail, people fall through the gaps."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Many of the people we meet have been failed by a system, sometimes over a whole lifetime. Often more than one:"
-                    }
-                  ]
-                },
-                {
-                  "type": "bulletList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Child protection and foster care"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Family and intimate-partner violence"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "The legal and criminal justice systems"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Substance use and the opioid epidemic"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Behavioral health care"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Medical care"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Financial systems"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Climate disaster and food insecurity"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Services exist, but they are not always within reach of the people who need them most. People tell us they have given up asking for help."
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Sometimes, we’re able to change that."
-                    }
-                  ]
-                }
-              ]
-            }
+            "heading": "When systems fail, people fall through the gaps.",
+            "intro": "Many of the people we meet have been failed by a system, sometimes over a whole lifetime. Often more than one:",
+            "items": [
+              {
+                "text": "Child protection and foster care"
+              },
+              {
+                "text": "Family and intimate-partner violence"
+              },
+              {
+                "text": "The legal and criminal justice systems"
+              },
+              {
+                "text": "Substance use and the opioid epidemic"
+              },
+              {
+                "text": "Behavioral health care"
+              },
+              {
+                "text": "Medical care"
+              },
+              {
+                "text": "Financial systems"
+              },
+              {
+                "text": "Climate disaster and food insecurity"
+              }
+            ],
+            "outro": "Services exist, but they are not always within reach of the people who need them most. People tell us they have given up asking for help.",
+            "pivot": "Sometimes, we’re able to change that."
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_86eswx3c0q",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -293,16 +174,14 @@
       },
       "blocks": [
         {
-          "id": "blk_3crcc6rja7",
-          "type": "heading",
+          "id": "blk_90vqqnrh7p",
+          "type": "component/section-heading",
           "v": 1,
           "fields": {
-            "text": "We meet people where they are. Then we keep showing up.",
-            "level": "h2",
-            "size": "auto",
-            "subheading": "If someone isn’t ready today, we show up again tomorrow. When they are ready, we’re already there."
-          },
-          "variant": "plain"
+            "heading": "We meet people where they are. Then we keep showing up.",
+            "lead": "If someone isn’t ready today, we show up again tomorrow. When they are ready, we’re already there.",
+            "rule": true
+          }
         },
         {
           "id": "blk_kk93a75n57",
@@ -326,30 +205,36 @@
           }
         },
         {
-          "id": "blk_jcda8a1yrw",
-          "type": "button",
+          "id": "blk_5kbnn8egcw",
+          "type": "component/bff-buttons",
           "v": 1,
           "fields": {
-            "label": "See what we do",
-            "link": {
-              "type": "page",
-              "page": "pg_4a5crrg8h0"
-            },
-            "role": "secondary"
+            "buttons": [
+              {
+                "label": "See what we do",
+                "link": {
+                  "page": "pg_4a5crrg8h0",
+                  "type": "page"
+                },
+                "main": false
+              }
+            ]
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
-      "id": "sec_r1zar0fhp3",
+      "id": "sec_4871fad6ph",
+      "preset": "component/wellness-wheel@1",
+      "label": "Wellness wheel",
       "layout": {
         "mode": "stack",
         "columns": {
           "d": [
             12
           ]
-        }
+        },
+        "width": "content"
       },
       "style": {
         "colorTheme": "light",
@@ -360,25 +245,23 @@
       },
       "blocks": [
         {
-          "id": "blk_gtvtbh9z78",
+          "id": "blk_7enwepjtvt",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "There is no single pathway out of homelessness.",
+            "lead": "",
+            "rule": true
+          }
+        },
+        {
+          "id": "blk_n276p8hwvf",
           "type": "text",
           "v": 1,
           "fields": {
             "content": {
               "type": "doc",
               "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "There is no single pathway out of homelessness."
-                    }
-                  ]
-                },
                 {
                   "type": "paragraph",
                   "content": [
@@ -387,250 +270,126 @@
                       "text": "Housing matters. But four walls and a roof do not automatically create health, stability, community, purpose or home. So we ask what this person needs to move forward, not which program they fit into. Choose a dimension of wellness to see how we help."
                     }
                   ]
-                },
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 3
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Emotional"
-                    }
-                  ]
-                },
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Wellbeing starts with someone who shows up. Our peers are there every day, as equals."
-                    }
-                  ]
-                },
-                {
-                  "type": "orderedList",
-                  "content": [
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Basic needsDaily connection and a co-equal relationship with peers"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Stabilizing resourcesCare referrals, and our continued daily presence"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "listItem",
-                      "content": [
-                        {
-                          "type": "paragraph",
-                          "content": [
-                            {
-                              "type": "text",
-                              "text": "Sustainable supportContinued support to each individual"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
                 }
               ]
             }
           }
         },
         {
-          "id": "blk_2n6h419xgb",
-          "type": "button",
+          "id": "blk_tg74x62dns",
+          "type": "component/wellness-wheel",
           "v": 1,
           "fields": {
-            "label": "Read about our approach",
-            "link": {
-              "type": "page",
-              "page": "pg_ym9be7p01r"
-            },
-            "role": "secondary"
+            "dimensions": [
+              {
+                "name": "Emotional",
+                "step1": "Daily connection and a co-equal relationship with peers",
+                "step2": "Care referrals, and our continued daily presence",
+                "step3": "Continued support to each individual",
+                "summary": "Wellbeing starts with someone who shows up. Our peers are there every day, as equals.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Occupational",
+                "step1": "Reliable transportation (bus passes, bike locks) and professional clothing",
+                "step2": "Referrals for job placement programs, and résumé assistance",
+                "step3": "Ongoing individualized support",
+                "summary": "Work and purpose depend on being able to get there, and to show up as yourself.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Intellectual",
+                "step1": "Art, poetry and movie workshops, and supplies",
+                "step2": "Exploration: referrals and information for classes, groups and events",
+                "step3": "Program enrollments for education and more, with ongoing goal-setting and support",
+                "summary": "Curiosity doesn't wait for housing. Learning is part of how people rebuild.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Environmental",
+                "step1": "Park cleanup, sleeping bags or blankets, clothing",
+                "step2": "Laundry vouchers, plus referrals and information for shelters and free, friendly public spaces with bathrooms, showers and storage",
+                "step3": "Housing and furniture",
+                "summary": "The spaces people live in, and move through, shape everything else.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Financial",
+                "step1": "Essentials provided at no cost",
+                "step2": "Enrollment and advocacy for Aid to the Needy Disabled (AND), SSI and SSDI",
+                "step3": "Long-term goal setting and individualized planning",
+                "summary": "Money is a barrier at every step. We remove it first, then help people build a way forward.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Social",
+                "step1": "Conversation and companionship with peers",
+                "step2": "Continued daily interaction, deepening connection, and prosocial events",
+                "step3": "A broadened sense of community",
+                "summary": "Belonging is basic. It starts with conversation and grows into community.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Physical",
+                "step1": "Nutritious food and water, hygiene supplies, basic wound care, safe-use and harm reduction supplies, and safer-sex supplies",
+                "step2": "Food bank information, care referrals, and SNAP and Medicaid enrollment",
+                "step3": "Housing and advocacy",
+                "summary": "Food, water, first aid and harm reduction come first, wherever someone is.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              },
+              {
+                "name": "Spiritual",
+                "step1": "Outreach by the faith groups that join our events",
+                "step2": "Conversation, and referrals to programs and groups that fit each person",
+                "step3": "Ongoing follow-up",
+                "summary": "Meaning looks different for everyone. We make room for whatever it is for you.",
+                "tier1": "Basic needs",
+                "tier2": "Stabilizing resources",
+                "tier3": "Sustainable support"
+              }
+            ],
+            "hub1": "Whole",
+            "hub2": "person",
+            "hubNote": "Eight dimensions"
           }
-        }
-      ],
-      "preset": "starter/stack-12@1"
-    },
-    {
-      "id": "sec_s8t6x4d2gd",
-      "preset": "component/imported-home-5@1",
-      "label": "Small steps add up.",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
         },
-        "width": "wide"
-      },
-      "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
-      },
-      "blocks": [
         {
-          "id": "blk_jf4t4m0751",
-          "type": "component/imported-home-5",
+          "id": "blk_na5fca9qxa",
+          "type": "component/bff-buttons",
           "v": 1,
           "fields": {
-            "text1": "Small steps add up.",
-            "text2": "In a typical week, we meet about 120 different people.",
-            "text3": "We have served 13,705 meals since 2024.",
-            "text4": "Every day, our peers answer about 10 questions about where to find something, who to call, or what comes next.",
-            "text5": "Each year, about 20 people we have worked with reach stable housing.",
-            "text6": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "5",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "text": " where we gave basic needs. We count the connection, but we do not claim the housing."
-                    }
-                  ]
-                }
-              ]
-            },
-            "text7": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "10",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "text": " where we are part of a larger care team."
-                    }
-                  ]
-                }
-              ]
-            },
-            "text8": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "5",
-                      "marks": [
-                        {
-                          "type": "bold"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "text": " where we are the primary support."
-                    }
-                  ]
-                }
-              ]
-            },
-            "text9": "Of the people who reach housing with us as their primary support, 4 out of 5 found their own way there.",
-            "text10": "Self-resolutions are individual paths home that the person chose and pursued.",
-            "text11": "Numbers as of October 2026, from the Boulder Feet Forward information packet.",
-            "label12": "See our impact",
-            "link12": {
-              "type": "page",
-              "page": "pg_4wv4ptm674"
-            }
+            "buttons": [
+              {
+                "label": "Read about our approach",
+                "link": {
+                  "page": "pg_ym9be7p01r",
+                  "type": "page"
+                },
+                "main": false
+              }
+            ]
           }
         }
       ]
     },
     {
-      "id": "sec_1brw3srppw",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light"
-      },
-      "blocks": [
-        {
-          "id": "blk_3dwpvbkche",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "What our neighbors say"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        }
-      ],
-      "preset": "starter/stack-12@1"
-    },
-    {
-      "id": "sec_90qp4b08vn",
+      "id": "sec_mvw0kr56bs",
+      "preset": "component/bff-facts@1",
+      "label": "Small steps add up",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -638,15 +397,10 @@
             12
           ]
         },
-        "gap": "lg",
-        "width": "narrow"
+        "width": "content"
       },
       "style": {
-        "colorTheme": "brand",
-        "padding": {
-          "d": "xl",
-          "m": "lg"
-        },
+        "colorTheme": "light",
         "background": {
           "type": "color",
           "color": "#e9e6d2"
@@ -654,85 +408,265 @@
       },
       "blocks": [
         {
-          "id": "blk_fxp7r8hh22",
-          "type": "heading",
+          "id": "blk_23ctm4ppjh",
+          "type": "component/section-heading",
           "v": 1,
           "fields": {
-            "text": "Help us keep showing up.",
-            "level": "h2",
-            "size": "auto",
-            "subheading": "A gift, an afternoon, or a bag of supplies all end up in the same place: in someone’s hands, in Central Park."
-          },
-          "variant": "plain",
-          "style": {
-            "align": {
-              "d": "center"
-            }
+            "heading": "Small steps add up.",
+            "lead": "",
+            "rule": true
           }
         },
         {
-          "id": "blk_k7nt34g4v5",
-          "type": "button",
+          "id": "blk_j1hn2j4eq9",
+          "type": "component/bff-facts",
           "v": 1,
           "fields": {
-            "label": "Give where it’s needed",
-            "link": {
-              "type": "page",
-              "page": "pg_331y67b2k5"
-            },
-            "role": "primary"
-          },
-          "variant": "large",
-          "style": {
-            "align": {
-              "d": "center"
-            }
+            "dotsLabel": "Twenty people: five where our part is basic needs, ten where we are part of a larger care team, five where we are the primary support.",
+            "facts": [
+              {
+                "after": "different people.",
+                "before": "In a typical week, we meet about",
+                "dots": false,
+                "feet": false,
+                "note": "",
+                "num": "120"
+              },
+              {
+                "after": "meals since 2024.",
+                "before": "We have served",
+                "dots": false,
+                "feet": false,
+                "note": "",
+                "num": "13,705"
+              },
+              {
+                "after": "questions about where to find something, who to call, or what comes next.",
+                "before": "Every day, our peers answer about",
+                "dots": false,
+                "feet": false,
+                "note": "",
+                "num": "10"
+              },
+              {
+                "after": "people we have worked with reach stable housing.",
+                "before": "Each year, about",
+                "dots": true,
+                "feet": false,
+                "note": "",
+                "num": "20"
+              },
+              {
+                "after": "found their own way there.",
+                "before": "Of the people who reach housing with us as their primary support,",
+                "dots": false,
+                "feet": true,
+                "note": "Self-resolutions are individual paths home that the person chose and pursued.",
+                "num": "4 out of 5"
+              }
+            ],
+            "feetLabel": "Five pairs of footprints, four filled in.",
+            "filled": 4,
+            "g1": 5,
+            "g1Num": "5",
+            "g1Text": "where we gave basic needs. We count the connection, but we do not claim the housing.",
+            "g2": 10,
+            "g2Num": "10",
+            "g2Text": "where we are part of a larger care team.",
+            "g3": 5,
+            "g3Num": "5",
+            "g3Text": "where we are the primary support.",
+            "source": "Numbers as of October 2026, from the Boulder Feet Forward information packet."
           }
         },
         {
-          "id": "blk_w5c1qxbtn9",
-          "type": "button",
+          "id": "blk_vj8zz725kv",
+          "type": "component/bff-buttons",
           "v": 1,
           "fields": {
-            "label": "Sign up to volunteer",
-            "link": {
-              "type": "page",
-              "page": "pg_88vdm24dxn"
-            },
-            "role": "secondary"
-          },
-          "variant": "large",
-          "style": {
-            "align": {
-              "d": "center"
-            }
-          }
-        },
-        {
-          "id": "blk_hn2dd1pzhe",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "Give supplies",
-            "link": {
-              "type": "page",
-              "page": "pg_331y67b2k5",
-              "anchor": "give-things"
-            },
-            "role": "secondary"
-          },
-          "variant": "large",
-          "style": {
-            "align": {
-              "d": "center"
-            }
+            "buttons": [
+              {
+                "label": "See our impact",
+                "link": {
+                  "page": "pg_4wv4ptm674",
+                  "type": "page"
+                },
+                "main": false
+              }
+            ]
           }
         }
-      ],
-      "preset": "cta/banner@1"
+      ]
+    },
+    {
+      "id": "sec_fcp41g31md",
+      "preset": "component/section-heading@1",
+      "label": "Voices (quotes waiting on consent)",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_x6x9ndqeaq",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "What our neighbors say",
+            "lead": "",
+            "rule": true,
+            "hidden": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_79vqe1bdw7",
+      "preset": "component/quote-carousel@1",
+      "label": "Neighbor quotes (hidden until each person gives written OK)",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "hidden": true,
+      "blocks": [
+        {
+          "id": "blk_a9d1k86nxs",
+          "type": "component/quote-carousel",
+          "v": 1,
+          "fields": {
+            "heading": "",
+            "quotes": [
+              {
+                "context": "",
+                "name": "A neighbor",
+                "quote": "I'm not just surviving. I'm borderline thriving."
+              },
+              {
+                "context": "",
+                "name": "A neighbor",
+                "quote": "Boulder Feet Forward has been instrumental to the homelessness community and for myself and my family."
+              },
+              {
+                "context": "",
+                "name": "A neighbor",
+                "quote": "They were able to help me whether it be find resources for food or clothing."
+              },
+              {
+                "context": "A neighbor who is back in school.",
+                "name": "A neighbor",
+                "quote": "I am doing well in school now…"
+              },
+              {
+                "context": "",
+                "name": "A neighbor",
+                "quote": "We were always welcome. Ranting, raving, angry, traumatized people standing in line and acting a fool sometimes. Sometimes misdirecting our anger at Libby—guilty."
+              },
+              {
+                "context": "",
+                "name": "A neighbor",
+                "quote": "She's gotten through to so many that not many people could."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_5axtevj90c",
+      "preset": "component/bff-buttons@1",
+      "label": "Help us keep showing up",
+      "anchor": "help",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_xg1bt578na",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "Help us keep showing up.",
+            "lead": "A gift, an afternoon, or a bag of supplies all end up in the same place: in someone’s hands, in Central Park.",
+            "rule": true
+          }
+        },
+        {
+          "id": "blk_4an5gz060a",
+          "type": "component/bff-buttons",
+          "v": 1,
+          "fields": {
+            "buttons": [
+              {
+                "label": "Give where it’s needed",
+                "link": {
+                  "page": "pg_331y67b2k5",
+                  "type": "page"
+                },
+                "main": true
+              },
+              {
+                "label": "Sign up to volunteer",
+                "link": {
+                  "page": "pg_88vdm24dxn",
+                  "type": "page"
+                },
+                "main": false
+              },
+              {
+                "label": "Give supplies",
+                "link": {
+                  "anchor": "give-things",
+                  "page": "pg_331y67b2k5",
+                  "type": "page"
+                },
+                "main": false
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "sec_sp6jpae46d",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -749,6 +683,16 @@
         }
       },
       "blocks": [
+        {
+          "id": "blk_3waafn5xgr",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "Hear from the park.",
+            "lead": "",
+            "rule": true
+          }
+        },
         {
           "id": "blk_wq3ksk03zg",
           "type": "text",
@@ -757,18 +701,6 @@
             "content": {
               "type": "doc",
               "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 2
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Hear from the park."
-                    }
-                  ]
-                },
                 {
                   "type": "paragraph",
                   "content": [
@@ -790,12 +722,11 @@
             "askName": false,
             "placeholder": "you@example.com",
             "buttonLabel": "Join the newsletter",
-            "successMessage": "Almost there — check your inbox to confirm your subscription."
+            "successMessage": "Almost there. Check your inbox to confirm your subscription."
           },
-          "variant": "stacked"
+          "variant": "card"
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     }
   ]
 }

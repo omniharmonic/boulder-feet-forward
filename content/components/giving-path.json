@@ -1,0 +1,127 @@
+{
+  "name": "giving-path",
+  "label": "Giving path row",
+  "description": "One way to give: a heading and short summary on the left; on the right an intro, a button, a note, more text, and an optional list of things to fund, each with its own button.",
+  "version": 1,
+  "category": "cta",
+  "fields": {
+    "body": {
+      "kind": "richText",
+      "label": "More text",
+      "optional": true,
+      "marks": [
+        "bold",
+        "italic",
+        "link"
+      ],
+      "blocks": [
+        "paragraph",
+        "heading",
+        "bulletList"
+      ],
+      "maxLength": 3000
+    },
+    "buttonLabel": {
+      "kind": "text",
+      "label": "Button label",
+      "optional": true,
+      "maxLength": 40
+    },
+    "buttonLink": {
+      "kind": "link",
+      "label": "Button goes to",
+      "optional": true
+    },
+    "buttonStyle": {
+      "kind": "select",
+      "label": "Button style",
+      "options": [
+        "primary",
+        "outline"
+      ]
+    },
+    "heading": {
+      "kind": "text",
+      "label": "Heading",
+      "maxLength": 80
+    },
+    "intro": {
+      "kind": "text",
+      "label": "Intro (right side)",
+      "optional": true,
+      "maxLength": 500,
+      "multiline": true
+    },
+    "items": {
+      "kind": "list",
+      "label": "Things to fund",
+      "optional": true,
+      "fields": {
+        "approx": {
+          "kind": "boolean",
+          "label": "Mark as approximate"
+        },
+        "impact": {
+          "kind": "text",
+          "label": "What a gift does",
+          "maxLength": 120
+        },
+        "link": {
+          "kind": "link",
+          "label": "Button goes to"
+        },
+        "linkLabel": {
+          "kind": "text",
+          "label": "Button label",
+          "maxLength": 30
+        },
+        "summary": {
+          "kind": "text",
+          "label": "What it is",
+          "maxLength": 300,
+          "multiline": true
+        },
+        "title": {
+          "kind": "text",
+          "label": "Title",
+          "maxLength": 80
+        }
+      }
+    },
+    "note": {
+      "kind": "text",
+      "label": "Small note under the button",
+      "optional": true,
+      "maxLength": 300
+    },
+    "summary": {
+      "kind": "text",
+      "label": "Summary under the heading",
+      "maxLength": 400,
+      "multiline": true
+    }
+  },
+  "defaults": {
+    "buttonLabel": "Give where it’s needed",
+    "buttonLink": {
+      "type": "url",
+      "url": "https://www.zeffy.com/en-US/donation-form/support-our-work-48"
+    },
+    "buttonStyle": "primary",
+    "heading": "Give where it’s needed most",
+    "intro": "Give once, or give monthly. Monthly gifts are how we keep showing up.",
+    "items": [],
+    "note": "You will finish on our giving page at Zeffy. You can choose one time or monthly there.",
+    "summary": "Our work is much more than a handout. A direct gift keeps case management going: housing assessments, resource navigation, referrals, warm handoffs, benefits enrollment, peer support and advocacy."
+  },
+  "template": "<div class=\"gp\">\n  <div class=\"gp__side\">\n    <h2 class=\"gp__h\">{{heading}}</h2>\n    <p class=\"gp__sum\">{{summary}}</p>\n  </div>\n  <div class=\"gp__main\">\n    {{#if intro}}<p class=\"gp__intro\">{{intro}}</p>{{/if}}\n    {{#if buttonLabel}}<div class=\"gp__btns\">{{#link buttonLink}}<span class=\"gp__btn gp__btn--{{buttonStyle}}\">{{buttonLabel}}</span>{{/link}}</div>{{/if}}\n    {{#if note}}<p class=\"gp__note\">{{note}}</p>{{/if}}\n    {{#if items}}<ul class=\"gp__ledger\">{{#each items}}<li><div><h3 class=\"gp__t\">{{title}}</h3><p class=\"gp__s\">{{summary}}</p><p class=\"gp__imp\">{{impact}}{{#if approx}} <small>(approximate)</small>{{/if}}</p></div>{{#link link}}<span class=\"gp__btn gp__btn--outline gp__btn--sm\">{{linkLabel}}</span>{{/link}}</li>{{/each}}</ul>{{/if}}\n    {{#if body}}<div class=\"gp__body\">{{rich body}}</div>{{/if}}\n  </div>\n</div>",
+  "css": ".gp { display: grid; gap: 1.2rem 3rem; grid-template-columns: 1fr; padding-top: 2rem; border-top: 1px solid color-mix(in srgb, var(--os-color-text) 22%, transparent); }\n@media (min-width: 768px) { .gp { grid-template-columns: minmax(0, 16rem) minmax(0, 1fr); gap: 1.2rem 2rem; } }\n@media (min-width: 1200px) { .gp { grid-template-columns: minmax(0, 18rem) minmax(0, 1fr); gap: 1.2rem 3rem; } }\n.gp__h { margin: 0 0 .4em; font-size: clamp(1.6rem, 1.1rem + 1.4vw, 2.2rem); line-height: 1.15; }\n.gp__sum { margin: 0; color: var(--os-color-text-muted); }\n.gp__intro { margin: 0 0 1rem; max-width: 62ch; }\n.gp__btns { display: flex; flex-wrap: wrap; gap: .8rem; }\n.gp__btns a, .gp__ledger a { text-decoration: none; }\n.gp__btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: .85em 1.5em; border-radius: 999px; font-weight: 700; font-size: 1.02rem; line-height: 1.1; color: var(--os-color-heading); border: 2px solid transparent; white-space: nowrap; transition: background .2s, color .2s; }\n.gp__btn--primary { background: linear-gradient(100deg, #a7c25a, #f2cb4a 60%, #a7c25a) 0 0 / 220% 100%; transition: background-position .4s; }\n.gp__btn--primary:hover { background-position: 100% 0; }\n.gp__btn--outline { border-color: currentColor; }\n.gp__btn--outline:hover { background: var(--os-color-heading); color: var(--os-color-background); }\n.gp__btn--sm { padding: .6em 1.1em; font-size: .95rem; }\n.gp__note { margin: .8rem 0 0; font-size: .95rem; color: var(--os-color-text-muted); }\n.gp__ledger { list-style: none; margin: 0; padding: 0; }\n.gp__ledger li { display: grid; gap: .3rem 1.5rem; padding: 1.25rem 0; border-bottom: 1px solid color-mix(in srgb, var(--os-color-text) 22%, transparent); }\n.gp__ledger li:first-child { padding-top: .4rem; }\n@media (min-width: 768px) { .gp__ledger li { grid-template-columns: minmax(0, 1fr) auto; align-items: center; } }\n.gp__t { margin: 0 0 .2rem; font-size: 1.25rem; line-height: 1.2; }\n.gp__s { margin: 0; color: var(--os-color-text-muted); font-size: 1.02rem; }\n.gp__imp { margin: .35rem 0 0; font-weight: 700; }\n.gp__imp small { font-weight: 400; color: var(--os-color-text-muted); }\n.gp__body { margin-top: 1.4rem; }\n.gp__body h3 { margin: 2rem 0 .6rem; font-size: 1.25rem; }\n.gp__body ul { margin: 1rem 0; padding: 0; list-style: none; columns: 2 14rem; column-gap: 2rem; }\n.gp__body li { padding: .15rem 0; break-inside: avoid; }\n.gp__body p { max-width: 62ch; }\n@media (prefers-reduced-motion: reduce) { .gp__btn, .gp__btn--primary { transition: none; } }",
+  "section": {
+    "width": "wide"
+  },
+  "ai": {
+    "purpose": "One way to give, with its buttons, on the Give page.",
+    "whenToUse": "Give page rows: give where needed, fund something specific, give things.",
+    "avoid": "Pages other than Give."
+  }
+}

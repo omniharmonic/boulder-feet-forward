@@ -1,0 +1,96 @@
+{
+  "name": "flatirons-hero",
+  "label": "Home hero with Flatirons drawing",
+  "description": "The home page opening: big headline, intro, two buttons and the weekly times, with the Flatirons line drawing that draws itself in and footprints walking across.",
+  "version": 1,
+  "category": "hero",
+  "fields": {
+    "heading": {
+      "kind": "text",
+      "label": "Headline",
+      "maxLength": 80
+    },
+    "intro": {
+      "kind": "text",
+      "label": "Intro",
+      "maxLength": 300,
+      "multiline": true
+    },
+    "primaryLabel": {
+      "kind": "text",
+      "label": "Main button",
+      "maxLength": 40
+    },
+    "primaryLink": {
+      "kind": "link",
+      "label": "Main button goes to"
+    },
+    "secondaryLabel": {
+      "kind": "text",
+      "label": "Second button",
+      "maxLength": 40
+    },
+    "secondaryLink": {
+      "kind": "link",
+      "label": "Second button goes to"
+    },
+    "times": {
+      "kind": "list",
+      "label": "Weekly times",
+      "fields": {
+        "day": {
+          "kind": "text",
+          "label": "Day",
+          "maxLength": 30
+        },
+        "time": {
+          "kind": "text",
+          "label": "Time",
+          "maxLength": 30
+        }
+      }
+    },
+    "where": {
+      "kind": "text",
+      "label": "Where line",
+      "maxLength": 120
+    }
+  },
+  "defaults": {
+    "heading": "Meeting people where they are.",
+    "intro": "Boulder Feet Forward is a peer-led street outreach team. We visit our neighbors every day with meals, supplies and someone to talk to.",
+    "primaryLabel": "Give where it’s needed",
+    "primaryLink": {
+      "page": "pg_331y67b2k5",
+      "type": "page"
+    },
+    "secondaryLabel": "Volunteer",
+    "secondaryLink": {
+      "page": "pg_88vdm24dxn",
+      "type": "page"
+    },
+    "times": [
+      {
+        "day": "Tuesdays",
+        "time": "2:30 PM"
+      },
+      {
+        "day": "Fridays",
+        "time": "11:00 AM"
+      }
+    ],
+    "where": "Central Park, Boulder. All are welcome."
+  },
+  "template": "<div class=\"fh\">\n  <div class=\"fh__text\">\n    <h1 class=\"fh__h\">{{heading}}</h1>\n    <p class=\"fh__intro\">{{intro}}</p>\n    <div class=\"fh__btns\">\n      {{#link primaryLink}}<span class=\"fh__btn fh__btn--a\">{{primaryLabel}}</span>{{/link}}\n      {{#link secondaryLink}}<span class=\"fh__btn fh__btn--b\">{{secondaryLabel}}</span>{{/link}}\n    </div>\n    <p class=\"fh__times\">{{#each times}}<span><strong>{{day}}</strong> {{time}}</span>{{/each}}</p>\n    <p class=\"fh__where\">{{where}}</p>\n  </div>\n  <div class=\"fh__scene\" aria-hidden=\"true\">\n    <svg viewBox=\"0 0 1200 620\" preserveAspectRatio=\"xMidYMax meet\" focusable=\"false\">\n      <defs>\n        <linearGradient id=\"rg-{{@uid}}\" gradientUnits=\"userSpaceOnUse\" x1=\"0\" y1=\"0\" x2=\"1200\" y2=\"0\"><stop offset=\"0\" stop-color=\"#6b8e36\"/><stop offset=\"0.5\" stop-color=\"#c4b526\"/><stop offset=\"1\" stop-color=\"#eec02b\"/></linearGradient>\n        <path class=\"fh__fl\" fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M100 1C84 5 78 33 90 49C98 58 109 60 117 52C130 39 126 9 112 2C108 1 103 0 100 1ZM59 25C52 28 50 38 53 48C58 60 69 63 75 55C79 49 79 40 75 32C72 25 65 22 59 25ZM35 44C27 47 26 63 34 70C42 78 51 73 51 62C51 51 43 42 35 44ZM85 65C78 66 72 68 66 71C34 87 13 120 17 149C18 160 21 171 25 180C26 181 26 182 26 183C26 183 32 196 36 205C41 215 46 229 48 240C49 244 50 247 51 255C54 276 56 284 63 293C71 305 87 311 101 308C127 301 136 272 122 243C121 241 117 234 113 228C104 215 100 208 98 199C93 178 97 161 112 144C124 130 128 124 130 113C132 108 132 97 131 92C128 78 120 69 108 65C102 64 91 64 85 65ZM17 66C12 68 10 74 12 81C15 90 22 94 28 91C38 85 28 63 17 66ZM5 91C0 94 0 101 5 107C11 114 19 112 19 103C19 95 11 87 5 91Z\"/>\n        <path class=\"fh__fr\" fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M58 1C51 3 44 11 41 22C39 28 39 39 41 44C46 60 62 64 73 52C78 46 80 41 82 32C84 20 79 6 70 2C67 1 61 0 58 1ZM98 30C88 35 83 54 90 62C93 66 99 67 104 65C112 60 117 46 114 37C111 30 104 27 98 30ZM124 54C116 56 109 70 112 77C117 89 132 84 136 70C138 62 136 56 130 54C127 53 126 53 124 54ZM53 67C39 69 29 79 24 95C23 101 22 111 24 117C25 127 28 133 38 149C47 164 50 172 50 187C50 200 47 210 39 222C36 226 36 227 26 239C17 250 16 252 12 258C0 279 2 302 16 316C23 322 31 325 42 325C58 325 71 316 80 298C82 295 83 293 83 292C83 292 83 291 83 291C84 290 85 285 87 279C88 276 89 273 89 272C89 271 90 270 90 269C91 264 96 250 98 246C102 236 108 226 115 213C132 186 138 170 139 154C140 118 109 78 72 68C68 67 56 66 53 67ZM141 79C132 81 126 95 131 102C137 110 151 101 152 89C152 82 147 77 141 79ZM149 106C148 106 146 107 145 109C135 118 141 131 152 125C160 120 162 109 156 106C153 105 152 105 149 106Z\"/>\n      </defs>\n      <path class=\"dr dr--faint dl2\" stroke=\"url(#rg-{{@uid}})\" stroke-width=\"3\" pathLength=\"1\" d=\"M -900 526.4 L 0 526.4 C 90 502.4 150 512.0 230 491.2 C 300 472.0 380 451.2 470 472.0 C 540 488.0 600 422.4 700 433.6 C 780 443.2 860 398.4 960 420.8 C 1040 438.4 1120 406.4 1200 430.4 L 2100 430.4\"/>\n      <path class=\"dr dr--art dl5\" pathLength=\"1\" d=\"M 572 560.0 C 580 560.0 586 522.5 596 412.5 C 632 451.2 672 482.5 706 495.0 L 726 303.8 C 762 370.0 802 466.2 836 495.0 L 856 197.5 C 892 291.2 932 450.0 966 495.0 L 986 315.0 C 1022 378.8 1062 467.5 1096 495.0 L 1116 397.5 C 1152 440.0 1206 535.0 1200 560.0\"/>\n      <path class=\"dr dr--sun dl1\" pathLength=\"1\" d=\"M1000 70 a 38 38 0 1 1 76 0 a 38 38 0 1 1 -76 0\"/>\n      <path class=\"dr dr--art\" pathLength=\"1\" d=\"M-900 560 L0 560 C 120 548, 180 568, 300 560 C 420 552, 520 544, 640 560 C 780 574, 940 572, 1200 560 L2100 560\"/>\n      <path class=\"dr dr--leaf dl16\" pathLength=\"1\" d=\"M478 560 v-10.7 M478 549.3 l-10.5 0 l10.5 -20.2 l-7.6 0 l7.6 -17.9 l-4.2 0 l4.2 -17.9 l4.2 17.9 l-4.2 0 l7.6 17.9 l-7.6 0 l10.5 20.2 z\"/>\n      <path class=\"dr dr--leaf dl17\" pathLength=\"1\" d=\"M446 565 v-6.9 M446 558.1 l-6.8 0 l6.8 -13.1 l-4.9 0 l4.9 -11.5 l-2.7 0 l2.7 -11.5 l2.7 11.5 l-2.7 0 l4.9 11.5 l-4.9 0 l6.8 13.1 z\"/>\n      <g class=\"wk wk0\" data-f=\"l\" transform=\"translate(70 588) rotate(90) translate(-7.4 -17) scale(0.1093)\"></g>\n      <g class=\"wk wk1\" data-f=\"r\" transform=\"translate(128 600) rotate(90) translate(-8.5 -17) scale(0.1046)\"></g>\n      <g class=\"wk wk2\" data-f=\"l\" transform=\"translate(186 588) rotate(90) translate(-7.4 -17) scale(0.1093)\"></g>\n      <g class=\"wk wk3\" data-f=\"r\" transform=\"translate(244 600) rotate(90) translate(-8.5 -17) scale(0.1046)\"></g>\n      <g class=\"wk wk4\" data-f=\"l\" transform=\"translate(302 588) rotate(90) translate(-7.4 -17) scale(0.1093)\"></g>\n      <g class=\"wk wk5\" data-f=\"r\" transform=\"translate(360 600) rotate(90) translate(-8.5 -17) scale(0.1046)\"></g>\n      <g class=\"wk wk6\" data-f=\"l\" transform=\"translate(418 588) rotate(90) translate(-7.4 -17) scale(0.1093)\"></g>\n      <g class=\"wk wk7\" data-f=\"r\" transform=\"translate(476 600) rotate(90) translate(-8.5 -17) scale(0.1046)\"></g>\n      <g class=\"wk wk8\" data-f=\"l\" transform=\"translate(534 588) rotate(90) translate(-7.4 -17) scale(0.1093)\"></g>\n    </svg>\n  </div>\n</div>",
+  "css": ":scope { position: relative; overflow: clip; }\n.fh { position: relative; min-height: min(calc(100svh - 72px), 58rem); padding-bottom: 5rem; }\n.fh__text { position: relative; z-index: 2; width: min(100% - 2rem, 992px); margin-inline: auto; }\n.fh__h { font-family: var(--os-font-heading); font-weight: 400; font-size: clamp(3.4rem, 1rem + 5vw, 5.6rem); line-height: 1; letter-spacing: -0.025em; max-width: 15ch; margin: 0 0 .3em; color: var(--os-color-heading); }\n.fh__intro { font-size: clamp(1.15rem, 1rem + .5vw, 1.4rem); line-height: 1.5; max-width: 36ch; margin: 0 0 1.6rem; }\n.fh__btns { display: flex; flex-wrap: wrap; gap: .75rem; margin-bottom: 1.4rem; }\n.fh__btns a { text-decoration: none; }\n.fh__btn { display: inline-flex; align-items: center; min-height: 48px; padding: .8rem 1.45rem; border-radius: 999px; font-weight: 700; font-size: 1rem; line-height: 1.1; color: var(--os-color-heading); border: 2px solid transparent; transition: transform .2s ease, filter .2s ease; }\n.fh__btn--a { background: linear-gradient(90deg, #a7c25a, #f2cb4a); }\n.fh__btn--b { border-color: currentColor; }\n.fh__btn:hover { transform: translateY(-1px); filter: saturate(1.15); }\n.fh__times { display: flex; flex-wrap: wrap; gap: .3rem 1.5rem; margin: 0 0 .3rem; font-size: 1rem; }\n.fh__times span { color: var(--os-color-text-muted); }\n.fh__times strong { color: var(--os-color-heading); }\n.fh__where { margin: 0; font-size: .95rem; color: var(--os-color-text-muted); }\n.fh__scene { position: absolute; inset: auto 0 0 0; height: min(100%, 38rem); z-index: 1; pointer-events: none; }\n.fh__scene svg { display: block; width: 100%; height: 100%; overflow: visible; }\n.dr { fill: none; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: fh-draw 2.4s cubic-bezier(.5,0,.2,1) forwards; }\n.dr--art { stroke: #2d4a33; }\n.dr--leaf { stroke: #6b8e36; }\n.dr--sun { stroke: #eec02b; stroke-width: 3; }\n.dr--faint { opacity: .55; }\n.dl1 { animation-delay: .1s; } .dl2 { animation-delay: .2s; } .dl5 { animation-delay: .5s; } .dl16 { animation-delay: 1.6s; } .dl17 { animation-delay: 1.7s; }\n.wk { color: #6b8e36; opacity: 0; animation: fh-land .55s ease-out forwards; }\n.wk0 { animation-delay: 1.6s; } .wk1 { animation-delay: 1.86s; } .wk2 { animation-delay: 2.12s; } .wk3 { animation-delay: 2.38s; } .wk4 { animation-delay: 2.64s; } .wk5 { animation-delay: 2.9s; } .wk6 { animation-delay: 3.16s; } .wk7 { animation-delay: 3.42s; } .wk8 { animation-delay: 3.68s; }\n@keyframes fh-draw { to { stroke-dashoffset: 0; } }\n@keyframes fh-land { from { opacity: 0; } to { opacity: .95; } }\n@media (prefers-reduced-motion: reduce) { .dr { animation: none; stroke-dashoffset: 0; } .wk { animation: none; opacity: .9; } }\n@media (max-width: 1199px) { .fh { min-height: 0; padding-bottom: calc(100% * .52 + 1rem); } .fh__h { font-size: clamp(2.9rem, 1.2rem + 6vw, 5.8rem); max-width: 12ch; } .fh__scene { height: auto; aspect-ratio: 1200 / 640; } }\n@media (max-width: 767px) { .fh__intro { font-size: 1.15rem; } }",
+  "js": "var l=root.querySelector('.fh__fl'),r=root.querySelector('.fh__fr');if(!l||!r)return;root.querySelectorAll('.wk').forEach(function(g){g.appendChild((g.getAttribute('data-f')==='l'?l:r).cloneNode(true))});",
+  "section": {
+    "width": "full",
+    "colorTheme": "light"
+  },
+  "ai": {
+    "purpose": "The Boulder Feet Forward home page opening with the signature Flatirons drawing.",
+    "whenToUse": "Only as the first section of the home page.",
+    "avoid": "Using it anywhere else."
+  }
+}

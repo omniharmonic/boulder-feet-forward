@@ -1,0 +1,58 @@
+{
+  "name": "bff-buttons",
+  "label": "Buttons (BFF style)",
+  "description": "A row of buttons in the site's own style: the green-to-gold main button and outlined secondary buttons.",
+  "version": 1,
+  "category": "cta",
+  "fields": {
+    "buttons": {
+      "kind": "list",
+      "label": "Buttons",
+      "fields": {
+        "label": {
+          "kind": "text",
+          "label": "Label",
+          "maxLength": 40
+        },
+        "link": {
+          "kind": "link",
+          "label": "Goes to"
+        },
+        "main": {
+          "kind": "boolean",
+          "label": "Main button (green-to-gold)"
+        }
+      }
+    }
+  },
+  "defaults": {
+    "buttons": [
+      {
+        "label": "Give where it’s needed",
+        "link": {
+          "page": "pg_331y67b2k5",
+          "type": "page"
+        },
+        "main": true
+      },
+      {
+        "label": "Sign up to volunteer",
+        "link": {
+          "page": "pg_88vdm24dxn",
+          "type": "page"
+        },
+        "main": false
+      }
+    ]
+  },
+  "template": "<div class=\"bb\">{{#each buttons}}{{#link link}}{{#if main}}<span class=\"bb__b bb__b--a\">{{label}}</span>{{else}}<span class=\"bb__b bb__b--o\">{{label}}</span>{{/if}}{{/link}}{{/each}}</div>",
+  "css": ".bb{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:.4rem}\n.bb a{text-decoration:none}\n.bb__b{display:inline-flex;align-items:center;min-height:48px;padding:.8rem 1.45rem;border-radius:999px;font-weight:700;font-size:1rem;line-height:1.1;color:var(--os-color-heading);border:2px solid transparent;transition:transform .2s ease,filter .2s ease}\n.bb__b--a{background:linear-gradient(90deg,#a7c25a,#f2cb4a)}\n.bb__b--o{border-color:currentColor}\n.bb__b:hover{transform:translateY(-1px);filter:saturate(1.15)}\n@media (prefers-reduced-motion: reduce){.bb__b{transition:none}.bb__b:hover{transform:none}}",
+  "section": {
+    "width": "content"
+  },
+  "ai": {
+    "purpose": "Call-to-action buttons matching the BFF site.",
+    "whenToUse": "Under a section's text where the original site has buttons.",
+    "avoid": "More than one main button in a row."
+  }
+}
