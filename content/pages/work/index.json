@@ -19,7 +19,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        }
       },
       "blocks": [
         {
@@ -44,6 +48,9 @@
                 },
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "preset": "lead"
+                  },
                   "content": [
                     {
                       "type": "text",
@@ -53,6 +60,88 @@
                 }
               ]
             }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_bp61fnpvne",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {},
+      "blocks": [
+        {
+          "id": "blk_x8nxrfdgf8",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_w747em1t61",
+      "preset": "component/event-rows@1",
+      "label": "Weekly event rows",
+      "anchor": "events",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_md4m8qqvgc",
+          "type": "component/event-rows",
+          "v": 1,
+          "fields": {
+            "events": [
+              {
+                "day": "Tuesdays",
+                "link": {
+                  "anchor": "tuesdays-in-the-park",
+                  "page": "pg_7cc4g5qmwx",
+                  "type": "page"
+                },
+                "linkLabel": "What we offer",
+                "place": "Central Park, Boulder",
+                "summary": "Our flagship outreach event. A hot meal, supplies, and a place where a lot of help is in one spot.",
+                "time": "2:30 PM",
+                "title": "Tuesdays in the Park",
+                "weekday": "tuesday"
+              },
+              {
+                "day": "Fridays",
+                "link": {
+                  "anchor": "friday-breakfast-club",
+                  "page": "pg_7cc4g5qmwx",
+                  "type": "page"
+                },
+                "linkLabel": "What we offer",
+                "place": "Central Park, Boulder",
+                "summary": "Coffee and breakfast, followed by drop-in hours with a peer, workshops, and community.",
+                "time": "11:00 AM",
+                "title": "Friday Breakfast Club",
+                "weekday": "friday"
+              }
+            ]
           }
         }
       ]
