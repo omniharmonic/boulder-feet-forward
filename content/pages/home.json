@@ -23,8 +23,8 @@
       "style": {
         "colorTheme": "light",
         "background": {
-          "color": "#e9e6d2",
-          "type": "color"
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -74,13 +74,13 @@
         "width": "content"
       },
       "style": {
-        "background": {
-          "color": "#e9e6d2",
-          "type": "color"
-        },
         "padding": {
           "d": "none",
           "m": "none"
+        },
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
         }
       },
       "blocks": [
