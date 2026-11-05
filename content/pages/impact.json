@@ -7,6 +7,40 @@
   },
   "sections": [
     {
+      "id": "sec_v62ark7dze",
+      "preset": "component/footprint-trail@1",
+      "label": "Footprint trail",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "content"
+      },
+      "style": {
+        "background": {
+          "color": "#e9e6d2",
+          "type": "color"
+        },
+        "padding": {
+          "d": "none",
+          "m": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_thq63s29g0",
+          "type": "component/footprint-trail",
+          "v": 1,
+          "fields": {
+            "show": true
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_w0xdxe5xmp",
       "preset": "starter/stack-12@1",
       "layout": {
@@ -63,40 +97,6 @@
         }
       ],
       "label": "Page head"
-    },
-    {
-      "id": "sec_t5vbgncv09",
-      "preset": "component/footprint-trail@1",
-      "label": "Footprint trail",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        },
-        "width": "content"
-      },
-      "style": {
-        "background": {
-          "color": "#e9e6d2",
-          "type": "color"
-        },
-        "padding": {
-          "d": "none",
-          "m": "none"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_ry926knm6b",
-          "type": "component/footprint-trail",
-          "v": 1,
-          "fields": {
-            "show": true
-          }
-        }
-      ]
     },
     {
       "id": "sec_sdrm8qkktd",
