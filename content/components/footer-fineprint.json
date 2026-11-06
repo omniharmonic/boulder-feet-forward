@@ -61,7 +61,7 @@
     }
   },
   "template": "<div class=\"fp\"><div class=\"fp__l\">{{rich left}}</div><div class=\"fp__r\">{{rich right}}</div></div>",
-  "css": ".fp { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 2rem; font-size: .95rem; color: var(--os-color-text-muted); }\n.fp p { margin: 0; max-width: none; }\n.fp a { color: var(--os-color-heading); }\n.fp.is-row { width: min(100% - 2 * clamp(1.1rem, 4vw, 2.5rem), 1180px); margin: 0 auto; padding: 1.4rem 0 2.2rem; border-top: 1px solid var(--bff-line, rgba(21,38,26,.22)); }",
+  "css": ".fp { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 2rem; font-size: .95rem; color: var(--os-color-text-muted); }\n.fp p { margin: 0; max-width: none; min-height: 0 !important; }\n.fp a { color: var(--os-color-heading); display: inline !important; min-height: 0 !important; min-width: 0 !important; padding: 0 !important; }\n.fp.is-row { width: min(100% - 2 * clamp(1.1rem, 4vw, 2.5rem), 1180px); margin: 0 auto; padding: 1.4rem 0 2.2rem; border-top: 1px solid var(--bff-line, rgba(21,38,26,.22)); }",
   "js": "var el=root.querySelector('.fp'),s=root.closest('.os-section')||root.closest('section');if(!el||!s)return;el.classList.add('is-row');s.appendChild(root);",
   "ai": {
     "purpose": "Copyright and credit lines at the very bottom of the footer.",
