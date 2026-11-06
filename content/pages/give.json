@@ -445,26 +445,24 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "Curious where it all goes?"
+                      "text": "Curious where it all goes? "
+                    },
+                    {
+                      "type": "text",
+                      "text": "See how a year of giving is spent.",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "/impact/#where-it-goes"
+                          }
+                        }
+                      ]
                     }
                   ]
                 }
               ]
             }
-          }
-        },
-        {
-          "id": "blk_q6pt95mt6c",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "See how a year of giving is spent.",
-            "link": {
-              "anchor": "where-it-goes",
-              "page": "pg_4wv4ptm674",
-              "type": "page"
-            },
-            "role": "tertiary"
           }
         }
       ]

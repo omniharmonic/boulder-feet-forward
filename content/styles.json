@@ -115,8 +115,8 @@
     },
     "layout": {
       "contentWidth": 992,
-      "sectionPadding": 91,
-      "sectionPaddingMobile": 53,
+      "sectionPadding": 64,
+      "sectionPaddingMobile": 40,
       "pageBackground": "#e9e6d2"
     }
   },
