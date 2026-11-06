@@ -96,11 +96,12 @@
       },
       "blocks": [
         {
-          "id": "blk_7kb7z881bn",
-          "type": "text",
+          "id": "blk_s6ftv5r763",
+          "type": "component/prose",
           "v": 1,
+          "column": 0,
           "fields": {
-            "content": {
+            "text": {
               "type": "doc",
               "content": [
                 {
