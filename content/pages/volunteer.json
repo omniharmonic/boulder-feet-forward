@@ -77,10 +77,6 @@
         "mode": "stack",
         "columns": {
           "d": [
-            8,
-            4
-          ],
-          "m": [
             12
           ]
         }
@@ -98,11 +94,11 @@
       },
       "blocks": [
         {
-          "id": "blk_vbfre5pnxg",
-          "type": "text",
+          "id": "blk_1rg83thwjq",
+          "type": "component/prose",
           "v": 1,
           "fields": {
-            "content": {
+            "text": {
               "type": "doc",
               "content": [
                 {

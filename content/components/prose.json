@@ -1,0 +1,36 @@
+{
+  "name": "prose",
+  "label": "Text (reading width)",
+  "description": "Paragraphs at a comfortable reading width, like the original site's body text.",
+  "version": 1,
+  "category": "text",
+  "fields": {
+    "text": {
+      "kind": "richText",
+      "label": "Text"
+    }
+  },
+  "defaults": {
+    "text": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Our peers are members of this community."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "template": "<div class=\"pr\">{{rich text}}</div>",
+  "css": ".pr { max-width: 62ch; }\n.pr p { margin: 0 0 1em; }\n.pr p:last-child { margin-bottom: 0; }\n.pr ul, .pr ol { padding-left: 1.2em; margin: 0 0 1em; }\n.pr h2 { margin: 1.4em 0 .5em; }\n.pr h3 { margin: 1.2em 0 .4em; }",
+  "ai": {
+    "purpose": "Body text at reading width.",
+    "whenToUse": "Paragraph text in sections that also hold wide content or full-width headings.",
+    "avoid": "Headings that should run the full width."
+  }
+}

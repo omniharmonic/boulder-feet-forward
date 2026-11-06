@@ -154,11 +154,11 @@
           }
         },
         {
-          "id": "blk_hc40vzx2br",
-          "type": "text",
+          "id": "blk_n24saq7vv6",
+          "type": "component/prose",
           "v": 1,
           "fields": {
-            "content": {
+            "text": {
               "type": "doc",
               "content": [
                 {
@@ -301,11 +301,11 @@
           }
         },
         {
-          "id": "blk_8kvbstq0y3",
-          "type": "text",
+          "id": "blk_bj132cz40q",
+          "type": "component/prose",
           "v": 1,
           "fields": {
-            "content": {
+            "text": {
               "type": "doc",
               "content": [
                 {
@@ -426,10 +426,6 @@
         "mode": "stack",
         "columns": {
           "d": [
-            7,
-            5
-          ],
-          "m": [
             12
           ]
         }
@@ -453,11 +449,11 @@
           }
         },
         {
-          "id": "blk_5ekk3zp9yh",
-          "type": "text",
+          "id": "blk_p21gpx7m1f",
+          "type": "component/prose",
           "v": 1,
           "fields": {
-            "content": {
+            "text": {
               "type": "doc",
               "content": [
                 {
@@ -468,19 +464,7 @@
                       "text": "We start with daily successes, then help build an individualized path forward. That might mean supportive housing, student housing, family reunification, becoming a live-in caregiver, meaningful employment, finding roommates, or saving for an RV."
                     }
                   ]
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "blk_0ze1axfxx2",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
+                },
                 {
                   "type": "heading",
                   "attrs": {
