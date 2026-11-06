@@ -356,14 +356,13 @@
           }
         },
         {
-          "id": "blk_w8s8541ttv",
-          "type": "accordion",
+          "id": "blk_n8k8rhh3hp",
+          "type": "component/faq-list",
           "v": 1,
           "fields": {
             "items": [
               {
-                "question": "Who can volunteer?",
-                "answer": {
+                "a": {
                   "type": "doc",
                   "content": [
                     {
@@ -385,11 +384,11 @@
                       ]
                     }
                   ]
-                }
+                },
+                "q": "Who can volunteer?"
               },
               {
-                "question": "What should I wear or bring?",
-                "answer": {
+                "a": {
                   "type": "doc",
                   "content": [
                     {
@@ -411,11 +410,11 @@
                       ]
                     }
                   ]
-                }
+                },
+                "q": "What should I wear or bring?"
               },
               {
-                "question": "Can my group, school or business volunteer together?",
-                "answer": {
+                "a": {
                   "type": "doc",
                   "content": [
                     {
@@ -437,11 +436,11 @@
                       ]
                     }
                   ]
-                }
+                },
+                "q": "Can my group, school or business volunteer together?"
               },
               {
-                "question": "How are my hours counted?",
-                "answer": {
+                "a": {
                   "type": "doc",
                   "content": [
                     {
@@ -454,12 +453,10 @@
                       ]
                     }
                   ]
-                }
+                },
+                "q": "How are my hours counted?"
               }
-            ],
-            "exclusive": false,
-            "openFirst": false,
-            "faqSchema": false
+            ]
           }
         }
       ]

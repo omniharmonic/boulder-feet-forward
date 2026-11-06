@@ -74,7 +74,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
       },
       "blocks": [
         {
@@ -135,7 +139,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
       },
       "blocks": [
         {
@@ -188,7 +196,11 @@
         }
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
       },
       "blocks": [
         {

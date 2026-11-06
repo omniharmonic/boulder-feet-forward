@@ -79,7 +79,11 @@
         "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "md"
+        }
       },
       "blocks": [
         {
@@ -236,7 +240,11 @@
         "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "padding": {
+          "d": "lg",
+          "m": "lg"
+        }
       },
       "blocks": [
         {
@@ -266,7 +274,11 @@
         "width": "content"
       },
       "style": {
-        "colorTheme": "light"
+        "colorTheme": "light",
+        "padding": {
+          "d": "lg",
+          "m": "lg"
+        }
       },
       "blocks": [
         {

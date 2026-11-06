@@ -1,0 +1,52 @@
+{
+  "name": "faq-list",
+  "label": "Questions and answers",
+  "description": "Questions that open to show their answers, with a plus and minus sign, like the original site.",
+  "version": 1,
+  "category": "faq",
+  "fields": {
+    "items": {
+      "kind": "list",
+      "label": "Questions",
+      "fields": {
+        "a": {
+          "kind": "richText",
+          "label": "Answer"
+        },
+        "q": {
+          "kind": "text",
+          "label": "Question",
+          "maxLength": 200
+        }
+      }
+    }
+  },
+  "defaults": {
+    "items": [
+      {
+        "a": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Anyone who wants to be a good neighbor."
+                }
+              ]
+            }
+          ]
+        },
+        "q": "Who can volunteer?"
+      }
+    ]
+  },
+  "template": "<div class=\"fq\">{{#each items}}<details class=\"fq__d\"><summary class=\"fq__s\">{{q}}</summary><div class=\"fq__a\">{{rich a}}</div></details>{{/each}}</div>",
+  "css": ".fq__d { border-top: 1px solid var(--bff-line, rgba(21,38,26,.22)); padding: 1rem 0; max-width: 46rem; }\n.fq__d:last-child { border-bottom: 1px solid var(--bff-line, rgba(21,38,26,.22)); }\n.fq__s { font-family: var(--os-font-heading); font-size: 1.35rem; line-height: 1.65; cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 1rem; color: var(--os-color-heading); }\n.fq__s::-webkit-details-marker { display: none; }\n.fq__s::after { content: '+'; font-family: var(--os-font-body); font-size: 1.5rem; line-height: 1; align-self: center; }\n.fq__d[open] .fq__s::after { content: '\\2013'; }\n.fq__a { margin: .7rem 0 0; color: var(--os-color-text-muted); }\n.fq__a p { margin: 0; }\n@media (max-width: 767px) { .fq__s { min-height: 2.75rem; align-items: center; } }",
+  "ai": {
+    "purpose": "Frequently asked questions.",
+    "whenToUse": "FAQ sections.",
+    "avoid": "Long answers."
+  }
+}

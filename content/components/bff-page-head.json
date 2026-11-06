@@ -23,7 +23,7 @@
     "title": "A different way to reach people."
   },
   "template": "<header class=\"ph\"><h1 class=\"ph__h\">{{title}}</h1>{{#if lead}}<p class=\"ph__l\">{{lead}}</p>{{/if}}</header>",
-  "css": ".ph__h{font-family:var(--os-font-heading);font-weight:400;font-size:clamp(2.6rem,1.2rem + 5.2vw,5.2rem);line-height:1;letter-spacing:-.025em;max-width:15ch;margin:0 0 .4em;color:var(--os-color-heading);text-wrap:balance}\n.ph__l{font-family:var(--os-font-heading);font-size:clamp(1.5rem,1rem + 1.8vw,2.3rem);line-height:1.25;letter-spacing:-.01em;max-width:34ch;margin:0;color:var(--os-color-heading);text-wrap:balance}",
+  "css": ".ph__h{font-family:var(--os-font-heading);font-weight:400;font-size:clamp(2.6rem,1.2rem + 5.2vw,5.2rem);line-height:1;letter-spacing:-.025em;max-width:15ch;margin:0 0 .4em;color:var(--os-color-heading);text-wrap:balance}\n.ph__l{font-family:var(--os-font-heading);font-size:clamp(1.5rem,1rem + 1.8vw,2.3rem);line-height:1.25;letter-spacing:-.01em;max-width:34ch;margin:0 0 1em;color:var(--os-color-heading);text-wrap:balance}",
   "section": {
     "width": "content"
   },

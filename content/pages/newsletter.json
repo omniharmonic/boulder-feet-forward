@@ -67,10 +67,6 @@
         "mode": "stack",
         "columns": {
           "d": [
-            7,
-            5
-          ],
-          "m": [
             12
           ]
         }
@@ -93,7 +89,7 @@
             "buttonLabel": "Join the newsletter",
             "successMessage": "Almost there. Check your inbox to confirm your subscription."
           },
-          "variant": "card"
+          "variant": "inline"
         }
       ]
     }

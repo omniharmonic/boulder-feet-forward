@@ -403,8 +403,8 @@
       "style": {
         "colorTheme": "light",
         "padding": {
-          "d": "md",
-          "m": "md"
+          "d": "xs",
+          "m": "xs"
         }
       },
       "blocks": [
