@@ -87,6 +87,16 @@
       },
       "blocks": [
         {
+          "id": "blk_5hyj7rrmjh",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "The numbers",
+            "hidden": true,
+            "rule": false
+          }
+        },
+        {
           "id": "blk_652tzq02p9",
           "type": "component/bff-facts",
           "v": 1,

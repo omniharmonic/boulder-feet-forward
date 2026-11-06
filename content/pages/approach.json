@@ -87,6 +87,16 @@
       },
       "blocks": [
         {
+          "id": "blk_y9xjb6fccz",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "Our principles",
+            "hidden": true,
+            "rule": false
+          }
+        },
+        {
           "id": "blk_gtb7zgwhc6",
           "type": "component/bff-items",
           "v": 1,
