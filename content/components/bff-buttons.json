@@ -23,6 +23,18 @@
           "label": "Main button (green-to-gold)"
         }
       }
+    },
+    "space": {
+      "kind": "select",
+      "label": "Space above",
+      "optional": true,
+      "options": [
+        "none",
+        "s16",
+        "s18",
+        "s24",
+        "fluid"
+      ]
     }
   },
   "defaults": {
@@ -45,8 +57,8 @@
       }
     ]
   },
-  "template": "<div class=\"bb\">{{#each buttons}}{{#link link}}{{#if main}}<span class=\"bb__b bb__b--a\">{{label}}</span>{{else}}<span class=\"bb__b bb__b--o\">{{label}}</span>{{/if}}{{/link}}{{/each}}</div>",
-  "css": ".bb{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:.4rem}\n.bb a{text-decoration:none}\n.bb__b{display:inline-flex;align-items:center;justify-content:center;padding:.85em 1.5em;border-radius:999px;font-weight:700;font-size:1.02rem;line-height:1.1;color:var(--os-color-heading);border:2px solid transparent;transition:background-position .4s,background-color .2s,color .2s}\n.bb__b--a{color:#15261a;background:linear-gradient(100deg,var(--bff-btn-a, #a7c25a),var(--bff-btn-b, #f2cb4a) 60%,var(--bff-btn-a, #a7c25a)) 0 0/220% 100%}\n.bb__b--a:hover{background-position:100% 0}\n.bb__b--o{border-color:currentColor}\n.bb__b--o:hover{background:var(--os-color-heading);color:var(--os-color-background)}\n@media (prefers-reduced-motion: reduce){.bb__b{transition:none}}",
+  "template": "<div class=\"bb\" data-space=\"{{space}}\">{{#each buttons}}{{#link link}}{{#if main}}<span class=\"bb__b bb__b--a\">{{label}}</span>{{else}}<span class=\"bb__b bb__b--o\">{{label}}</span>{{/if}}{{/link}}{{/each}}</div>",
+  "css": ".bb{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:0}\n.bb[data-space=s16]{margin-top:1.6rem}.bb[data-space=s18]{margin-top:1.8rem}.bb[data-space=s24]{margin-top:2.4rem}.bb[data-space=fluid]{margin-top:clamp(2.2rem, 5vw, 3.4rem)}\n.bb a{text-decoration:none}\n.bb__b{display:inline-flex;align-items:center;justify-content:center;padding:.85em 1.5em;border-radius:999px;font-weight:700;font-size:1.02rem;line-height:1.1;color:var(--os-color-heading);border:2px solid transparent;transition:background-position .4s,background-color .2s,color .2s}\n.bb__b--a{color:#15261a;background:linear-gradient(100deg,var(--bff-btn-a, #a7c25a),var(--bff-btn-b, #f2cb4a) 60%,var(--bff-btn-a, #a7c25a)) 0 0/220% 100%}\n.bb__b--a:hover{background-position:100% 0}\n.bb__b--o{border-color:currentColor}\n.bb__b--o:hover{background:var(--os-color-heading);color:var(--os-color-background)}\n@media (prefers-reduced-motion: reduce){.bb__b{transition:none}}",
   "section": {
     "width": "content"
   },
