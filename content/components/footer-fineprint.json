@@ -61,7 +61,7 @@
     }
   },
   "template": "<div class=\"fp\"><div class=\"fp__l\">{{rich left}}</div><div class=\"fp__r\">{{rich right}}</div></div>",
-  "css": ".fp { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 2rem; font-size: .9rem; color: var(--os-color-text-muted); }\n.fp p { margin: 0; }\n.fp a { color: var(--os-color-heading); }\n.fp.is-row { width: min(100% - 2rem, var(--fp-w, 1180px)); margin: 2.5rem auto 0; padding: 1.5rem 0 2rem; border-top: 1px solid color-mix(in srgb, var(--os-color-text) 22%, transparent); }",
+  "css": ".fp { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 1.5rem; font-size: .82rem; color: var(--os-color-text-muted); }\n.fp p { margin: 0; }\n.fp a { color: var(--os-color-heading); }\n.fp.is-row { width: min(100% - 2rem, var(--fp-w, 1180px)); margin: 2.5rem auto 0; padding: 1.5rem 0 2rem; border-top: 1px solid color-mix(in srgb, var(--os-color-text) 22%, transparent); }",
   "js": "var el=root.querySelector('.fp'),s=root.closest('.os-section')||root.closest('section');if(!el||!s)return;var inner=s.querySelector('.os-section__inner')||s,cs=getComputedStyle(inner),w=inner.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);el.style.setProperty('--fp-w',w+'px');el.classList.add('is-row');s.appendChild(root);",
   "ai": {
     "purpose": "Copyright and credit lines at the very bottom of the footer.",
