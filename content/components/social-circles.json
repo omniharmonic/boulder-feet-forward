@@ -1,0 +1,45 @@
+{
+  "name": "social-circles",
+  "label": "Social links in circles",
+  "description": "Facebook, Instagram and X links as round outlined icons, as in the footer.",
+  "version": 1,
+  "category": "footer",
+  "fields": {
+    "facebook": {
+      "kind": "link",
+      "label": "Facebook page",
+      "optional": true
+    },
+    "instagram": {
+      "kind": "link",
+      "label": "Instagram profile",
+      "optional": true
+    },
+    "x": {
+      "kind": "link",
+      "label": "X profile",
+      "optional": true
+    }
+  },
+  "defaults": {
+    "facebook": {
+      "type": "url",
+      "url": "https://www.facebook.com/profile.php?id=61558925265378"
+    },
+    "instagram": {
+      "type": "url",
+      "url": "https://www.instagram.com/boulderfeetforward/"
+    },
+    "x": {
+      "type": "url",
+      "url": "https://x.com/BoCoFeetForward"
+    }
+  },
+  "template": "<div class=\"sc\" role=\"list\" aria-label=\"Follow us\">{{#if facebook}}{{#link facebook}}<span class=\"sc__i\" role=\"listitem\" title=\"Facebook\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14.2 8.4h2.4V5h-2.8c-2.6 0-4.1 1.6-4.1 4.2V11.5H7.2v3.4h2.5V21h3.5v-6.1h2.7l.5-3.4h-3.2V9.6c0-.8.4-1.2 1-1.2z\" fill=\"currentColor\" stroke=\"none\"/></svg><span class=\"sc__sr\">Facebook</span></span>{{/link}}{{/if}}{{#if instagram}}{{#link instagram}}<span class=\"sc__i\" role=\"listitem\" title=\"Instagram\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3.5\" y=\"3.5\" width=\"17\" height=\"17\" rx=\"5\"/><circle cx=\"12\" cy=\"12\" r=\"4\"/><circle cx=\"17.2\" cy=\"6.8\" r=\"0.9\" fill=\"currentColor\" stroke=\"none\"/></svg><span class=\"sc__sr\">Instagram</span></span>{{/link}}{{/if}}{{#if x}}{{#link x}}<span class=\"sc__i\" role=\"listitem\" title=\"X\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M4.5 4.5h3.9l11.1 15h-3.9z\"/><path d=\"M19 4.5l-6.2 6.9M5 19.5l6.2-6.9\"/></svg><span class=\"sc__sr\">X</span></span>{{/link}}{{/if}}</div>",
+  "css": ".sc { display: flex; gap: .6rem; margin: 1.2rem 0 18px; }\n.sc a { display: inline-grid; place-items: center; width: 2.7rem; height: 2.7rem; border-radius: 999px; border: 1.5px solid var(--bff-line, rgba(21,38,26,.22)); color: var(--os-color-heading); text-decoration: none; transition: background .2s, color .2s, border-color .2s; }\n.sc a:hover { background: var(--os-color-heading); color: var(--os-color-background); border-color: var(--os-color-heading); }\n.sc__i { display: grid; place-items: center; }\n.sc svg { width: 1.3rem; height: 1.3rem; display: block; }\n.sc__sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }\n@media (prefers-reduced-motion: reduce) { .sc a { transition: none; } }",
+  "ai": {
+    "purpose": "Round social icons in the footer.",
+    "whenToUse": "Footer, once.",
+    "avoid": "Other networks."
+  }
+}

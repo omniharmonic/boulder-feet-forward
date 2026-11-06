@@ -27,7 +27,8 @@
     }
   },
   "template": "<div class=\"pr\">{{rich text}}</div>",
-  "css": ".pr { max-width: 62ch; }\n.pr > * { margin: 0; max-width: 62ch; }\n.pr > * + * { margin-top: 1.1em; }\n.pr ul, .pr ol { padding-left: 1.2em; }\n.pr li + li { margin-top: .5em; }\n.pr h2 { margin-top: 1.8em; font-size: clamp(1.6rem, 1.1rem + 1.6vw, 2.3rem); line-height: 1.08; }\n.pr h2:last-child { font-size: clamp(2rem, 1rem + 3.4vw, 3.8rem); line-height: 1.12; max-width: 18ch; margin-top: clamp(2.2rem, 5vw, 3.6rem); }\n.pr h3 { margin-top: 1.2em; font-size: 1.25rem; }",
+  "css": ".pr { max-width: 62ch; }\n.pr > *, .pr > .os-rich > * { margin: 0; max-width: 62ch; }\n.pr > .os-rich { max-width: none; }\n.pr > * + *, .pr > .os-rich > * + * { margin-top: 1.1em; }\n.pr ul, .pr ol { padding-left: 1.2rem; }\n.pr li { margin-top: .5em; }\n.pr h2 { margin-top: 1.8em; font-size: clamp(1.6rem, 1.1rem + 1.6vw, 2.3rem); line-height: 1.08; }\n.pr h2:last-child { font-size: clamp(2rem, 1rem + 3.4vw, 3.8rem); line-height: 1.12; max-width: 18ch; margin-top: clamp(2.2rem, 5vw, 3.6rem); }\n.pr h3 { margin-top: 1.2em; font-size: 1.25rem; }",
+  "js": "function nb(e,d){e=e&&e[d];while(e&&!e.offsetHeight)e=e[d];return e}\nvar k=root.closest('.os-block'),r=root.querySelector('.os-rich')||root.querySelector('.pr'),c=r&&r.children;if(!c||!c.length)return;\nif(!nb(k,'previousElementSibling')&&c[0].tagName==='P')c[0].style.marginTop='1em';\nvar l=c[c.length-1];if(!nb(k,'nextElementSibling')&&(l.tagName==='P'||l.tagName==='UL'))l.style.marginBottom='1em';",
   "ai": {
     "purpose": "Body text at reading width.",
     "whenToUse": "Paragraph text in sections that also hold wide content or full-width headings.",
