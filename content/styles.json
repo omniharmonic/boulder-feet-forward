@@ -115,7 +115,7 @@
       }
     },
     "layout": {
-      "contentWidth": 992,
+      "contentWidth": 1014,
       "sectionPadding": 64,
       "sectionPaddingMobile": 40,
       "gutter": 84,
@@ -241,10 +241,10 @@
     "button": {
       "primary": {
         "bg": {
-          "$value": "linear-gradient(90deg, var(--bff-btn-a, #a7c25a), var(--bff-btn-b, #f2cb4a))"
+          "$value": "linear-gradient(100deg, var(--bff-btn-a, #a7c25a), var(--bff-btn-b, #f2cb4a) 60%, var(--bff-btn-a, #a7c25a)) 0% 0% / 220% 100%"
         },
         "bg-hover": {
-          "$value": "linear-gradient(90deg, var(--bff-btn-a, #a7c25a), var(--bff-btn-b, #f2cb4a))"
+          "$value": "linear-gradient(100deg, var(--bff-btn-a, #a7c25a), var(--bff-btn-b, #f2cb4a) 60%, var(--bff-btn-a, #a7c25a)) 100% 0% / 220% 100%"
         },
         "color": {
           "$value": "#15261a"
@@ -257,6 +257,15 @@
         },
         "border-color-hover": {
           "$value": "transparent"
+        },
+        "bg-active": {
+          "$value": "linear-gradient(100deg, var(--bff-btn-a, #a7c25a), var(--bff-btn-b, #f2cb4a) 60%, var(--bff-btn-a, #a7c25a)) 100% 0% / 220% 100%"
+        },
+        "border-color-active": {
+          "$value": "transparent"
+        },
+        "color-active": {
+          "$value": "#15261a"
         }
       }
     }

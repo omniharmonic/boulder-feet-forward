@@ -46,7 +46,7 @@
     ]
   },
   "template": "<div class=\"bb\">{{#each buttons}}{{#link link}}{{#if main}}<span class=\"bb__b bb__b--a\">{{label}}</span>{{else}}<span class=\"bb__b bb__b--o\">{{label}}</span>{{/if}}{{/link}}{{/each}}</div>",
-  "css": ".bb{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:.4rem}\n.bb a{text-decoration:none}\n.bb__b{display:inline-flex;align-items:center;min-height:48px;padding:.8rem 1.45rem;border-radius:999px;font-weight:700;font-size:1rem;line-height:1.1;color:var(--os-color-heading);border:2px solid transparent;transition:transform .2s ease,filter .2s ease}\n.bb__b--a{background:linear-gradient(90deg,var(--bff-btn-a, #a7c25a),var(--bff-btn-b, #f2cb4a));color:#15261a}\n.bb__b--o{border-color:currentColor}\n.bb__b:hover{transform:translateY(-1px);filter:saturate(1.15)}\n@media (prefers-reduced-motion: reduce){.bb__b{transition:none}.bb__b:hover{transform:none}}",
+  "css": ".bb{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:.4rem}\n.bb a{text-decoration:none}\n.bb__b{display:inline-flex;align-items:center;justify-content:center;padding:.85em 1.5em;border-radius:999px;font-weight:700;font-size:1.02rem;line-height:1.1;color:var(--os-color-heading);border:2px solid transparent;transition:background-position .4s,background-color .2s,color .2s}\n.bb__b--a{color:#15261a;background:linear-gradient(100deg,var(--bff-btn-a, #a7c25a),var(--bff-btn-b, #f2cb4a) 60%,var(--bff-btn-a, #a7c25a)) 0 0/220% 100%}\n.bb__b--a:hover{background-position:100% 0}\n.bb__b--o{border-color:currentColor}\n.bb__b--o:hover{background:var(--os-color-heading);color:var(--os-color-background)}\n@media (prefers-reduced-motion: reduce){.bb__b{transition:none}}",
   "section": {
     "width": "content"
   },

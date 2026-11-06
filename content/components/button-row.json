@@ -45,7 +45,7 @@
     ]
   },
   "template": "<div class=\"br\">{{#each buttons}}{{#link link}}{{#if primary}}<span class=\"br__btn br__btn--p\">{{label}}</span>{{else}}<span class=\"br__btn\">{{label}}</span>{{/if}}{{/link}}{{/each}}</div>",
-  "css": ".br { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }\n.br a { text-decoration: none; }\n.br__btn { display: inline-flex; align-items: center; min-height: 48px; padding: .7rem 1.4rem; border: 2px solid currentColor; border-radius: 999px; font-weight: 700; font-size: 1rem; color: var(--os-color-heading); }\n.br__btn--p { border-color: transparent; background: linear-gradient(90deg, var(--bff-btn-a, #a7c25a), var(--bff-btn-b, #f2cb4a)); color: #15261a; }\n.br__btn:hover { background-color: color-mix(in srgb, var(--os-color-text) 8%, transparent); }\n.br__btn--p:hover { filter: saturate(1.15); }",
+  "css": ".br { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }\n.br a { text-decoration: none; }\n.br__btn { display: inline-flex; align-items: center; justify-content: center; padding: .85em 1.5em; border: 2px solid currentColor; border-radius: 999px; font-weight: 700; font-size: 1.02rem; line-height: 1.1; color: var(--os-color-heading); transition: background-position .4s, background-color .2s, color .2s; }\n.br__btn--p { border-color: transparent; color: #15261a; background: linear-gradient(100deg, var(--bff-btn-a, #a7c25a), var(--bff-btn-b, #f2cb4a) 60%, var(--bff-btn-a, #a7c25a)) 0 0 / 220% 100%; }\n.br__btn--p:hover { background-position: 100% 0; }\n.br__btn:not(.br__btn--p):hover { background: var(--os-color-heading); color: var(--os-color-background); }\n@media (prefers-reduced-motion: reduce) { .br__btn { transition: none; } }",
   "section": {
     "width": "content"
   },

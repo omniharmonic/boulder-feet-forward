@@ -23,8 +23,8 @@
       "style": {
         "colorTheme": "light",
         "padding": {
-          "d": "sm",
-          "m": "sm"
+          "d": "none",
+          "m": "none"
         }
       },
       "blocks": [

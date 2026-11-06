@@ -116,6 +116,14 @@
           "logoDark": {
             "alt": "Boulder Feet Forward",
             "src": "media/2026/11/bff-lockup-dark-tds0.png"
+          },
+          "headerMark": {
+            "alt": "",
+            "src": "media/2026/11/bff-mark-hdr-00jv.png"
+          },
+          "headerMarkDark": {
+            "alt": "",
+            "src": "media/2026/11/bff-mark-hdr-dark-x4sk.png"
           }
         }
       },
