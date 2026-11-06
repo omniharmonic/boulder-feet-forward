@@ -214,7 +214,8 @@
                 },
                 "main": false
               }
-            ]
+            ],
+            "space": "s16"
           }
         }
       ]
@@ -377,7 +378,8 @@
                 },
                 "main": false
               }
-            ]
+            ],
+            "space": "s24"
           }
         }
       ]
@@ -472,7 +474,8 @@
             "g3": 5,
             "g3Num": "5",
             "g3Text": "where we are the primary support.",
-            "source": "Numbers as of October 2026, from the Boulder Feet Forward information packet."
+            "source": "Numbers as of October 2026, from the Boulder Feet Forward information packet.",
+            "space": "after-heading"
           }
         },
         {
@@ -489,7 +492,8 @@
                 },
                 "main": false
               }
-            ]
+            ],
+            "space": "s24"
           }
         }
       ]
@@ -651,7 +655,8 @@
                 },
                 "main": false
               }
-            ]
+            ],
+            "space": "none"
           }
         }
       ]
