@@ -117,6 +117,8 @@
       "contentWidth": 992,
       "sectionPadding": 64,
       "sectionPaddingMobile": 40,
+      "gutter": 84,
+      "gutterMobile": 50,
       "pageBackground": "#e9e6d2"
     }
   },
