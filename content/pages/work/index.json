@@ -86,6 +86,16 @@
       },
       "blocks": [
         {
+          "id": "blk_xdrp3mzb95",
+          "type": "component/section-heading",
+          "v": 1,
+          "fields": {
+            "heading": "Weekly events",
+            "hidden": true,
+            "rule": false
+          }
+        },
+        {
           "id": "blk_md4m8qqvgc",
           "type": "component/event-rows",
           "v": 1,

@@ -314,11 +314,11 @@
           }
         },
         {
-          "id": "blk_gc60wj658h",
-          "type": "text",
+          "id": "blk_455y00c67f",
+          "type": "component/prose",
           "v": 1,
           "fields": {
-            "content": {
+            "text": {
               "type": "doc",
               "content": [
                 {

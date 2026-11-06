@@ -46,7 +46,8 @@
     "layout": "two"
   },
   "template": "<ul class=\"pl pl--{{layout}}\">{{#each items}}<li>{{#if link}}{{#link link}}{{label}}{{/link}}{{else}}{{label}}{{/if}}</li>{{/each}}</ul>",
-  "css": ".pl { list-style: none; padding: 0; margin: 0; }\n.pl li { margin: 0 0 .6rem; break-inside: avoid; }\n.pl--two { columns: 2; column-gap: 2rem; }\n.pl--one { max-width: 40rem; }\n.pl a { color: var(--os-color-link); text-decoration: underline; text-underline-offset: .2em; }\n@media (max-width: 767px) { .pl--two { columns: 1; } .pl li { margin: 0; } .pl li > a, .pl li { display: flex; align-items: center; min-height: 44px; } }",
+  "css": ".pl { list-style: none; padding: 0; margin: 0; }\n.pl li { margin: 0; padding: .3rem 0; break-inside: avoid; max-width: 62ch; }\n.pl--one { max-width: 62ch; }\n.pl--two { columns: 2 15rem; column-gap: 2.5rem; }\n.pl--two li { padding: .18rem 0; }\n.pl a { color: var(--os-color-link); text-decoration: underline; text-underline-offset: .18em; text-decoration-thickness: .08em; }\n.pl a:hover { text-decoration-thickness: .14em; }",
+  "js": "var k=root.closest('.os-block'),p=k&&k.previousElementSibling,l=root.querySelector('.pl');if(l&&p&&p.offsetHeight&&!p.querySelector('.sh'))l.style.marginTop='1.2rem';",
   "section": {
     "width": "content"
   },

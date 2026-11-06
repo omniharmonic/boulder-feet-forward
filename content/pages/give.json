@@ -409,11 +409,11 @@
       },
       "blocks": [
         {
-          "id": "blk_a33revy0cp",
-          "type": "text",
+          "id": "blk_qc1hn392fa",
+          "type": "component/prose",
           "v": 1,
           "fields": {
-            "content": {
+            "text": {
               "type": "doc",
               "content": [
                 {

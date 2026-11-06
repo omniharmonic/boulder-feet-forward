@@ -71,8 +71,7 @@
         "mode": "stack",
         "columns": {
           "d": [
-            8,
-            4
+            12
           ],
           "m": [
             12
@@ -88,11 +87,12 @@
       },
       "blocks": [
         {
-          "id": "blk_s3t4z6d1v3",
-          "type": "text",
+          "id": "blk_x7mvamv239",
+          "type": "component/prose",
           "v": 1,
+          "column": 0,
           "fields": {
-            "content": {
+            "text": {
               "type": "doc",
               "content": [
                 {
