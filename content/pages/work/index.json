@@ -8,36 +8,6 @@
   },
   "sections": [
     {
-      "id": "sec_1w46pxxq76",
-      "preset": "starter/stack-12@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_2x07tymftz",
-          "type": "component/inner-page-head",
-          "v": 1,
-          "fields": {
-            "lead": "Two weekly events in Central Park are where most people first meet us. Peer support and case management grow from there, when people are ready.",
-            "title": "We are there every day."
-          }
-        }
-      ]
-    },
-    {
       "id": "sec_bp61fnpvne",
       "preset": "component/footprint-trail@1",
       "label": "Footprint trail",
@@ -67,6 +37,36 @@
           "v": 1,
           "fields": {
             "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_1w46pxxq76",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_2x07tymftz",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "Two weekly events in Central Park are where most people first meet us. Peer support and case management grow from there, when people are ready.",
+            "title": "We are there every day."
           }
         }
       ]

@@ -8,36 +8,6 @@
   },
   "sections": [
     {
-      "id": "sec_bdm0h3axjq",
-      "label": "Page head",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_xj4y18hvwp",
-          "type": "component/inner-page-head",
-          "v": 1,
-          "fields": {
-            "lead": "The easiest way to find us is in the park. If you need something and cannot get there, call.",
-            "title": "Find us, or reach us."
-          }
-        }
-      ]
-    },
-    {
       "id": "sec_5h28p78wrs",
       "preset": "component/footprint-trail@1",
       "label": "Footprint trail",
@@ -67,6 +37,36 @@
           "v": 1,
           "fields": {
             "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_bdm0h3axjq",
+      "label": "Page head",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_xj4y18hvwp",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "The easiest way to find us is in the park. If you need something and cannot get there, call.",
+            "title": "Find us, or reach us."
           }
         }
       ]

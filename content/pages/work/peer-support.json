@@ -9,36 +9,6 @@
   "hidden": false,
   "sections": [
     {
-      "id": "sec_hdtazc8se8",
-      "preset": "starter/stack-12@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_1bzb8e8znr",
-          "type": "component/inner-page-head",
-          "v": 1,
-          "fields": {
-            "lead": "Zero-barrier peer support, starting wherever a person is.",
-            "title": "Support from someone who has been there."
-          }
-        }
-      ]
-    },
-    {
       "id": "sec_1c5rq2fdnn",
       "preset": "component/footprint-trail@1",
       "label": "Footprint trail",
@@ -68,6 +38,36 @@
           "v": 1,
           "fields": {
             "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_hdtazc8se8",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_1bzb8e8znr",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "Zero-barrier peer support, starting wherever a person is.",
+            "title": "Support from someone who has been there."
           }
         }
       ]

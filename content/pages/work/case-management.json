@@ -9,36 +9,6 @@
   "hidden": false,
   "sections": [
     {
-      "id": "sec_rak0dvj89m",
-      "preset": "starter/stack-12@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_0tb08v8w83",
-          "type": "component/inner-page-head",
-          "v": 1,
-          "fields": {
-            "lead": "Sustained support toward goals people set for themselves.",
-            "title": "The long game, at your pace."
-          }
-        }
-      ]
-    },
-    {
       "id": "sec_z5wnbtqz6j",
       "preset": "component/footprint-trail@1",
       "label": "Footprint trail",
@@ -68,6 +38,36 @@
           "v": 1,
           "fields": {
             "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_rak0dvj89m",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_0tb08v8w83",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "Sustained support toward goals people set for themselves.",
+            "title": "The long game, at your pace."
           }
         }
       ]

@@ -9,36 +9,6 @@
   "hidden": false,
   "sections": [
     {
-      "id": "sec_mejr85zthb",
-      "preset": "starter/stack-12@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_3bjb1x2af8",
-          "type": "component/inner-page-head",
-          "v": 1,
-          "fields": {
-            "lead": "Meals, supplies and people who can help, in one place, twice a week.",
-            "title": "All are welcome."
-          }
-        }
-      ]
-    },
-    {
       "id": "sec_9cr1wpkw9y",
       "preset": "component/footprint-trail@1",
       "label": "Footprint trail",
@@ -68,6 +38,36 @@
           "v": 1,
           "fields": {
             "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_mejr85zthb",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_3bjb1x2af8",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "Meals, supplies and people who can help, in one place, twice a week.",
+            "title": "All are welcome."
           }
         }
       ]

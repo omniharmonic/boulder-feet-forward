@@ -7,35 +7,6 @@
   },
   "sections": [
     {
-      "id": "sec_vhxxtd9fkn",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_szqpfd3tnm",
-          "type": "component/inner-page-head",
-          "v": 1,
-          "fields": {
-            "lead": "What we are seeing, what we need, and what your support made possible.",
-            "title": "Hear from the park."
-          }
-        }
-      ]
-    },
-    {
       "id": "sec_jfme9my7bt",
       "preset": "component/footprint-trail@1",
       "label": "Footprint trail",
@@ -65,6 +36,35 @@
           "v": 1,
           "fields": {
             "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_vhxxtd9fkn",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_szqpfd3tnm",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "What we are seeing, what we need, and what your support made possible.",
+            "title": "Hear from the park."
           }
         }
       ]

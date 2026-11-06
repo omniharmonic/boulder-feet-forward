@@ -122,7 +122,24 @@
   },
   "overrides": {
     "color": {
-      "light": {}
+      "light": {
+        "heading": {
+          "$value": "#15261a",
+          "$type": "color"
+        },
+        "link": {
+          "$value": "#1b6d46",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#15261a",
+          "$type": "color"
+        },
+        "text-muted": {
+          "$value": "#3f4f3b",
+          "$type": "color"
+        }
+      }
     }
   }
 }

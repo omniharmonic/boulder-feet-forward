@@ -7,36 +7,6 @@
   },
   "sections": [
     {
-      "id": "sec_bb78h23w8q",
-      "preset": "starter/stack-12@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_67jaj3rb7s",
-          "type": "component/inner-page-head",
-          "v": 1,
-          "fields": {
-            "lead": "Our weekly events run on volunteers. No experience needed.",
-            "title": "Be one of the people who shows up."
-          }
-        }
-      ]
-    },
-    {
       "id": "sec_p8t7t96zx4",
       "preset": "component/footprint-trail@1",
       "label": "Footprint trail",
@@ -66,6 +36,36 @@
           "v": 1,
           "fields": {
             "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_bb78h23w8q",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_67jaj3rb7s",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "Our weekly events run on volunteers. No experience needed.",
+            "title": "Be one of the people who shows up."
           }
         }
       ]

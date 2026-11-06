@@ -8,37 +8,6 @@
   },
   "sections": [
     {
-      "id": "sec_w0xdxe5xmp",
-      "preset": "starter/stack-12@1",
-      "label": "Page head",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_kgdcgm7a3x",
-          "type": "component/inner-page-head",
-          "v": 1,
-          "fields": {
-            "lead": "We count what we can and say plainly what we cannot claim.",
-            "title": "What showing up adds up to."
-          }
-        }
-      ]
-    },
-    {
       "id": "sec_v62ark7dze",
       "preset": "component/footprint-trail@1",
       "label": "Footprint trail",
@@ -68,6 +37,37 @@
           "v": 1,
           "fields": {
             "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_w0xdxe5xmp",
+      "preset": "starter/stack-12@1",
+      "label": "Page head",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_kgdcgm7a3x",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "We count what we can and say plainly what we cannot claim.",
+            "title": "What showing up adds up to."
           }
         }
       ]

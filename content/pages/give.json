@@ -9,36 +9,6 @@
   "hidden": false,
   "sections": [
     {
-      "id": "sec_53wzgyc4bt",
-      "preset": "starter/stack-12@1",
-      "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
-        }
-      },
-      "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_v1zk54p1qy",
-          "type": "component/inner-page-head",
-          "v": 1,
-          "fields": {
-            "lead": "It is not just a handout. Your gift pays for the meals, and for the people who help someone find a way home.",
-            "title": "Help us keep showing up."
-          }
-        }
-      ]
-    },
-    {
       "id": "sec_xkp6f1hc48",
       "preset": "component/footprint-trail@1",
       "label": "Footprint trail",
@@ -68,6 +38,36 @@
           "v": 1,
           "fields": {
             "show": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_53wzgyc4bt",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light",
+        "background": {
+          "type": "color",
+          "color": "#e9e6d2"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_v1zk54p1qy",
+          "type": "component/inner-page-head",
+          "v": 1,
+          "fields": {
+            "lead": "It is not just a handout. Your gift pays for the meals, and for the people who help someone find a way home.",
+            "title": "Help us keep showing up."
           }
         }
       ]
