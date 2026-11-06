@@ -1,13 +1,23 @@
 {
   "name": "logo-lockup",
   "label": "Logo",
-  "description": "The logo at a set width, for the footer.",
+  "description": "The logo at a set width, for the footer, with its dark-mode version. It also shows the header logo's dark-mode version in dark mode.",
   "version": 1,
   "category": "media",
   "fields": {
+    "headerDark": {
+      "kind": "image",
+      "label": "Header logo for dark mode",
+      "optional": true
+    },
     "logo": {
       "kind": "image",
       "label": "Logo"
+    },
+    "logoDark": {
+      "kind": "image",
+      "label": "Logo for dark mode",
+      "optional": true
     },
     "width": {
       "kind": "number",
@@ -23,8 +33,9 @@
     },
     "width": 190
   },
-  "template": "<div class=\"ll\" style=\"--w: {{width}}px\">{{image logo sizes=\"190px\"}}</div>",
-  "css": ".ll { width: min(100%, var(--w, 190px)); }\n.ll img, .ll picture { display: block; width: 100%; height: auto; }",
+  "template": "<div class=\"ll\" style=\"--w: {{width}}px\"><span class=\"ll__l\">{{image logo sizes=\"190px\"}}</span>{{#if logoDark}}<span class=\"ll__d\">{{image logoDark sizes=\"190px\"}}</span>{{/if}}{{#if headerDark}}<span class=\"ll__h\" aria-hidden=\"true\">{{image headerDark sizes=\"240px\"}}</span>{{/if}}</div>",
+  "css": ".ll { width: min(100%, var(--w, 190px)); }\n.ll img, .ll picture { display: block; width: 100%; height: auto; }\n.ll__d, .ll__h { display: none; }\n.ll.is-dark .ll__l { display: none; }\n.ll.is-dark .ll__d { display: block; }",
+  "js": "var R=document.documentElement,mq=window.matchMedia?matchMedia('(prefers-color-scheme: dark)'):null,box=root.querySelector('.ll');if(!box)return;\nvar hd=root.querySelector('.ll__h img'),hi=document.querySelector('header img');\nif(hd&&hi&&hi.parentNode){hd.className=hi.className;hd.removeAttribute('loading');hd.style.display='none';hi.parentNode.insertBefore(hd,hi.nextSibling)}else hd=null;\nfunction dk(){var a=R.getAttribute('data-os-scheme');return a?a==='dark':!!(mq&&mq.matches)}\nfunction apply(){var d=dk();box.classList.toggle('is-dark',d);if(hd){hd.style.display=d?'':'none';hi.style.display=d?'none':''}}\napply();if(mq&&mq.addEventListener)mq.addEventListener('change',apply);if(window.MutationObserver)new MutationObserver(apply).observe(R,{attributes:true,attributeFilter:['data-os-scheme']});",
   "ai": {
     "purpose": "Shows the logo at a fixed width.",
     "whenToUse": "Footer.",

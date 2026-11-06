@@ -109,5 +109,29 @@
     "alt": "Boulder Feet Forward",
     "originalName": "bff-brand.png",
     "createdAt": "2026-11-05T21:14:15.843Z"
+  },
+  "media/2026/11/bff-brand-dark-enpg.png": {
+    "id": "med_enpgt8cwpx",
+    "path": "media/2026/11/bff-brand-dark-enpg.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 24771,
+    "width": 759,
+    "height": 108,
+    "alt": "Boulder Feet Forward",
+    "originalName": "bff-brand-dark.png",
+    "createdAt": "2026-11-06T06:51:24.110Z"
+  },
+  "media/2026/11/bff-lockup-dark-tds0.png": {
+    "id": "med_tds0t3crcg",
+    "path": "media/2026/11/bff-lockup-dark-tds0.png",
+    "kind": "image",
+    "mime": "image/png",
+    "bytes": 91947,
+    "width": 663,
+    "height": 453,
+    "alt": "Boulder Feet Forward logo",
+    "originalName": "bff-lockup-dark.png",
+    "createdAt": "2026-11-06T06:51:27.657Z"
   }
 }

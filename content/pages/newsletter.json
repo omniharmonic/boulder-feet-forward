@@ -23,10 +23,6 @@
         "padding": {
           "d": "none",
           "m": "none"
-        },
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
         }
       },
       "blocks": [
@@ -51,11 +47,7 @@
         }
       },
       "style": {
-        "colorTheme": "light",
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
-        }
+        "colorTheme": "light"
       },
       "blocks": [
         {
@@ -88,10 +80,6 @@
         "padding": {
           "d": "md",
           "m": "md"
-        },
-        "background": {
-          "type": "color",
-          "color": "#e9e6d2"
         }
       },
       "blocks": [

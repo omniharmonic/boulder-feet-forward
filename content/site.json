@@ -58,6 +58,7 @@
     "sticky": true,
     "transparentOnHero": false,
     "mobileMenu": "fullscreen",
+    "colorTheme": "light",
     "logoHeight": {
       "d": 36,
       "m": 30
@@ -81,14 +82,10 @@
       }
     },
     "style": {
-      "colorTheme": "light",
+      "colorTheme": "light-accent",
       "padding": {
         "d": "xl",
         "m": "xl"
-      },
-      "background": {
-        "type": "color",
-        "color": "#dad7be"
       }
     },
     "blocks": [
@@ -111,7 +108,15 @@
             "alt": "Boulder Feet Forward",
             "src": "media/2026/11/bff-lockup-wmdg.png"
           },
-          "width": 190
+          "width": 190,
+          "headerDark": {
+            "alt": "",
+            "src": "media/2026/11/bff-brand-dark-enpg.png"
+          },
+          "logoDark": {
+            "alt": "Boulder Feet Forward",
+            "src": "media/2026/11/bff-lockup-dark-tds0.png"
+          }
         }
       },
       {

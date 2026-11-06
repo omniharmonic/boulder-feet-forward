@@ -9,9 +9,10 @@
     "pairing": "fraunces-hanken",
     "density": "comfortable",
     "shape": "round",
-    "buttons": "pill-solid",
+    "buttons": "pill-gradient",
     "motion": "subtle",
     "imageTreatment": "none",
+    "appearance": "auto",
     "typography": {
       "heading": {
         "family": "Newsreader",
@@ -140,6 +141,122 @@
         "text-muted": {
           "$value": "#3f4f3b",
           "$type": "color"
+        },
+        "background": {
+          "$value": "#e9e6d2",
+          "$type": "color"
+        },
+        "surface": {
+          "$value": "#f3f1e2",
+          "$type": "color"
+        }
+      },
+      "dark": {
+        "background": {
+          "$value": "#0f1a13",
+          "$type": "color"
+        },
+        "focus": {
+          "$value": "#f7d65c",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#eaebd6",
+          "$type": "color"
+        },
+        "link": {
+          "$value": "#bfd66b",
+          "$type": "color"
+        },
+        "surface": {
+          "$value": "#0f1a13",
+          "$type": "color"
+        },
+        "surface-raised": {
+          "$value": "#16241b",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#eaebd6",
+          "$type": "color"
+        },
+        "text-muted": {
+          "$value": "#b9c1a6",
+          "$type": "color"
+        }
+      },
+      "dark-accent": {
+        "background": {
+          "$value": "#0b130e",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#eaebd6",
+          "$type": "color"
+        },
+        "link": {
+          "$value": "#eaebd6",
+          "$type": "color"
+        },
+        "surface": {
+          "$value": "#16241b",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#eaebd6",
+          "$type": "color"
+        },
+        "text-muted": {
+          "$value": "#b9c1a6",
+          "$type": "color"
+        }
+      },
+      "light-accent": {
+        "background": {
+          "$value": "#dad7be",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#15261a",
+          "$type": "color"
+        },
+        "link": {
+          "$value": "#15261a",
+          "$type": "color"
+        },
+        "surface": {
+          "$value": "#f3f1e2",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#15261a",
+          "$type": "color"
+        },
+        "text-muted": {
+          "$value": "#3f4f3b",
+          "$type": "color"
+        }
+      }
+    },
+    "button": {
+      "primary": {
+        "bg": {
+          "$value": "linear-gradient(90deg, var(--bff-btn-a, #a7c25a), var(--bff-btn-b, #f2cb4a))"
+        },
+        "bg-hover": {
+          "$value": "linear-gradient(90deg, var(--bff-btn-a, #a7c25a), var(--bff-btn-b, #f2cb4a))"
+        },
+        "color": {
+          "$value": "#15261a"
+        },
+        "color-hover": {
+          "$value": "#15261a"
+        },
+        "border-color": {
+          "$value": "transparent"
+        },
+        "border-color-hover": {
+          "$value": "transparent"
         }
       }
     }
